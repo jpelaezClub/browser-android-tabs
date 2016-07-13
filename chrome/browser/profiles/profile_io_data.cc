@@ -333,6 +333,11 @@ void ProfileIOData::InitializeOnUIThread(Profile* profile) {
   signed_exchange_enabled_.MoveToSequence(
       base::CreateSingleThreadTaskRunnerWithTraits({BrowserThread::IO}));
 
+  ChromeNetworkDelegate::InitializePrefsOnUIThread(
+      &enable_tracking_protection_,
+      &enable_ad_block_
+      pref_service);
+
   scoped_refptr<base::SingleThreadTaskRunner> io_task_runner =
       base::CreateSingleThreadTaskRunnerWithTraits({BrowserThread::IO});
 
@@ -580,6 +585,8 @@ void ProfileIOData::ShutdownOnUIThread() {
 #if !defined(OS_CHROMEOS)
   signin_scoped_device_id_.Destroy();
 #endif
+  enable_tracking_protection_.Destroy();
+  enable_ad_block_.Destroy();
   force_google_safesearch_.Destroy();
   force_youtube_restrict_.Destroy();
   allowed_domains_for_apps_.Destroy();
