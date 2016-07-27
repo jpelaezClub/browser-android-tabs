@@ -36,6 +36,7 @@ public class PrivacyPreferences
     private static final String PREF_CAN_MAKE_PAYMENT = "can_make_payment";
     private static final String PREF_NETWORK_PREDICTIONS = "preload_pages";
     private static final String PREF_USAGE_STATS = "usage_stats_reporting";
+    private static final String PREF_HTTPSE = "httpse";
     private static final String PREF_TRACKING_PROTECTION = "tracking_protection";
     private static final String PREF_AD_BLOCK = "ad_block";
     private static final String PREF_DO_NOT_TRACK = "do_not_track";
@@ -74,6 +75,11 @@ public class PrivacyPreferences
                 SpanApplier.applySpans(getString(R.string.privacy_sync_and_services_link),
                         new SpanApplier.SpanInfo("<link>", "</link>", linkSpan)));
 
+        ChromeBaseCheckBoxPreference httpsePref =
+                (ChromeBaseCheckBoxPreference) findPreference(PREF_HTTPSE);
+        httpsePref.setOnPreferenceChangeListener(this);
+        httpsePref.setManagedPreferenceDelegate(mManagedPreferenceDelegate);
+
         ChromeBaseCheckBoxPreference trackingProtectionPref =
                 (ChromeBaseCheckBoxPreference) findPreference(PREF_TRACKING_PROTECTION);
         trackingProtectionPref.setOnPreferenceChangeListener(this);
@@ -99,6 +105,8 @@ public class PrivacyPreferences
             PrefServiceBridge.getInstance().setTrackingProtectionEnabled((boolean) newValue);
         } else if (PREF_AD_BLOCK.equals(key)) {
             PrefServiceBridge.getInstance().setAdBlockEnabled((boolean) newValue);
+        } else if (PREF_HTTPSE.equals(key)) {
+            PrefServiceBridge.getInstance().setHTTPSEEnabled((boolean) newValue);
         }
 
         return true;
