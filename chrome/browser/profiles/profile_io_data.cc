@@ -334,6 +334,7 @@ void ProfileIOData::InitializeOnUIThread(Profile* profile) {
       base::CreateSingleThreadTaskRunnerWithTraits({BrowserThread::IO}));
 
   ChromeNetworkDelegate::InitializePrefsOnUIThread(
+      &enable_httpse_,
       &enable_tracking_protection_,
       &enable_ad_block_
       pref_service);
@@ -585,6 +586,7 @@ void ProfileIOData::ShutdownOnUIThread() {
 #if !defined(OS_CHROMEOS)
   signin_scoped_device_id_.Destroy();
 #endif
+  enable_httpse_.Destroy();
   enable_tracking_protection_.Destroy();
   enable_ad_block_.Destroy();
   force_google_safesearch_.Destroy();
