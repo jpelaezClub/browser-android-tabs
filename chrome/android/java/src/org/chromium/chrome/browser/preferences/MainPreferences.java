@@ -51,7 +51,7 @@ public class MainPreferences extends PreferenceFragmentCompat
     public static final String PREF_SAVED_PASSWORDS = "saved_passwords";
     public static final String PREF_HOMEPAGE = "homepage";
     public static final String PREF_UI_THEME = "ui_theme";
-    public static final String PREF_DATA_REDUCTION = "data_reduction";
+    //public static final String PREF_DATA_REDUCTION = "data_reduction";
     public static final String PREF_NOTIFICATIONS = "notifications";
     public static final String PREF_LANGUAGES = "languages";
     public static final String PREF_DOWNLOADS = "downloads";
@@ -229,9 +229,9 @@ public class MainPreferences extends PreferenceFragmentCompat
             removePreferenceIfPresent(PREF_DEVELOPER);
         }
 
-        ChromeBasePreferenceCompat dataReduction =
+        /*ChromeBasePreferenceCompat dataReduction =
                 (ChromeBasePreferenceCompat) findPreference(PREF_DATA_REDUCTION);
-        dataReduction.setSummary(DataReductionPreferenceFragment.generateSummary(getResources()));
+        dataReduction.setSummary(DataReductionPreferenceFragment.generateSummary(getResources()));*/
     }
 
     private Preference addPreferenceIfAbsent(String key) {
@@ -326,25 +326,25 @@ public class MainPreferences extends PreferenceFragmentCompat
         return new ManagedPreferenceDelegateCompat() {
             @Override
             public boolean isPreferenceControlledByPolicy(Preference preference) {
-                if (PREF_DATA_REDUCTION.equals(preference.getKey())) {
+                /*if (PREF_DATA_REDUCTION.equals(preference.getKey())) {
                     return DataReductionProxySettings.getInstance().isDataReductionProxyManaged();
                 }
                 if (PREF_SEARCH_ENGINE.equals(preference.getKey())) {
                     return TemplateUrlServiceFactory.get().isDefaultSearchManaged();
-                }
+                }*/
                 return false;
             }
 
             @Override
             public boolean isPreferenceClickDisabledByPolicy(Preference preference) {
-                if (PREF_DATA_REDUCTION.equals(preference.getKey())) {
+                /*if (PREF_DATA_REDUCTION.equals(preference.getKey())) {
                     DataReductionProxySettings settings = DataReductionProxySettings.getInstance();
                     return settings.isDataReductionProxyManaged()
                             && !settings.isDataReductionProxyEnabled();
                 }
                 if (PREF_SEARCH_ENGINE.equals(preference.getKey())) {
                     return TemplateUrlServiceFactory.get().isDefaultSearchManaged();
-                }
+                }*/
                 return isPreferenceControlledByPolicy(preference)
                         || isPreferenceControlledByCustodian(preference);
             }

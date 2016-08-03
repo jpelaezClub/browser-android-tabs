@@ -134,10 +134,10 @@ public class PrivacyPreferences
                     prefServiceBridge.getBoolean(Pref.CAN_MAKE_PAYMENT_ENABLED));
         }
 
-        Preference doNotTrackPref = findPreference(PREF_DO_NOT_TRACK);
-        if (doNotTrackPref != null) {
-            doNotTrackPref.setSummary(prefServiceBridge.isDoNotTrackEnabled() ? textOn : textOff);
-        }
+        //Preference doNotTrackPref = findPreference(PREF_DO_NOT_TRACK);
+        //if (doNotTrackPref != null) {
+        //    doNotTrackPref.setSummary(prefServiceBridge.isDoNotTrackEnabled() ? textOn : textOff);
+        //}
 
         Preference usageStatsPref = findPreference(PREF_USAGE_STATS);
         if (usageStatsPref != null) {
@@ -173,10 +173,10 @@ public class PrivacyPreferences
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         menu.clear();
-        MenuItem help = menu.add(
+        /*MenuItem help = menu.add(
                 Menu.NONE, R.id.menu_id_targeted_help, Menu.NONE, R.string.menu_help);
         help.setIcon(VectorDrawableCompat.create(
-                getResources(), R.drawable.ic_help_and_feedback, getActivity().getTheme()));
+                getResources(), R.drawable.ic_help_and_feedback, getActivity().getTheme()));*/
     }
 
     @Override
