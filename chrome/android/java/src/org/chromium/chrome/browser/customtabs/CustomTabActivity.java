@@ -525,6 +525,8 @@ public class CustomTabActivity extends ChromeActivity<CustomTabActivityComponent
 
     @Override
     public void finish() {
+        if (getBraveShieldsMenuHandler() != null) getBraveShieldsMenuHandler().hideBraveShieldsMenu();
+
         super.finish();
         if (mIntentDataProvider != null && mIntentDataProvider.shouldAnimateOnFinish()) {
             mShouldOverridePackage = true;
