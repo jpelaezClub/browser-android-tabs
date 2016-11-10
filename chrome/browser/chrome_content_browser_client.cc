@@ -978,6 +978,10 @@ AppLoadedInTabSource ClassifyAppLoadedInTabSource(
   return APP_LOADED_IN_TAB_SOURCE_OTHER;
 }
 
+bool GetFingerprintingProtectionEnabledPref(const PrefService* prefs) {
+  return prefs->GetBoolean(prefs::kFingerprintingProtectionEnabled);
+}
+
 // Returns true if there is is an extension matching |url| in
 // |opener_render_process_id| with APIPermission::kBackground.
 //
@@ -3190,6 +3194,7 @@ void ChromeContentBrowserClient::OverrideWebkitPrefs(
   }
 
   web_prefs->data_saver_enabled = IsDataSaverEnabled(profile);
+  web_prefs->disable_reading_from_canvas = GetFingerprintingProtectionEnabledPref(prefs);
 
   web_prefs->data_saver_holdback_web_api_enabled =
       base::GetFieldTrialParamByFeatureAsBool(features::kDataSaverHoldback,
