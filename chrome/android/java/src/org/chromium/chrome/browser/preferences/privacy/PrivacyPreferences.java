@@ -41,6 +41,7 @@ public class PrivacyPreferences
     private static final String PREF_TRACKING_PROTECTION = "tracking_protection";
     private static final String PREF_AD_BLOCK = "ad_block";
     private static final String PREF_DO_NOT_TRACK = "do_not_track";
+    private static final String PREF_AD_BLOCK_REGIONAL = "ad_block_regional";
     private static final String PREF_SYNC_AND_SERVICES_LINK = "sync_and_services_link";
 
     private ManagedPreferenceDelegateCompat mManagedPreferenceDelegate;
@@ -96,6 +97,11 @@ public class PrivacyPreferences
         adBlockPref.setOnPreferenceChangeListener(this);
         adBlockPref.setManagedPreferenceDelegate(mManagedPreferenceDelegate);
 
+        ChromeBaseCheckBoxPreference adBlockRegionalPref =
+                (ChromeBaseCheckBoxPreference) findPreference(PREF_AD_BLOCK_REGIONAL);
+        adBlockRegionalPref.setOnPreferenceChangeListener(this);
+        adBlockRegionalPref.setManagedPreferenceDelegate(mManagedPreferenceDelegate);
+
         updateSummaries();
     }
 
@@ -115,6 +121,8 @@ public class PrivacyPreferences
             PrefServiceBridge.getInstance().setHTTPSEEnabled((boolean) newValue);
         } else if (PREF_FINGERPRINTING_PROTECTION.equals(key)) {
             PrefServiceBridge.getInstance().setFingerprintingProtectionEnabled((boolean) newValue);
+        } else if (PREF_AD_BLOCK_REGIONAL.equals(key)) {
+            PrefServiceBridge.getInstance().setAdBlockRegionalEnabled((boolean) newValue);
         }
 
         return true;
