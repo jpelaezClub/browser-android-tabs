@@ -336,7 +336,8 @@ void ProfileIOData::InitializeOnUIThread(Profile* profile) {
   ChromeNetworkDelegate::InitializePrefsOnUIThread(
       &enable_httpse_,
       &enable_tracking_protection_,
-      &enable_ad_block_
+      &enable_ad_block_,
+      &enable_ad_block_regional_,
       pref_service);
 
   scoped_refptr<base::SingleThreadTaskRunner> io_task_runner =
@@ -589,6 +590,7 @@ void ProfileIOData::ShutdownOnUIThread() {
   enable_httpse_.Destroy();
   enable_tracking_protection_.Destroy();
   enable_ad_block_.Destroy();
+  enable_ad_block_regional_.Destroy();
   force_google_safesearch_.Destroy();
   force_youtube_restrict_.Destroy();
   allowed_domains_for_apps_.Destroy();
