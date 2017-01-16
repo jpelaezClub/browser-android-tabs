@@ -155,6 +155,18 @@ public class PrivacyPreferences
         //    doNotTrackPref.setSummary(prefServiceBridge.isDoNotTrackEnabled() ? textOn : textOff);
         //}
 
+        Preference regionalAdBlockPref = findPreference(PREF_AD_BLOCK_REGIONAL);
+        if (null == regionalAdBlockPref) {
+            return;
+        }
+        if (PrivacyPreferencesManager.getInstance().isRegionalAdBlockEnabled()) {
+            regionalAdBlockPref.setSummary(getActivity().getResources().getText(R.string.ad_block_regional_summary));
+            regionalAdBlockPref.setEnabled(true);
+        } else {
+            regionalAdBlockPref.setSummary(getActivity().getResources().getText(R.string.ad_block_regional_summary_no_list));
+            regionalAdBlockPref.setEnabled(false);
+        }
+
         Preference usageStatsPref = findPreference(PREF_USAGE_STATS);
         if (usageStatsPref != null) {
             if (BuildInfo.isAtLeastQ() && prefServiceBridge.getBoolean(Pref.USAGE_STATS_ENABLED)) {
