@@ -115,7 +115,7 @@ public class SiteSettingsPreferences
                 websitePrefs.add(Type.ADS);
             }
             websitePrefs.add(Type.AUTOMATIC_DOWNLOADS);
-            websitePrefs.add(Type.BACKGROUND_SYNC);
+            //websitePrefs.add(Type.BACKGROUND_SYNC);
             CommandLine commandLine = CommandLine.getInstance();
             if (commandLine.hasSwitch(ContentSwitches.ENABLE_WEB_BLUETOOTH_SCANNING)) {
                 websitePrefs.add(Type.BLUETOOTH_SCANNING);
