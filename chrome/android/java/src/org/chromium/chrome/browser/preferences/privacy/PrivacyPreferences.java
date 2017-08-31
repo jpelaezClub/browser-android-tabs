@@ -4,6 +4,7 @@
 
 package org.chromium.chrome.browser.preferences.privacy;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.graphics.drawable.VectorDrawableCompat;
 import android.support.v7.preference.CheckBoxPreference;
@@ -15,6 +16,7 @@ import android.view.MenuItem;
 
 import org.chromium.base.BuildInfo;
 import org.chromium.chrome.R;
+import org.chromium.base.ContextUtils;
 import org.chromium.chrome.browser.help.HelpAndFeedback;
 import org.chromium.chrome.browser.preferences.ChromeBaseCheckBoxPreferenceCompat;
 import org.chromium.chrome.browser.preferences.ManagedPreferenceDelegateCompat;
@@ -102,6 +104,11 @@ public class PrivacyPreferences
                 (ChromeBaseCheckBoxPreference) findPreference(PREF_AD_BLOCK_REGIONAL);
         adBlockRegionalPref.setOnPreferenceChangeListener(this);
         adBlockRegionalPref.setManagedPreferenceDelegate(mManagedPreferenceDelegate);
+
+        ChromeBaseCheckBoxPreference sendMetricsPref =
+                (ChromeBaseCheckBoxPreference) findPreference(PREF_SEND_METRICS);
+        trackingProtectionPref.setOnPreferenceChangeListener(this);
+        trackingProtectionPref.setManagedPreferenceDelegate(mManagedPreferenceDelegate);
 
         updateSummaries();
     }
