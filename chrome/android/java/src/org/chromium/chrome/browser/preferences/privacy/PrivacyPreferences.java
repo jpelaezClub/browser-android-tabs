@@ -107,8 +107,8 @@ public class PrivacyPreferences
 
         ChromeBaseCheckBoxPreference sendMetricsPref =
                 (ChromeBaseCheckBoxPreference) findPreference(PREF_SEND_METRICS);
-        trackingProtectionPref.setOnPreferenceChangeListener(this);
-        trackingProtectionPref.setManagedPreferenceDelegate(mManagedPreferenceDelegate);
+        sendMetricsPref.setOnPreferenceChangeListener(this);
+        sendMetricsPref.setManagedPreferenceDelegate(mManagedPreferenceDelegate);
 
         updateSummaries();
     }
