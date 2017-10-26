@@ -65,7 +65,7 @@ public class MainPreferences extends PreferenceFragmentCompat
 
     private final ManagedPreferenceDelegateCompat mManagedPreferenceDelegate;
     private final Map<String, Preference> mAllPreferences = new HashMap<>();
-    private SignInPreference mSignInPreference;
+    //private SignInPreference mSignInPreference;
 
     public MainPreferences() {
         setHasOptionsMenu(true);
@@ -94,7 +94,7 @@ public class MainPreferences extends PreferenceFragmentCompat
     @Override
     public void onStart() {
         super.onStart();
-        SigninManager signinManager = IdentityServicesProvider.getSigninManager();
+        /*SigninManager signinManager = IdentityServicesProvider.getSigninManager();
         if (signinManager.isSigninSupported()) {
             signinManager.addSignInStateObserver(this);
             mSignInPreference.registerForUpdates();
@@ -102,13 +102,13 @@ public class MainPreferences extends PreferenceFragmentCompat
         ProfileSyncService syncService = ProfileSyncService.get();
         if (syncService != null) {
             syncService.addSyncStateChangedListener(this);
-        }
+        }*/
     }
 
     @Override
     public void onStop() {
         super.onStop();
-        SigninManager signinManager = IdentityServicesProvider.getSigninManager();
+        /*SigninManager signinManager = IdentityServicesProvider.getSigninManager();
         if (signinManager.isSigninSupported()) {
             signinManager.removeSignInStateObserver(this);
             mSignInPreference.unregisterForUpdates();
@@ -116,7 +116,7 @@ public class MainPreferences extends PreferenceFragmentCompat
         ProfileSyncService syncService = ProfileSyncService.get();
         if (syncService != null) {
             syncService.removeSyncStateChangedListener(this);
-        }
+        }*/
     }
 
     @Override
@@ -134,7 +134,7 @@ public class MainPreferences extends PreferenceFragmentCompat
         updatePasswordsPreference();
 
         setManagedPreferenceDelegateForPreference(PREF_SEARCH_ENGINE);
-        setManagedPreferenceDelegateForPreference(PREF_DATA_REDUCTION);
+        //setManagedPreferenceDelegateForPreference(PREF_DATA_REDUCTION);
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             // If we are on Android O+ the Notifications preference should lead to the Android
@@ -188,7 +188,7 @@ public class MainPreferences extends PreferenceFragmentCompat
             Preference preference = getPreferenceScreen().getPreference(index);
             mAllPreferences.put(preference.getKey(), preference);
         }
-        mSignInPreference = (SignInPreference) mAllPreferences.get(PREF_SIGN_IN);
+        //mSignInPreference = (SignInPreference) mAllPreferences.get(PREF_SIGN_IN);
     }
 
     private void setManagedPreferenceDelegateForPreference(String key) {
@@ -198,11 +198,11 @@ public class MainPreferences extends PreferenceFragmentCompat
     }
 
     private void updatePreferences() {
-        if (IdentityServicesProvider.getSigninManager().isSigninSupported()) {
+        /*if (IdentityServicesProvider.getSigninManager().isSigninSupported()) {
             addPreferenceIfAbsent(PREF_SIGN_IN);
         } else {
             removePreferenceIfPresent(PREF_SIGN_IN);
-        }
+        }*/
 
         updateSyncAndServicesPreference();
         updateSearchEnginePreference();
