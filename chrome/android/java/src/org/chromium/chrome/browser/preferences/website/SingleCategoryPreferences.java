@@ -492,6 +492,8 @@ public class SingleCategoryPreferences extends PreferenceFragmentCompat
 
            if (mCategory.showDesktopViewSites()) {
                 PrefServiceBridge.getInstance().setDesktopViewEnabled((boolean) newValue);
+            } else if (mCategory.showPlayVideoInBackground()) {
+                PrefServiceBridge.getInstance().setPlayVideoInBackgroundEnabled((boolean) newValue);
             }
 
             // Categories that support adding exceptions also manage the 'Add site' preference.
@@ -996,6 +998,8 @@ public class SingleCategoryPreferences extends PreferenceFragmentCompat
             binaryToggle.setChecked(PrefServiceBridge.getInstance().isCategoryEnabled(contentType));
             if (mCategory.showDesktopViewSites()) {
                 binaryToggle.setChecked(PrefServiceBridge.getInstance().desktopViewEnabled());
+            } else if (mCategory.showPlayVideoInBackground()) {
+                binaryToggle.setChecked(PrefServiceBridge.getInstance().playVideoInBackgroundEnabled());
             }
         }
     }
