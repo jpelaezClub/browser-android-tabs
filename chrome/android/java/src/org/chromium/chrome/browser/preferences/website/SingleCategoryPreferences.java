@@ -44,6 +44,7 @@ import org.chromium.chrome.browser.help.HelpAndFeedback;
 import org.chromium.chrome.browser.preferences.ChromeBaseCheckBoxPreferenceCompat;
 import org.chromium.chrome.browser.preferences.ChromeBasePreferenceCompat;
 import org.chromium.chrome.browser.preferences.ChromeSwitchPreferenceCompat;
+import org.chromium.chrome.browser.RestartWorker;
 import org.chromium.chrome.browser.preferences.ExpandablePreferenceGroup;
 import org.chromium.chrome.browser.preferences.LocationSettings;
 import org.chromium.chrome.browser.preferences.ManagedPreferenceDelegateCompat;
@@ -494,6 +495,7 @@ public class SingleCategoryPreferences extends PreferenceFragmentCompat
                 PrefServiceBridge.getInstance().setDesktopViewEnabled((boolean) newValue);
             } else if (mCategory.showPlayVideoInBackground()) {
                 PrefServiceBridge.getInstance().setPlayVideoInBackgroundEnabled((boolean) newValue);
+                AskForRelaunch();
             }
 
             // Categories that support adding exceptions also manage the 'Add site' preference.
@@ -1032,5 +1034,26 @@ public class SingleCategoryPreferences extends PreferenceFragmentCompat
         } else {
             ManagedPreferencesUtils.showManagedByAdministratorToast(getActivity());
         }
+    }
+
+    private void AskForRelaunch() {
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this.getActivity());
+         alertDialogBuilder
+            .setMessage(R.string.settings_require_relaunch_notice)
+            .setCancelable(true)
+            .setPositiveButton(R.string.settings_require_relaunch_now, new DialogInterface.OnClickListener() {
+              public void onClick(DialogInterface dialog,int id) {
+                  RestartWorker restartWorker = new RestartWorker();
+                  restartWorker.Restart();
+                  dialog.cancel();
+              }
+            })
+            .setNegativeButton(R.string.settings_require_relaunch_later,new DialogInterface.OnClickListener() {
+              public void onClick(DialogInterface dialog,int id) {
+                  dialog.cancel();
+              }
+            });
+            AlertDialog alertDialog = alertDialogBuilder.create();
+            alertDialog.show();
     }
 }
