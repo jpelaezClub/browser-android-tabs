@@ -105,10 +105,10 @@ public class PrivacyPreferences
         adBlockRegionalPref.setOnPreferenceChangeListener(this);
         adBlockRegionalPref.setManagedPreferenceDelegate(mManagedPreferenceDelegate);
 
-        ChromeBaseCheckBoxPreference sendMetricsPref =
+        /*ChromeBaseCheckBoxPreference sendMetricsPref =
                 (ChromeBaseCheckBoxPreference) findPreference(PREF_SEND_METRICS);
         sendMetricsPref.setOnPreferenceChangeListener(this);
-        sendMetricsPref.setManagedPreferenceDelegate(mManagedPreferenceDelegate);
+        sendMetricsPref.setManagedPreferenceDelegate(mManagedPreferenceDelegate);*/
 
         updateSummaries();
     }
