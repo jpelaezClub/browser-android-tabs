@@ -220,9 +220,9 @@ public class SiteSettingsPreferences
 
     @Override
     public boolean onPreferenceClick(Preference preference) {
-        if (R.string.javascript_permission_title == preference.getTitleRes()) {
+        /*if (R.string.javascript_permission_title == preference.getTitleRes()) {
             MixPanelWorker.SendEvent("JavaScript Option Changed", "JavaScript", !PrefServiceBridge.getInstance().javaScriptEnabled());
-        }
+        }*/
         preference.getExtras().putString(
                 SingleCategoryPreferences.EXTRA_CATEGORY, preference.getKey());
         preference.getExtras().putString(SingleCategoryPreferences.EXTRA_TITLE,
