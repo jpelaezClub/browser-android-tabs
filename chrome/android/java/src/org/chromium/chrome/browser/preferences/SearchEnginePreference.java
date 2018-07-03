@@ -16,7 +16,7 @@ import org.chromium.chrome.R;
 * A preference fragment for selecting a default search engine.
 */
 public class SearchEnginePreference extends ListFragment {
-    private SearchEngineAdapter mSearchEngineAdapter;
+    protected SearchEngineAdapter mSearchEngineAdapter;
 
     @VisibleForTesting
     String getValueForTesting() {
@@ -36,9 +36,6 @@ public class SearchEnginePreference extends ListFragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getActivity().setTitle(R.string.prefs_search_engine);
-        mSearchEngineAdapter = new SearchEngineAdapter(getActivity());
-        setListAdapter(mSearchEngineAdapter);
     }
 
     @Override

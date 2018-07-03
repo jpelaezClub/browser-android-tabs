@@ -191,6 +191,12 @@
         <item name="spinnerStyle">@style/SpinnerStyle</item>
     </style>
 
+    <style name="BraveDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="windowNoTitle">true</item>
+        <item name="buttonBarStyle">@style/ModalDialogButtonBarStyle</item>
+        <item name="buttonBarButtonStyle">@style/ModalDialogButtonStyle</item>
+    </style>
+
     <style name="Theme.Chromium.AlertDialog" parent="Base.Theme.Chromium.AlertDialog" />
 
     <style name="Theme.Chromium.AlertDialog.NoActionBar">

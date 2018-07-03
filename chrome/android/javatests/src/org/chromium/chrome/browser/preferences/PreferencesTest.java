@@ -185,7 +185,7 @@ public class PreferencesTest {
                 preferenceActivity, MainPreferences.class);
 
         final android.support.v7.preference.Preference searchEnginePref =
-                waitForPreference(mainPreferences, MainPreferences.PREF_SEARCH_ENGINE);
+                waitForPreference(mainPreferences, MainPreferences.PREF_STANDARD_SEARCH_ENGINE);
 
         CriteriaHelper.pollUiThread(Criteria.equals(null, new Callable<Object>() {
             @Override
