@@ -170,6 +170,8 @@ const char kChromeUIWelcomeURL[] = "chrome://welcome/";
 
 #if defined(OS_ANDROID)
 const char kChromeUIExploreSitesInternalsHost[] = "explore-sites-internals";
+const char kBraveRewardsURL[] = "chrome://rewards/";
+const char kBraveRewardsHost[] = "rewards";
 const char kChromeUIJavaCrashURL[] = "chrome://java-crash/";
 const char kChromeUINativeBookmarksURL[] = "chrome-native://bookmarks/";
 const char kChromeUINativeExploreURL[] = "chrome-native://explore";
@@ -549,6 +551,7 @@ const char* const kChromeHostURLs[] = {
 #endif
 #if defined(OS_ANDROID)
     kChromeUIExploreSitesInternalsHost,
+    kBraveRewardsURL,
     kChromeUIOfflineInternalsHost,
     kChromeUISnippetsInternalsHost,
     kChromeUIWebApksHost,
