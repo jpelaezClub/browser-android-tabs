@@ -333,7 +333,7 @@ public class WebappActivity extends SingleTabActivity {
                 (ToolbarControlContainer) findViewById(R.id.control_container));
         getToolbarManager().initializeWithNative(getTabModelSelector(),
                 getFullscreenManager().getBrowserVisibilityDelegate(), null, layoutDriver, null,
-                null, null, view -> onToolbarCloseButtonClicked());
+                null, null, null, view -> onToolbarCloseButtonClicked());
         getToolbarManager().setShowTitle(true);
         getToolbarManager().setCloseButtonDrawable(null); // Hides close button.
 
