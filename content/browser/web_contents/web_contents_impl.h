@@ -1520,6 +1520,7 @@ class CONTENT_EXPORT WebContentsImpl : public WebContents,
   // ui::NativeThemeObserver:
   void OnNativeThemeUpdated(ui::NativeTheme* observed_theme) override;
 
+  void ShouldBlockReferrer(NavigationHandle* navigation_handle);
   // Data for core operation ---------------------------------------------------
 
   // Delegate for notifying our owner about stuff. Not owned by us.
