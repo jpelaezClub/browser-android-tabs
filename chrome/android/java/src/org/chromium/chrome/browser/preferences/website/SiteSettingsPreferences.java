@@ -86,9 +86,9 @@ public class SiteSettingsPreferences
             getPreferenceScreen().removePreference(findPreference(Type.PLAY_YT_VIDEO_IN_BROWSER));
             // TODO(csharrison): Remove this condition once the experimental UI lands. It is not
             // great to dynamically remove the preference in this way.
-            if (!SiteSettingsCategory.adsCategoryEnabled()) {
+            /*if (!SiteSettingsCategory.adsCategoryEnabled()) {
                 getPreferenceScreen().removePreference(findPreference(Type.ADS));
-            }
+            }*/
             if (!ChromeFeatureList.isEnabled(ChromeFeatureList.SENSOR_CONTENT_SETTING)) {
                 getPreferenceScreen().removePreference(findPreference(Type.SENSORS));
             }
@@ -114,9 +114,9 @@ public class SiteSettingsPreferences
             websitePrefs.add(Type.PLAY_VIDEO_IN_BACKGROUND);
             websitePrefs.add(Type.PLAY_YT_VIDEO_IN_BROWSER);
         } else {
-            if (SiteSettingsCategory.adsCategoryEnabled()) {
+            /*if (SiteSettingsCategory.adsCategoryEnabled()) {
                 websitePrefs.add(Type.ADS);
-            }
+            }*/
             websitePrefs.add(Type.AUTOMATIC_DOWNLOADS);
             //websitePrefs.add(Type.BACKGROUND_SYNC);
             CommandLine commandLine = CommandLine.getInstance();
@@ -177,8 +177,8 @@ public class SiteSettingsPreferences
                 p.setSummary(ContentSettingsResources.getGeolocationAllowedSummary());
             } else if (Type.CLIPBOARD == prefCategory && !checked) {
                 p.setSummary(ContentSettingsResources.getClipboardBlockedListSummary());
-            } else if (Type.ADS == prefCategory && !checked) {
-                p.setSummary(ContentSettingsResources.getAdsBlockedListSummary());
+            //} else if (Type.ADS == prefCategory && !checked) {
+            //    p.setSummary(ContentSettingsResources.getAdsBlockedListSummary());
             } else if (Type.SOUND == prefCategory && !checked) {
                 p.setSummary(ContentSettingsResources.getSoundBlockedListSummary());
             } else if (requiresTriStateSetting) {
