@@ -20,6 +20,9 @@
 #include "base/strings/stringprintf.h"
 #include "base/task/post_task.h"
 #include "build/build_config.h"
+#include "chrome/browser/net/blockers/blockers_worker.h"
+#include "chrome/browser/net/blockers/shields_config.h"
+#include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/stats_updater.h"
 #include "content/browser/appcache/appcache_navigation_handle.h"
 #include "content/browser/appcache/chrome_appcache_service.h"
@@ -688,7 +691,7 @@ NavigationRequest::NavigationRequest(
   // Sanitize the referrer.
   common_params_.referrer =
       Referrer::SanitizeForRequest(common_params_.url, common_params_.referrer);
-
+  ShouldBlockReferrer();
   if (from_begin_navigation_) {
     // This is needed to have data URLs commit in the same SiteInstance as the
     // initiating renderer.
