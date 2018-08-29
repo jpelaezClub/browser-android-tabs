@@ -592,7 +592,7 @@ public class ChromeBrowserInitializer {
                 TaskTraits.BEST_EFFORT_MAY_BLOCK, LibraryPrefetcher::maybePinOrderedCodeInMemory);
 
         InitAdBlock();
-        UpdateStats();
+        //UpdateStats();
         CheckInstallationSource();
         SwitchSearchSuggestEnabled();
     }
