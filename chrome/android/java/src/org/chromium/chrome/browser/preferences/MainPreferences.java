@@ -130,7 +130,7 @@ public class MainPreferences extends PreferenceFragmentCompat
         PreferenceUtils.addPreferencesFromResource(this, R.xml.main_preferences);
         cachePreferences();
 
-        mSignInPreference.setOnStateChangedCallback(this::onSignInPreferenceStateChanged);
+        //mSignInPreference.setOnStateChangedCallback(this::onSignInPreferenceStateChanged);
 
         updatePasswordsPreference();
         setManagedPreferenceDelegateForPreference(PREF_STANDARD_SEARCH_ENGINE);
@@ -296,11 +296,11 @@ public class MainPreferences extends PreferenceFragmentCompat
 
     private void onSignInPreferenceStateChanged() {
         // Remove "Account" section header if the personalized sign-in promo is shown.
-        if (mSignInPreference.getState() == SignInPreference.State.PERSONALIZED_PROMO) {
+        /*if (mSignInPreference.getState() == SignInPreference.State.PERSONALIZED_PROMO) {
             removePreferenceIfPresent(PREF_ACCOUNT_SECTION);
         } else {
             addPreferenceIfAbsent(PREF_ACCOUNT_SECTION);
-        }
+        }*/
     }
 
     // TemplateUrlService.LoadListener implementation.
