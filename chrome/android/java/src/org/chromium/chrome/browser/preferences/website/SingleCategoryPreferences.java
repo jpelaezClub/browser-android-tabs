@@ -993,7 +993,6 @@ public class SingleCategoryPreferences extends PreferenceFragmentCompat
                     LocationSettings.getInstance().isChromeLocationSettingEnabled());
         } else {
             binaryToggle.setChecked(PrefServiceBridge.getInstance().isCategoryEnabled(contentType));
-            }
         }
     }
 
