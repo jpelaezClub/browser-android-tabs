@@ -168,6 +168,7 @@ const char kChromeUIVersionURL[] = "chrome://version/";
 const char kChromeUIWelcomeHost[] = "welcome";
 const char kChromeUIWelcomeURL[] = "chrome://welcome/";
 const char kRewardsJS[] = "brave_rewards.bundle.js";
+const char kRewardsPanelJS[] = "brave_rewards_panel.bundle.js";
 
 #if defined(OS_ANDROID)
 const char kChromeUIExploreSitesInternalsHost[] = "explore-sites-internals";
@@ -185,6 +186,9 @@ const char kChromeUIOfflineInternalsHost[] = "offline-internals";
 const char kChromeUIPhysicalWebDiagnosticsHost[] = "physical-web-diagnostics";
 const char kChromeUISnippetsInternalsHost[] = "snippets-internals";
 const char kChromeUIWebApksHost[] = "webapks";
+const char kBraveRewardsPanelURL[] = "chrome://rewards-panel/";
+const char kBraveRewardsPanelHost[] = "rewards-panel";
+
 #endif
 
 #if defined(OS_CHROMEOS)
