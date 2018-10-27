@@ -229,7 +229,7 @@ public class ToolbarManager implements ScrimObserver, ToolbarTabController, UrlF
     private boolean mInitializedWithNative;
     private Runnable mOnInitializedRunnable;
 
-    private boolean mShouldUpdateToolbarPrimaryColor = true;
+    private boolean mShouldUpdateToolbarPrimaryColor = false;
     private int mCurrentThemeColor;
 
     private OmniboxStartupMetrics mOmniboxStartupMetrics;
