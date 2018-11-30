@@ -16,6 +16,7 @@
 #include "base/no_destructor.h"
 #include "base/threading/sequenced_task_runner_handle.h"
 #include "base/time/time.h"
+#include "brave/components/brave_ads/browser/buildflags/buildflags.h"
 #include "chrome/common/buildflags.h"
 #include "components/mirroring/mojom/constants.mojom.h"
 #include "components/mirroring/service/features.h"
@@ -113,6 +114,10 @@
 #if BUILDFLAG(ENABLE_SIMPLE_BROWSER_SERVICE_OUT_OF_PROCESS)
 #include "services/content/simple_browser/public/mojom/constants.mojom.h"  // nogncheck
 #include "services/content/simple_browser/simple_browser_service.h"  // nogncheck
+#endif
+
+#if BUILDFLAG(BRAVE_ADS_ENABLED)
+#include "brave/components/services/bat_ads/bat_ads_app.h"
 #endif
 
 namespace {
@@ -293,6 +298,14 @@ ChromeContentUtilityClient::MaybeCreateMainThreadService(
 #endif
 
 #endif  // defined(OS_CHROMEOS)
+
+#if BUILDFLAG(BRAVE_ADS_ENABLED)
+  service_manager::EmbeddedServiceInfo bat_ads_service;
+  bat_ads_service.factory = base::BindRepeating(
+      &bat_ads::BatAdsApp::CreateService);
+  services->emplace(bat_ads::mojom::kServiceName, bat_ads_service);
+#endif
+
   return nullptr;
 }
 
