@@ -4172,6 +4172,10 @@ The site does NOT gain access to the camera. The camera images are only visible 
       <message name="IDS_TAB_GRID_DIALOG_REMOVE_FROM_GROUP" desc="This text shows on the ungroup bar in TabGridDialog. When user drags a tab and drops it on the ungroup bar, this tab will be moved out of the group.">
         Remove from group
       </message>
+      <message name="IDS_BRAVE_UI_ERROR_INIT_WALLET" desc="">
+        Please try again later.
+      </message>
+
 
       <!-- Tab Grid Drag-and-drop IPH strings -->
       <message name="IDS_IPH_DRAG_AND_DROP_INTRODUCTION" desc="This text shows on the entry point for the in-product help for drag-and-drop. It introduces that this IPH is about how to use drag-and-drop.">
