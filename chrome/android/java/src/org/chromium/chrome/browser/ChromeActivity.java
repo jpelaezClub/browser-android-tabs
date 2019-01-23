@@ -45,8 +45,6 @@ import android.view.accessibility.AccessibilityManager.AccessibilityStateChangeL
 import android.view.accessibility.AccessibilityManager.TouchExplorationStateChangeListener;
 import org.chromium.base.annotations.UsedByReflection;
 import android.widget.ImageButton;
-import android.graphics.ColorMatrix;
-import android.graphics.ColorMatrixColorFilter;
 
 import org.chromium.base.Log;
 import org.chromium.base.ActivityState;
