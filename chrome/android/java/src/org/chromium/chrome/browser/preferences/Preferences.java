@@ -299,7 +299,6 @@ public class Preferences extends ChromeBaseAppCompatActivity
 
     @Override
     public void onBackPressed() {
-         Log.i(TAG, "SAM: onBackPressed clicked");
          if (getFragmentForTest() instanceof BraveSyncScreensPreference) {
              BraveSyncScreensPreference pref = (BraveSyncScreensPreference) getFragmentForTest();
              if (pref.onBackPressed()) {
