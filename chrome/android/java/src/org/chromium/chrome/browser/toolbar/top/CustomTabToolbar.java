@@ -861,10 +861,10 @@ public class CustomTabToolbar extends ToolbarLayout implements View.OnLongClickL
         public void updateSearchEngineStatusIcon(boolean shouldShowSearchEngineLogo,
                 boolean isSearchEngineGoogle, String searchEngineUrl) {}
 
-        @Override
-        public  void onRewardsPanelDismiss() {}
+        // @Override
+        // public  void onRewardsPanelDismiss() {}
 
-        @Override
-        public  void dismissRewardsPanel() {}
+        // @Override
+        // public  void dismissRewardsPanel() {}
     }
 }
