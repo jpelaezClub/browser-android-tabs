@@ -230,7 +230,7 @@ public class ToolbarManager implements ScrimObserver, ToolbarTabController, UrlF
     private boolean mInitializedWithNative;
     private Runnable mOnInitializedRunnable;
 
-    private final boolean mShouldUpdateToolbarPrimaryColor = false;
+    private boolean mShouldUpdateToolbarPrimaryColor;
     private int mCurrentThemeColor;
 
     private OmniboxStartupMetrics mOmniboxStartupMetrics;
@@ -1551,8 +1551,7 @@ public class ToolbarManager implements ScrimObserver, ToolbarTabController, UrlF
      *                     from the Tab.
      */
     public void setShouldUpdateToolbarPrimaryColor(boolean shouldUpdate) {
-        // (Albert Wang): Disabled since we have locked toolbar colors
-        // mShouldUpdateToolbarPrimaryColor = shouldUpdate;
+        mShouldUpdateToolbarPrimaryColor = shouldUpdate;
     }
 
     /**
