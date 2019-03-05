@@ -825,4 +825,10 @@ const base::Feature kWin10AcceleratedDefaultBrowserFlow{
 const base::Feature kWriteBasicSystemProfileToPersistentHistogramsFile{
     "WriteBasicSystemProfileToPersistentHistogramsFile",
     base::FEATURE_ENABLED_BY_DEFAULT};
+
+#if defined(OS_ANDROID)
+// Flag for Brave Rewards.
+const base::Feature kBraveRewards{
+    "BraveRewards", base::FEATURE_DISABLED_BY_DEFAULT};
+#endif // defined(OS_ANDROID)
 }  // namespace features
