@@ -2215,6 +2215,13 @@ extern const char kEnableDbusAndX11StatusIconsDescription[];
 
 #endif  // defined(OS_LINUX) && !defined(OS_CHROMEOS)
 
+#if defined (OS_ANDROID)
+
+extern const char kBraveRewardsName[];
+extern const char kBraveRewardsDescription[];
+
+#endif // defined (OS_ANDROID)
+
 // ============================================================================
 // Don't just add flags to the end, put them in the right section in
 // alphabetical order. See top instructions for more.
