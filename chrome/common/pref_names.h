@@ -968,6 +968,7 @@ extern const char kSharingFCMRegistration[];
 extern const char kHatsSurveyMetadata[];
 #endif  // !defined(OS_ANDROID)
 
+extern const char kSafetynetCheckFailed[];
 }  // namespace prefs
 
 #endif  // CHROME_COMMON_PREF_NAMES_H_
