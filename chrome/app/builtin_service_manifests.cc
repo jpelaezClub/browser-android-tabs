@@ -107,7 +107,6 @@ GetChromeBuiltinServiceManifests() {
       GetFileUtilManifest(),
       patch::GetManifest(),
       unzip::GetManifest(),
-      bat_ledger::GetManifest(),
       prefs::GetLocalStateManifest(),
       quarantine::GetQuarantineManifest(),
 #if BUILDFLAG(ENABLE_EXTENSIONS)
