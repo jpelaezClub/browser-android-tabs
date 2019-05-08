@@ -5,6 +5,7 @@
 #include "chrome/app/builtin_service_manifests.h"
 
 #include "base/no_destructor.h"
+#include "brave/components/services/bat_ledger/public/cpp/manifest.h"
 #include "build/build_config.h"
 #include "chrome/common/buildflags.h"
 #include "chrome/common/constants.mojom.h"
@@ -107,6 +108,7 @@ GetChromeBuiltinServiceManifests() {
       GetFileUtilManifest(),
       patch::GetManifest(),
       unzip::GetManifest(),
+      bat_ledger::GetManifest(),
       prefs::GetLocalStateManifest(),
       quarantine::GetQuarantineManifest(),
 #if BUILDFLAG(ENABLE_EXTENSIONS)
