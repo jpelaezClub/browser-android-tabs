@@ -231,7 +231,8 @@ void FaviconSource::SendDefaultResponse(
     const content::URLDataSource::GotDataCallback& callback,
     int size_in_dip,
     float scale_factor) {
-  const bool dark = GetNativeTheme()->SystemDarkModeEnabled();
+  ui::NativeTheme* native_theme = GetNativeTheme();
+  const bool dark = (native_theme == nullptr) ? false : native_theme->SystemDarkModeEnabled();
   int resource_id;
   switch (size_in_dip) {
     case 64:
