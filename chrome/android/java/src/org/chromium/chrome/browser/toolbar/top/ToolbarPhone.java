@@ -422,6 +422,7 @@ public class ToolbarPhone extends ToolbarLayout implements Invalidator.Client, O
         super.destroy();
         if (mHomeButton != null) mHomeButton.destroy();
         cancelAnimations();
+        if (mBraveRewardsNativeWorker != null) mBraveRewardsNativeWorker.RemoveObserver(this);
     }
 
     /**
@@ -2038,13 +2039,6 @@ public class ToolbarPhone extends ToolbarLayout implements Invalidator.Client, O
             mDelayedTabSwitcherModeAnimation.start();
         } else {
             updateViewsForTabSwitcherMode();
-        }
-    }
-
-    @Override
-    public void destroy() {
-        if (mBraveRewardsNativeWorker != null) {
-            mBraveRewardsNativeWorker.RemoveObserver(this);
         }
     }
 
