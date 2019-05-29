@@ -107,7 +107,7 @@ class BottomToolbarNewTabButton extends ChromeImageButton
         int resId = isIncognito ? R.string.accessibility_toolbar_btn_new_incognito_tab
                                 : R.string.accessibility_toolbar_btn_new_tab;
         setContentDescription(getResources().getText(resId));
-        updateBackground();
+        //updateBackground();
     }
 
     void setThemeColorProvider(ThemeColorProvider themeColorProvider) {
@@ -118,17 +118,17 @@ class BottomToolbarNewTabButton extends ChromeImageButton
 
     @Override
     public void onThemeColorChanged(int primaryColor, boolean shouldAnimate) {
-        updateBackground();
+        //updateBackground();
     }
 
     @Override
     public void onTintChanged(ColorStateList tint, boolean useLight) {
         ApiCompatibilityUtils.setImageTintList(this, tint);
         if (mLabel != null) mLabel.setTextColor(tint);
-        updateBackground();
+        //updateBackground();
     }
 
-    private void updateBackground() {
+    /*private void updateBackground() {
         if (mThemeColorProvider == null || mIncognitoStateProvider == null) return;
 
         mBackground.setColorFilter(
@@ -137,5 +137,5 @@ class BottomToolbarNewTabButton extends ChromeImageButton
                         mThemeColorProvider.useLight()
                                 && mIncognitoStateProvider.isIncognitoSelected()),
                 PorterDuff.Mode.SRC_IN);
-    }
+    }*/
 }
