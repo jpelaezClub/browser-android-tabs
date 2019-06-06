@@ -8,6 +8,7 @@ import android.os.Bundle;
 
 import org.chromium.base.ContextUtils;
 import org.chromium.chrome.R;
+import org.chromium.chrome.browser.BraveRewardsNativeWorker;
 import org.chromium.chrome.browser.ChromeVersionInfo;
 import org.chromium.chrome.browser.preferences.PreferenceUtils;
 import org.chromium.components.version_info.Channel;
@@ -39,6 +40,7 @@ public class DeveloperPreferences extends PreferenceFragmentCompat {
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String s) {
+        BraveRewardsNativeWorker.getInstance().GetAddresses();
         getActivity().setTitle(MSG_DEVELOPER_OPTIONS_TITLE);
         PreferenceUtils.addPreferencesFromResource(this, R.xml.developer_preferences);
 
