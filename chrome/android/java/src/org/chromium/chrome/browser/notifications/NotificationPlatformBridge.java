@@ -71,6 +71,10 @@ public class NotificationPlatformBridge {
 
     private static final int[] EMPTY_VIBRATION_PATTERN = new int[0];
 
+    private static final String BRAVE_ADS_ORIGIN = "chrome://brave_ads";
+
+    private static final String BRAVE_ADS_SERVICE_NATIVE_NOTIFICATION_ID = "service.ads_service";
+
     private static NotificationPlatformBridge sInstance;
 
     private static NotificationManagerProxy sNotificationManagerOverride;
@@ -82,6 +86,8 @@ public class NotificationPlatformBridge {
     private long mLastNotificationClickMs;
 
     private TrustedWebActivityClient mTwaClient;
+
+    private String mOrigin;
 
     /**
      * Creates a new instance of the NotificationPlatformBridge.
@@ -523,6 +529,8 @@ public class NotificationPlatformBridge {
             boolean silent, ActionInfo[] actions, String webApkPackage) {
         nativeStoreCachedWebApkPackageForNotificationId(
                 mNativeNotificationPlatformBridge, notificationId, webApkPackage);
+        mOrigin = origin;
+
         // Record whether it's known whether notifications can be shown to the user at all.
         NotificationSystemStatusUtil.recordAppNotificationStatusHistogram();
 
@@ -553,7 +561,7 @@ public class NotificationPlatformBridge {
             // Display notification as Chrome.
             mNotificationManager.notify(notification);
             NotificationUmaTracker.getInstance().onNotificationShown(
-                    NotificationUmaTracker.SystemNotificationType.SITES,
+                    NotificationUmaTracker.SystemNotificationType.UNKNOWN,
                     notification.getNotification());
         });
     }
@@ -588,6 +596,7 @@ public class NotificationPlatformBridge {
                         .setTicker(createTickerText(title, body))
                         .setTimestamp(timestamp)
                         .setRenotify(renotify)
+                        .setPriority(Notification.PRIORITY_HIGH)
                         .setOrigin(UrlFormatter.formatUrlForSecurityDisplayOmitScheme(origin));
 
         if (shouldSetChannelId(forWebApk)) {
@@ -656,13 +665,20 @@ public class NotificationPlatformBridge {
         notificationBuilder.addSettingsAction(settingsIconId, settingsTitle, pendingSettingsIntent);
 
         return notificationBuilder.build(
-                new NotificationMetadata(NotificationUmaTracker.SystemNotificationType.SITES,
+                new NotificationMetadata(NotificationUmaTracker.SystemNotificationType.UNKNOWN,
                         notificationId /* notificationTag */, PLATFORM_ID /* notificationId */));
     }
 
     private NotificationBuilderBase createNotificationBuilder(Context context, boolean hasImage) {
-        return useCustomLayouts(hasImage) ? new CustomNotificationBuilder(context)
-                                          : new StandardNotificationBuilder(context);
+      if (isBraveAdNotification()) {
+          return new BraveAdsNotificationBuilder(context);
+      }
+      return useCustomLayouts(hasImage) ? new CustomNotificationBuilder(context) 
+                                        : new StandardNotificationBuilder(context);
+    }
+
+    private boolean isBraveAdNotification() {
+      return mOrigin != null && mOrigin.startsWith(BRAVE_ADS_ORIGIN);
     }
 
     /** Returns whether to set a channel id when building a notification. */
@@ -757,6 +773,11 @@ public class NotificationPlatformBridge {
     /** Called after querying whether the browser backs the given WebAPK. */
     private void closeNotificationInternal(String notificationId, String webApkPackage,
             String scopeUrl) {
+        // (yachtcaptain23): There might be a bug in this function where TAG and id are switched
+        // when canceling.
+        if (notificationId.startsWith(BRAVE_ADS_SERVICE_NATIVE_NOTIFICATION_ID)) {
+            return;
+        }
         if (!TextUtils.isEmpty(webApkPackage)) {
             WebApkServiceClient.getInstance().cancelNotification(
                     webApkPackage, notificationId, PLATFORM_ID);
