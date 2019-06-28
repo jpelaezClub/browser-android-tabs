@@ -111,7 +111,7 @@ constexpr jint NotificationTypeToJava(
 constexpr NotificationHandler::Type JavaToNotificationType(
     jint notification_type) {
   constexpr jint kMinValue =
-      NotificationTypeToJava(NotificationHandler::Type::WEB_PERSISTENT);
+      NotificationTypeToJava(NotificationHandler::Type::BRAVE_ADS);
   constexpr jint kMaxValue =
       NotificationTypeToJava(NotificationHandler::Type::MAX);
 
@@ -119,7 +119,7 @@ constexpr NotificationHandler::Type JavaToNotificationType(
     return static_cast<NotificationHandler::Type>(notification_type);
 
   NOTREACHED();
-  return NotificationHandler::Type::WEB_PERSISTENT;
+  return NotificationHandler::Type::BRAVE_ADS;
 }
 
 }  // namespace
@@ -258,13 +258,13 @@ void NotificationPlatformBridgeAndroid::Display(
   JNIEnv* env = AttachCurrentThread();
 
   GURL origin_url(notification.origin_url().GetOrigin());
-  GURL scope_url(PersistentNotificationMetadata::From(metadata.get())
-                     ->service_worker_scope);
-  if (!scope_url.is_valid())
-    scope_url = origin_url;
+  // GURL scope_url(PersistentNotificationMetadata::From(metadata.get())
+  //                    ->service_worker_scope);
+  // if (!scope_url.is_valid())
+  //   scope_url = origin_url;
 
   ScopedJavaLocalRef<jstring> j_scope_url =
-        ConvertUTF8ToJavaString(env, scope_url.spec());
+      ConvertUTF8ToJavaString(env, origin_url.spec());
 
   ScopedJavaLocalRef<jstring> j_notification_id =
       ConvertUTF8ToJavaString(env, notification.id());
@@ -308,8 +308,9 @@ void NotificationPlatformBridgeAndroid::Display(
       notification.timestamp().ToJavaTime(), notification.renotify(),
       notification.silent(), actions);
 
+  // origin_url relates to GURL("chrome://brave_ads/?" + *notification_id)
   regenerated_notification_infos_[notification.id()] =
-      RegeneratedNotificationInfo(scope_url, base::nullopt);
+      RegeneratedNotificationInfo(origin_url, base::nullopt);
 }
 
 void NotificationPlatformBridgeAndroid::Close(
