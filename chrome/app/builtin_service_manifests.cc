@@ -6,6 +6,8 @@
 
 #include "base/no_destructor.h"
 #include "brave/components/services/bat_ledger/public/cpp/manifest.h"
+#include "brave/components/services/bat_ads/public/cpp/manifest.h"
+#include "brave/components/brave_ads/browser/buildflags/buildflags.h"
 #include "build/build_config.h"
 #include "chrome/common/buildflags.h"
 #include "chrome/common/constants.mojom.h"
@@ -109,6 +111,9 @@ GetChromeBuiltinServiceManifests() {
       patch::GetManifest(),
       unzip::GetManifest(),
       bat_ledger::GetManifest(),
+#if BUILDFLAG(BRAVE_ADS_ENABLED)
+      bat_ads::GetManifest(),
+#endif
       prefs::GetLocalStateManifest(),
       quarantine::GetQuarantineManifest(),
 #if BUILDFLAG(ENABLE_EXTENSIONS)
