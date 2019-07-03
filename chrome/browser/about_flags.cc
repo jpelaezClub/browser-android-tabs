@@ -4238,13 +4238,6 @@ const FeatureEntry kFeatureEntries[] = {
      FEATURE_VALUE_TYPE(chrome::android::kUsageStatsFeature)},
 #endif  // defined(OS_ANDROID)
 
-#if defined(OS_ANDROID)
-     {"enable-brave-rewards",
-          flag_descriptions::kBraveRewardsName,
-          flag_descriptions::kBraveRewardsDescription, kOsAndroid,
-          FEATURE_VALUE_TYPE(features::kBraveRewards)},
-#endif // defined(OS_ANDROID)
-
     // NOTE: Adding a new flag requires adding a corresponding entry to enum
     // "LoginCustomFlags" in tools/metrics/histograms/enums.xml. See "Flag
     // Histograms" in tools/metrics/histograms/README.md (run the
