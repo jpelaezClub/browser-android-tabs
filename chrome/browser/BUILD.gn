@@ -1900,7 +1900,7 @@ jumbo_split_static_library("browser") {
     ":availability_protos",
     ":ntp_background_proto",
     ":resource_prefetch_predictor_proto",
-    "//brave/vendor/ad-block/brave:ad-block",
+    "//brave/vendor/adblock_rust_ffi:adblock_ffi",
     "//brave/vendor/bat-native-ledger",
     "//base:i18n",
     "//base/allocator:buildflags",
