@@ -574,17 +574,6 @@ public class PrefServiceBridge {
     }
 
     /**
-     * @param whether Tracking Protection should be enabled.
-     */
-    public void setTrackingProtectionEnabled(boolean enabled) {
-        nativeSetTrackingProtectionEnabled(enabled);
-    }
-
-    public boolean isTrackingProtectionEnabled() {
-        return nativeGetTrackingProtectionEnabled();
-    }
-
-    /**
      * @param whether AdBlock should be enabled.
      */
     public void setAdBlockEnabled(boolean enabled) {
@@ -1325,8 +1314,6 @@ public class PrefServiceBridge {
     private native boolean nativeGetFingerprintingProtectionEnabled();
     private native void nativeSetHTTPSEEnabled(boolean enabled);
     private native boolean nativeGetHTTPSEEnabled();
-    private native void nativeSetTrackingProtectionEnabled(boolean enabled);
-    private native boolean nativeGetTrackingProtectionEnabled();
     private native void nativeSetAdBlockEnabled(boolean enabled);
     private native boolean nativeGetAdBlockEnabled();
     private native void nativeSetAdBlockRegionalEnabled(boolean enabled);
