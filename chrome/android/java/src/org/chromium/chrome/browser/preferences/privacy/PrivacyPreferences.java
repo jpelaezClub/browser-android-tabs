@@ -44,7 +44,7 @@ public class PrivacyPreferences
     private static final String PREF_AD_BLOCK = "ad_block";
     private static final String PREF_DO_NOT_TRACK = "do_not_track";
     private static final String PREF_AD_BLOCK_REGIONAL = "ad_block_regional";
-    private static final String PREF_SYNC_AND_SERVICES_LINK = "sync_and_services_link";
+    // private static final String PREF_SYNC_AND_SERVICES_LINK = "sync_and_services_link";
     private static final String PREF_CLOSE_TABS_ON_EXIT = "close_tabs_on_exit";
 
     private ManagedPreferenceDelegateCompat mManagedPreferenceDelegate;
