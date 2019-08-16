@@ -173,16 +173,6 @@
       "name": "Qwant",
       "keyword": "qwant.com",
       "favicon_url": "https://www.qwant.com/favicon.ico",
-      "search_url": "https://www.qwant.com/?q={searchTerms}&client=opensearch",
-      "suggest_url": "https://api.qwant.com/api/suggest/?q={searchTerms}&client=opensearch",
-      "type": "SEARCH_ENGINE_QWANT",
-      "id": 94
-    },
-
-    "qwant": {
-      "name": "Qwant",
-      "keyword": "qwant.com",
-      "favicon_url": "https://www.qwant.com/favicon.ico",
       "search_url": "https://www.qwant.com/?client=brz-brave&q={searchTerms}",
       "suggest_url": "https://api.qwant.com/api/suggest/?q={searchTerms}&client=opensearch",
       "type": "SEARCH_ENGINE_QWANT",
