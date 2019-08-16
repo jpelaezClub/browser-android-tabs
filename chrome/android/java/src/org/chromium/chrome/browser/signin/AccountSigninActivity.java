@@ -59,21 +59,22 @@ public class AccountSigninActivity extends SynchronousInitializationActivity
      * @return {@code true} if sign in has been allowed.
      */
     public static boolean startIfAllowed(Context context, @AccessPoint int accessPoint) {
-        if (!SigninManager.get().isSignInAllowed()) {
-            if (SigninManager.get().isSigninDisabledByPolicy()) {
-                ManagedPreferencesUtils.showManagedByAdministratorToast(context);
-            }
-            return false;
-        }
+        return false;
+        // if (!SigninManager.get().isSignInAllowed()) {
+        //     if (SigninManager.get().isSigninDisabledByPolicy()) {
+        //         ManagedPreferencesUtils.showManagedByAdministratorToast(context);
+        //     }
+        //     return false;
+        // }
 
-        final Intent intent;
-        if (ChromeFeatureList.isEnabled(ChromeFeatureList.UNIFIED_CONSENT)) {
-            intent = SigninActivity.createIntent(context, accessPoint);
-        } else {
-            intent = createIntentForDefaultSigninFlow(context, accessPoint, false);
-        }
-        context.startActivity(intent);
-        return true;
+        // final Intent intent;
+        // if (ChromeFeatureList.isEnabled(ChromeFeatureList.UNIFIED_CONSENT)) {
+        //     intent = SigninActivity.createIntent(context, accessPoint);
+        // } else {
+        //     intent = createIntentForDefaultSigninFlow(context, accessPoint, false);
+        // }
+        // context.startActivity(intent);
+        // return true;
     }
 
     /**
