@@ -12,6 +12,7 @@ import android.provider.Settings;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceFragmentCompat;
 import android.view.View;
+import android.content.SharedPreferences;
 
 import org.chromium.base.ContextUtils;
 import org.chromium.base.VisibleForTesting;
@@ -52,6 +53,7 @@ public class MainPreferences extends PreferenceFragmentCompat
     public static final String PREF_PRIVATE_SEARCH_ENGINE = "private_search_engine";
     public static final String PREF_SAVED_PASSWORDS = "saved_passwords";
     public static final String PREF_HOMEPAGE = "homepage";
+    public static final String PREF_CLOSING_TABS = "closing_tabs";
     public static final String PREF_UI_THEME = "ui_theme";
     //public static final String PREF_DATA_REDUCTION = "data_reduction";
     public static final String PREF_NOTIFICATIONS = "notifications";
@@ -220,6 +222,9 @@ public class MainPreferences extends PreferenceFragmentCompat
         } else {
             removePreferenceIfPresent(PREF_HOMEPAGE);
         }
+
+        Preference closingTabsPref = addPreferenceIfAbsent(PREF_CLOSING_TABS);
+        setOnOffSummary(closingTabsPref, ClosingTabsManager.isClosingAllTabsClosesBraveEnabled());
 
         if (NightModeUtils.isNightModeSupported() && FeatureUtilities.isNightModeAvailable()) {
             addPreferenceIfAbsent(PREF_UI_THEME);
