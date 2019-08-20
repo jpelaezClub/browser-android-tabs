@@ -45,6 +45,7 @@ import org.chromium.chrome.browser.gesturenav.NavigationGlowFactory;
 import org.chromium.chrome.browser.gesturenav.NavigationHandler;
 import org.chromium.chrome.browser.gesturenav.TabSwitcherActionDelegate;
 import org.chromium.chrome.browser.partnercustomizations.HomepageManager;
+import org.chromium.chrome.browser.preferences.ClosingTabsManager;
 import org.chromium.chrome.browser.tab.Tab;
 import org.chromium.chrome.browser.tabmodel.TabList;
 import org.chromium.chrome.browser.tabmodel.TabModelSelector;
@@ -834,7 +835,7 @@ public abstract class StackLayoutBase extends Layout {
 
         // If homepage is enabled and there is a maximum of 1 tab in both models
         // (this is the last tab), the tab closure cannot be undone.
-        canUndo &= !(HomepageManager.shouldCloseAppWithZeroTabs()
+        canUndo &= !(ClosingTabsManager.shouldCloseAppWithZeroTabs()
                 && (mTabModelSelector.getModel(true).getCount()
                                    + mTabModelSelector.getModel(false).getCount()
                            < 2));
