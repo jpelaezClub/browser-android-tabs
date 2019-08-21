@@ -4830,9 +4830,6 @@ content creators you love.
       <message name="IDS_HIDE_BRAVE_REWARDS_ICON_DESCRIPTION" desc="Description for preference that hides or shows Brave Rewards icon.">
         Hides the Brave Rewards Icon when Brave Rewards is not enabled
       </message>
-      <message name="IDS_BRAVE_UI_PRE_GRANT_MESSAGE" desc="A message that appears before grant notification is received">
-        Check back soon for a free token grant
-      </message>
       <message name="IDS_RESET_BRAVE_REWARDS_OPTION" desc="Title for preference to reset Brave Rewards.">
         Reset Brave Rewards
       </message>
@@ -4865,6 +4862,9 @@ content creators you love.
       </message>
       <message name="IDS_NOTIFICATION_CATEGORY_GROUP_BRAVE_ADS" desc="Subheading for 'Brave Ads' section of a list of notification categories. [CHAR-LIMIT=32]">
         Brave Ads
+      </message>
+      <message name="IDS_BRAVE_UI_ADS_EARNINGS" desc="Description text for ad grants in grant details">
+        earned from ads
       </message>
 
       <!-- Onboarding strings -->
