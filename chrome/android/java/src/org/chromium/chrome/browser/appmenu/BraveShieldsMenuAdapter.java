@@ -217,7 +217,6 @@ class BraveShieldsMenuAdapter extends BaseAdapter {
                             } else if (8 == position) {
                                 text.setText(R.string.brave_shields_second_group_title);
                             } else if (1 == position) {
-                                text.setTextColor(Color.parseColor(BRAVE_SHIELDS_BLACK));
                                 text.setTextSize(20);
                                 text.setText(mHost);
                             } else {
