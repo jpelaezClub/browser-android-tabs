@@ -933,7 +933,7 @@ Die Website erhält KEINEN Zugriff auf die Kamera. Die Kamerabilder sind nur fü
 <translation id="7774809984919390718">{PAYMENT_METHOD,plural, =1{<ph name="PAYMENT_METHOD_PREVIEW" />\u2026 und <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" /> weitere}other{<ph name="PAYMENT_METHOD_PREVIEW" />\u2026 und <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" /> weitere}}</translation>
 <translation id="7781829728241885113">Gestern</translation>
 <translation id="7791543448312431591">Hinzufügen</translation>
-<translation id="780301667611848630">Kein Interesse</translation>
+<translation id="780301667611848630">Nein, danke</translation>
 <translation id="7810647596859435254">Öffnen mit…</translation>
 <translation id="7821588508402923572">Ihre Einsparungen bei der Datennutzung werden hier angezeigt</translation>
 <translation id="7837721118676387834">Automatische Wiedergabe stummgeschalteter Videos für eine bestimmte Website zulassen.</translation>
@@ -1325,7 +1325,7 @@ zu übermitteln, bis sich der Ersteller verifiziert hat, oder bis 90 Tage vergan
 <translation id="2775064702681588061">Ihr Brave Rewards-Konto wartet auf eine Einzahlung.</translation>
 <translation id="765834632354589737">Backup für Wallet durchführen</translation>
 <translation id="1713542052890184975">Bitte führen Sie ein Backup für Ihre Brave Wallet durch.</translation>
-<translation id="3333887201479867589">Brave Rewards</translation>
+<translation id="3333887201479867589">Brave-Belohnungen</translation>
 <translation id="2012723204723845092">Willkommen zurück!</translation>
 <translation id="7669994301500276741">Lassen Sie sich fürs browsen belohnen.</translation>
 <translation id="8203529727745387785">Sichern Sie sich Einkommen, indem Sie Anzeigen zum Schutz
@@ -1377,4 +1377,30 @@ um Ihre Lieblingsersteller zu unterstützen.</translation>
 Blockiert</translation>
 <translation id="8508856434435157945">Auf Ihrem mobile Gerät navigieren Sie zum Punkt "Synchronisieren" in den Einstellungen und klicken Sie den Button "Synchonisierungscode scannen oder eingeben". Nutzen Sie dann die Kamera um den QR Code zu scannen.</translation>
 <translation id="7997676409547731821">Ihre geplante monatliche Zahlung für Auto-Contribute und monatliche Trinkgelder konnte aufgrund unzureichender Mittel nicht ausgeführt werden. Wir werden es in 30 Tagen noch einmal versuchen.</translation>
+<translation id="6332924730165919598">Wenn Sie alle Tabs schließen, wird Brave geschlossen</translation>
+<translation id="4292832015778676417">aus Werbeanzeigen eingenommen</translation>
+<translation id="8281886186245836920">Überspringen</translation>
+<translation id="316832010181763471">Suchmaschinen-Onboarding</translation>
+<translation id="986879628471635371">Fehlerbehebung beim Onboarding</translation>
+<translation id="1078265935778232285">Willkommen beim Brave-Browser</translation>
+<translation id="8867511707771147258">Wählen Sie Ihre Standardsuchmaschine aus</translation>
+<translation id="5806601733251372221">Brave-Abschirmungen</translation>
+<translation id="2880356288762235261">Werbeanzeigen und Tracker, die den Schutz Ihrer Daten nicht respektieren. So können Sie surfen, ohne im Internet verfolgt zu werden.</translation>
+<translation id="6980054221517850750">Verdienen Sie Token</translation>
+<translation id="1789842587755069541">für das Anzeigen von Werbeanzeigen, die den Schutz Ihrer Daten respektiert. Verwenden Sie sie, um Ihre Lieblingsseiten und -autoren zu unterstützen.</translation>
+<translation id="821707262661492716">für das Anzeigen von Werbeanzeigen, die den Schutz Ihrer Daten respektiert.</translation>
+<translation id="7387657435304445967">Stimmen Sie den Bedingungen zu, um Brave-Belohnungen zu nutzen.</translation>
+<translation id="53852415493597253">Ich stimme Brave-Belohnungen zu</translation>
+<translation id="4281844954008187215">Allgemeine Geschäftsbedingungen</translation>
+<translation id="2254681226363050822">Zustimmen</translation>
+<translation id="2487915095798731898">Beitreten</translation>
+<translation id="6871397658902960384">Lossurfen</translation>
+<translation id="454386012157232640">Ich habe keine Werbeanzeige gesehen</translation>
+<translation id="1448877943847791441">Brave zeigt Ihre erste Anzeige an in</translation>
+<translation id="7414844564462429821">Um Werbeanzeigen von Brave-Belohnungen zu sehen, stellen Sie sicher, dass Brave Ihnen Benachrichtigungen anzeigen darf.</translation>
+<translation id="6511854390690723657">Dies ist Ihre erste Brave-Werbeanzeige. Tippen Sie hier, um mehr zu erfahren.</translation>
+<translation id="4930714375720679147">Aktivieren</translation>
+<translation id="8329401903432352231">Nicht zustimmen</translation>
+<translation id="7808431604191267817">Ein Neustart der Willkommenstour hat keinen Einfluss auf bestehende Einstellungen.</translation>
+<translation id="2453860139492968684">Abschließen</translation>
 </translationbundle>
