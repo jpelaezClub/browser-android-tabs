@@ -960,7 +960,7 @@
 <translation id="7774809984919390718">{PAYMENT_METHOD,plural, =1{<ph name="PAYMENT_METHOD_PREVIEW" />\u2026 他 <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" /> 件}other{<ph name="PAYMENT_METHOD_PREVIEW" />\u2026 他 <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" /> 件}}</translation>
 <translation id="7781829728241885113">昨日</translation>
 <translation id="7791543448312431591">追加</translation>
-<translation id="780301667611848630">いいえ</translation>
+<translation id="780301667611848630">結構です</translation>
 <translation id="7810647596859435254">アプリで開く…</translation>
 <translation id="7821588508402923572">データ節約量がここに表示されます</translation>
 <translation id="7837721118676387834">特定のサイトに対し、ミュートされた動画の自動再生を許可します。</translation>
@@ -1351,7 +1351,7 @@
 <translation id="2775064702681588061">Braveリワードアカウントへの入金があります。</translation>
 <translation id="765834632354589737">ウォレットのバックアップ</translation>
 <translation id="1713542052890184975">Braveウォレットをバックアップしてください。</translation>
-<translation id="3333887201479867589">Braveリワード</translation>
+<translation id="3333887201479867589">Brave Rewards</translation>
 <translation id="2012723204723845092">おかえりなさい！</translation>
 <translation id="7669994301500276741">閲覧してリワードを獲得。</translation>
 <translation id="8203529727745387785">プライバシーに配慮した広告を表示して
@@ -1392,4 +1392,30 @@
 <translation id="8508856434435157945">もう一台の端末でBraveを開き、設定 &gt; Sync と移動しし、同期コードをスキャンする をクリックし、下のQRコードをスキャンしてください。</translation>
 <translation id="6940273954212603510">お願いします</translation>
 <translation id="7997676409547731821">資金が不十分なため、予定されていたサイトへの自動支援と設定されている毎月支払いチップの支払いを完了できませんでした。30日後に再試行します。</translation>
+<translation id="6332924730165919598">すべてのタブを閉じるとBraveが終了します</translation>
+<translation id="4292832015778676417">広告からの収入</translation>
+<translation id="8281886186245836920">スキップ</translation>
+<translation id="316832010181763471">検索エンジンのオンボーディング</translation>
+<translation id="986879628471635371">オンボーディングのトラブルシューティング</translation>
+<translation id="1078265935778232285">Braveブラウザにようこそ</translation>
+<translation id="8867511707771147258">デフォルトの検索エンジンを選択してください</translation>
+<translation id="5806601733251372221">ブレイブシールド</translation>
+<translation id="2880356288762235261">プライバシーを侵害する広告とトラッカー、そのためウェブでたどるられることなくブラウジングできます。</translation>
+<translation id="6980054221517850750">トークンを獲得</translation>
+<translation id="1789842587755069541">プライバシーを尊重する広告を見るために。お気に入りのサイトやクリエイターをサポートするためにそれらを使用してください。</translation>
+<translation id="821707262661492716">プライバシーを尊重する広告を見るために。</translation>
+<translation id="7387657435304445967">Brave Rewardsを使用するために規約に同意する</translation>
+<translation id="53852415493597253">Brave Rewardsに同意します</translation>
+<translation id="4281844954008187215">利用規約</translation>
+<translation id="2254681226363050822">同意</translation>
+<translation id="2487915095798731898">参加</translation>
+<translation id="6871397658902960384">ブラウジングを開始</translation>
+<translation id="454386012157232640">広告を見ていません</translation>
+<translation id="1448877943847791441">Braveはあなたの最初の広告を表示します</translation>
+<translation id="7414844564462429821">Brave Rewardsの広告を表示するには、Braveが通知を表示できることを確認してください。</translation>
+<translation id="6511854390690723657">これが最初のBraveの広告です。 タップして詳細を確認して下さい。</translation>
+<translation id="4930714375720679147">ONにする</translation>
+<translation id="8329401903432352231">同意しない</translation>
+<translation id="7808431604191267817">ウェルカムツアーを再起動しても、既存の設定には影響しません。</translation>
+<translation id="2453860139492968684">終了</translation>
 </translationbundle>

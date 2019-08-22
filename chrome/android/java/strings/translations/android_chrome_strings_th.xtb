@@ -851,7 +851,7 @@
 <translation id="7029809446516969842">รหัสผ่าน</translation>
 <translation id="7031882061095297553">ซิงค์กับ</translation>
 <translation id="7034608350006174882">ใช้ข้อมูลบัตรและที่อยู่จาก Google Pay</translation>
-<translation id="7053983685419859001">บล็อก</translation>
+<translation id="7053983685419859001">บล็อค</translation>
 <translation id="7055152154916055070">การเปลี่ยนเส้นทางถูกบล็อก</translation>
 <translation id="7062545763355031412">ยอมรับและเปลี่ยนบัญชี</translation>
 <translation id="7063006564040364415">ไม่สามารถเชื่อมต่อกับเซิร์ฟเวอร์การซิงค์</translation>
@@ -1390,4 +1390,30 @@ EST แล้ว</translation>
 <translation id="7136694880210472378">ทำให้เป็นค่าเริ่มต้น</translation>
 <translation id="292729886516327029">โฆษณาและตัวติดตาม
 บล็อกแล้ว</translation>
+<translation id="6332924730165919598">การปิดแท็บทั้งหมดปิด Brave</translation>
+<translation id="4292832015778676417">ได้รายได้จากโฆษณาแล้ว</translation>
+<translation id="8281886186245836920">ข้าม</translation>
+<translation id="316832010181763471">สร้างความคุ้นเคยเครื่องมือค้นหา</translation>
+<translation id="986879628471635371">การแก้ปัญหาการสร้างความคุ้นเคย</translation>
+<translation id="1078265935778232285">ขอต้อนรับสู่ Brave Browser</translation>
+<translation id="8867511707771147258">เลือกเครื่องมือค้นหาหลัก</translation>
+<translation id="5806601733251372221">Brave Shields</translation>
+<translation id="2880356288762235261">โฆษณาแบบบุกรุกความเป็นส่วนตัวและเครื่องติดตามเพื่อที่คุณสามารถค้นหาโดยไม่ถูกติดตามในเว็บ</translation>
+<translation id="6980054221517850750">รับเหรียญตรา</translation>
+<translation id="1789842587755069541">สำหรับการชมโฆษณาที่เคารพความเป็นส่วนตัว ใช้มันในการสนับสนุนเว็บและผู้สร้างที่คุณชื่นชอบ</translation>
+<translation id="821707262661492716">เพื่อการชมโฆษณาที่เคารพความเป็นส่วนตัว</translation>
+<translation id="7387657435304445967">ยอมรับข้อตกลงเพื่อใช้ Brave Rewards</translation>
+<translation id="53852415493597253">ฉันยอมรับ Brave Rewards</translation>
+<translation id="4281844954008187215">เงื่อนไขการให้บริการ</translation>
+<translation id="2254681226363050822">ตกลง</translation>
+<translation id="2487915095798731898">เข้าร่วม</translation>
+<translation id="6871397658902960384">เริ่มทำการค้นหา</translation>
+<translation id="454386012157232640">ฉันไม่เห็นโฆษณา</translation>
+<translation id="1448877943847791441">Brave จะแสดงโฆษณาตัวแรกของคุณใน</translation>
+<translation id="7414844564462429821">เพื่อดูโฆษณาจาก Brave Rewards โปรดแน่ใจว่า Brave ได้รับการอนุญาตให้แสดงการแจ้งเตือน</translation>
+<translation id="6511854390690723657">นี่เป็นโฆษณา Brave ตัวแรกของคุณ แตะเพื่อเรียนรู้เพิ่มเติม</translation>
+<translation id="4930714375720679147">เปิด</translation>
+<translation id="8329401903432352231">ไม่เห็นด้วย</translation>
+<translation id="7808431604191267817">การเปิดใช้งาน Welcome Tour อีกครั้งจะไม่ส่งผลกระทบต่อการตั้งค่าที่มีอยู่</translation>
+<translation id="2453860139492968684">เสร็จสิ้น</translation>
 </translationbundle>

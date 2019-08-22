@@ -851,7 +851,7 @@ Na przykład niektóre strony mogą na nie zareagować, wyświetlając reklamy b
 <translation id="7029809446516969842">Hasła</translation>
 <translation id="7031882061095297553">Synchronizuj z</translation>
 <translation id="7034608350006174882">Karty i adresy z Google Pay</translation>
-<translation id="7053983685419859001">Blokuj</translation>
+<translation id="7053983685419859001">Zablokuj</translation>
 <translation id="7055152154916055070">Zablokowano przekierowanie:</translation>
 <translation id="7062545763355031412">Zaakceptuj i przełącz konta</translation>
 <translation id="7063006564040364415">Nie udało się nawiązać połączenia z serwerem synchronizacji.</translation>
@@ -1166,12 +1166,12 @@ Witryna NIE uzyskuje dostępu do kamery. Tylko Ty widzisz rejestrowany obraz.</t
 <translation id="4339730410920731698">Zablokowane reklamy i skrypty śledzące</translation>
 <translation id="2313532038420432247">Aktualizacje HTTPS</translation>
 <translation id="7461425058443653485">Zablokowane skrypty</translation>
-<translation id="7835726359440951858">Blokuj reklamy i śledzenie</translation>
+<translation id="7835726359440951858">Zablokuj reklamy i śledzenie</translation>
 <translation id="520895744850022668">Wymuszaj HTTPS</translation>
-<translation id="94154759592465111">Blokuj skrypty</translation>
+<translation id="94154759592465111">Zablokuj skrypty</translation>
 <translation id="7307834434086582547">Włącz/Wyłącz tarcze Brave</translation>
 <translation id="6302422639282249274">Zarządzaj nagrodami Brave</translation>
-<translation id="6132506775968708399">Blokuj pliki cookie stron trzecich</translation>
+<translation id="6132506775968708399">Zablokuj pliki cookie stron trzecich</translation>
 <translation id="8710614491157212477">Wymusza użycie HTTPS, jeśli jest to możliwe</translation>
 <translation id="5758129336814690876">Ochrona przed śledzeniem</translation>
 <translation id="4609637183310787528">Blokuje elementy śledzące podczas wczytywania strony</translation>
@@ -1198,7 +1198,7 @@ oprogramowanie śledzące</translation>
 reklamy</translation>
 <translation id="8880969045613157151">Aktualizacje
 HTTPS</translation>
-<translation id="204407992549693965">Szacunkowy
+<translation id="204407992549693965">Szacowany
 zaoszczędzony czas</translation>
 <translation id="991605024067283917">Wyślij mierniki</translation>
 <translation id="6572660632052512096">Tryb desktopowy</translation>
@@ -1393,4 +1393,30 @@ twórcom treści, które lubisz.</translation>
 <translation id="7136694880210472378">Ustaw jako domyślną</translation>
 <translation id="292729886516327029">Zablokowane reklamy
 i skrypty śledzące</translation>
+<translation id="6332924730165919598">Zamknięcie wszystkich zakładek spowoduje zamknięcie Brave</translation>
+<translation id="4292832015778676417">zarobione z reklam</translation>
+<translation id="8281886186245836920">Pomiń</translation>
+<translation id="316832010181763471">Trwa wyszukiwanie</translation>
+<translation id="986879628471635371">Trwa rozwiązywanie problemu</translation>
+<translation id="1078265935778232285">Witaj w przeglądarce Brave</translation>
+<translation id="8867511707771147258">Wybierz domyślną wyszukiwarkę</translation>
+<translation id="5806601733251372221">Tarcze Brave</translation>
+<translation id="2880356288762235261">reklamy ingerujące w prywatność oraz programy śledzące, dzięki czemu możesz przeglądać internet bez martwienia się o to, że ktoś monitoruje Twoje działania. </translation>
+<translation id="6980054221517850750">Zarób tokeny</translation>
+<translation id="1789842587755069541">dla wyświetlania reklam chroniących prywatność. Korzystaj z nich, aby obsługiwać ulubione strony i kreatory.</translation>
+<translation id="821707262661492716">dla wyświetlania reklam chroniących prywatność.</translation>
+<translation id="7387657435304445967">Akceptuję warunki, aby korzystać z nagród Brave</translation>
+<translation id="53852415493597253">Wyrażam zgodę na korzystanie z nagród Brave</translation>
+<translation id="4281844954008187215">Warunki użytkowania</translation>
+<translation id="2254681226363050822">Zgadzam się</translation>
+<translation id="2487915095798731898">Dołącz</translation>
+<translation id="6871397658902960384">Rozpocznij przeglądanie</translation>
+<translation id="454386012157232640">Reklama nie wyświetliła się</translation>
+<translation id="1448877943847791441">Brave wyświetli pierwszą reklamę za</translation>
+<translation id="7414844564462429821">Aby zobaczyć reklamy Brave, upewnij się, że Brave może wyświetlać powiadomienia.</translation>
+<translation id="6511854390690723657">To Twoja pierwsza reklama Brave. Kliknij, aby dowiedzieć się więcej.</translation>
+<translation id="4930714375720679147">Włącz</translation>
+<translation id="8329401903432352231">Nie wyrażam zgody</translation>
+<translation id="7808431604191267817">Ponowne włączenie samouczka nie wpływa na istniejące ustawienia.</translation>
+<translation id="2453860139492968684">Zakończ</translation>
 </translationbundle>

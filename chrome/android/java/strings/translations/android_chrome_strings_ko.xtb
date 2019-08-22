@@ -960,7 +960,7 @@
 <translation id="7774809984919390718">{PAYMENT_METHOD,plural, =1{<ph name="PAYMENT_METHOD_PREVIEW" /> 외 <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" />개}other{<ph name="PAYMENT_METHOD_PREVIEW" /> 외 <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" />개}}</translation>
 <translation id="7781829728241885113">어제</translation>
 <translation id="7791543448312431591">추가</translation>
-<translation id="780301667611848630">아니요, 괜찮습니다.</translation>
+<translation id="780301667611848630">괜찮습니다</translation>
 <translation id="7810647596859435254">연결 프로그램...</translation>
 <translation id="7821588508402923572">절약한 데이터 양이 여기에 표시됩니다</translation>
 <translation id="7837721118676387834">특정 사이트에서 음소거된 동영상이 자동재생되도록 허용합니다.</translation>
@@ -1390,4 +1390,31 @@
 <translation id="7136694880210472378">기본값으로 설정 </translation>
 <translation id="292729886516327029">광고 및 트래커
 차단됨</translation>
+<translation id="6332924730165919598">모든 탭을 닫으면 Brave가 닫힙니다</translation>
+<translation id="4292832015778676417">광고로부터 획득됨 </translation>
+<translation id="8281886186245836920">스킵</translation>
+<translation id="316832010181763471">검색 엔진 온보딩</translation>
+<translation id="986879628471635371">온보딩 문제해결</translation>
+<translation id="1078265935778232285">Brave Browser에 오신것을 환영합니다!</translation>
+<translation id="8867511707771147258">기본 검색 엔진을 선택하세요</translation>
+<translation id="5806601733251372221">Brave 실드</translation>
+<translation id="2880356288762235261">프라이버시 침해 광고 및 추적 프로그램을 통해 웹 환경을 추적받지 않으면서 이용할 수 있습니다.</translation>
+<translation id="6980054221517850750">토큰 적립</translation>
+<translation id="1789842587755069541">프라이버시를 존중하는 광고를 보는 것으로 당신이 좋아하는 사이트와 크리에이터를 지원할 수 있습니다.</translation>
+<translation id="821707262661492716">프라이버시를 존중하는 광고를 보는 것.</translation>
+<translation id="7387657435304445967">Brave Rewards 사용 약관에 동의</translation>
+<translation id="53852415493597253">Brave Rewards 에 동의합니다</translation>
+<translation id="4281844954008187215">서비스 약관</translation>
+<translation id="2254681226363050822">동의</translation>
+<translation id="2487915095798731898">들어가기</translation>
+<translation id="6871397658902960384">브라우징 시작</translation>
+<translation id="454386012157232640">광고를 보지 못했습니다</translation>
+<translation id="1448877943847791441">Brave 는 첫 광고를 보여줍니다</translation>
+<translation id="7414844564462429821">Brave Rewards의 광고를 보려면 Brave가 알림을 표시할 수 있는지 확인해주세요.</translation>
+<translation id="6511854390690723657">이것이 첫 Brave 광고입니다. 자세한 내용을 보려면 이곳을 누르세요.
+</translation>
+<translation id="4930714375720679147">켜기</translation>
+<translation id="8329401903432352231">동의하지 않습니다</translation>
+<translation id="7808431604191267817">둘러보기를 다시 시작해도 기존 설정에는 영향을 미치지 않습니다.</translation>
+<translation id="2453860139492968684">완료</translation>
 </translationbundle>

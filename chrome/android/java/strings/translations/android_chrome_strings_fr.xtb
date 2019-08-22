@@ -960,7 +960,7 @@ En revanche, le site n'a PAS accès à la caméra. Vous seul pouvez voir les ima
 <translation id="7774809984919390718">{PAYMENT_METHOD,plural, =1{<ph name="PAYMENT_METHOD_PREVIEW" />\u2026 et <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" /> de plus}one{<ph name="PAYMENT_METHOD_PREVIEW" />\u2026 et <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" /> de plus}other{<ph name="PAYMENT_METHOD_PREVIEW" />\u2026 et <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" /> de plus}}</translation>
 <translation id="7781829728241885113">Hier</translation>
 <translation id="7791543448312431591">Ajouter</translation>
-<translation id="780301667611848630">Non merci</translation>
+<translation id="780301667611848630">Non, merci</translation>
 <translation id="7810647596859435254">Ouvrir avec…</translation>
 <translation id="7821588508402923572">Vos économies de données s'affichent ici</translation>
 <translation id="7837721118676387834">Autorisez la lecture automatique des vidéos dont le son est coupé pour un site spécifique.</translation>
@@ -1389,4 +1389,30 @@ les créateurs de contenu que vous aimez.</translation>
 <translation id="7136694880210472378">Régler comme navigateur par défaut</translation>
 <translation id="292729886516327029">Pubs et traqueurs
 bloqués</translation>
+<translation id="6332924730165919598">Fermer tous les onglets fermera Brave</translation>
+<translation id="4292832015778676417">gagné à partir des publicités</translation>
+<translation id="8281886186245836920">Passer</translation>
+<translation id="316832010181763471">Intégration du moteur de recherche</translation>
+<translation id="986879628471635371">Intégration de la résolution de problèmes</translation>
+<translation id="1078265935778232285">Bienvenue dans le navigateur Brave</translation>
+<translation id="8867511707771147258">Sélectionner votre moteur de recherche par défaut</translation>
+<translation id="5806601733251372221">Protections de Brave</translation>
+<translation id="2880356288762235261">les publicités et les traqueurs ne respectant pas votre vie privée afin que vous puissiez naviguer sur la toile sans être suivi partout. </translation>
+<translation id="6980054221517850750">Gagner des jetons</translation>
+<translation id="1789842587755069541">pour voir des pubs respectueuses de votre vie privée. Utilisez-les pour soutenir vos sites et créateurs préférés. </translation>
+<translation id="821707262661492716">pour voir des pubs respectueuses de votre vie privée. </translation>
+<translation id="7387657435304445967">Accepter les conditions pour utiliser Brave Rewards</translation>
+<translation id="53852415493597253">J'accepte les conditions de Brave Rewards </translation>
+<translation id="4281844954008187215">Conditions de service</translation>
+<translation id="2254681226363050822">Accepter</translation>
+<translation id="2487915095798731898">Rejoindre</translation>
+<translation id="6871397658902960384">Commencer à naviguer</translation>
+<translation id="454386012157232640">Je n'ai pas vu de pub</translation>
+<translation id="1448877943847791441">Brave vous montrera votre première pub dans</translation>
+<translation id="7414844564462429821">Pour voir les pubs de Brave Rewards, assurez-vous que Brave soit autorisé à vous montrer des notifications. </translation>
+<translation id="6511854390690723657">C'est votre première pub Brave. Appuyez pour en savoir plus. </translation>
+<translation id="4930714375720679147">Activer</translation>
+<translation id="8329401903432352231">Ne pas accepter</translation>
+<translation id="7808431604191267817">Relancer la visite guidée de bienvenue n'affectera pas les paramètres existants. </translation>
+<translation id="2453860139492968684">Terminer</translation>
 </translationbundle>

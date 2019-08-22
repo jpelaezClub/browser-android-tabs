@@ -851,7 +851,7 @@ De exemplu, unele site-uri pot răspunde la această solicitare afișând anunț
 <translation id="7029809446516969842">Parole</translation>
 <translation id="7031882061095297553">Sincronizează cu</translation>
 <translation id="7034608350006174882">Carduri și adrese care folosesc Google Pay</translation>
-<translation id="7053983685419859001">Blochează</translation>
+<translation id="7053983685419859001">Blocați</translation>
 <translation id="7055152154916055070">Redirecționarea a fost blocată:</translation>
 <translation id="7062545763355031412">Acceptă și comută conturile</translation>
 <translation id="7063006564040364415">Nu s-a putut stabili conexiunea cu serverul de sincronizare.</translation>
@@ -1354,7 +1354,7 @@ până când vor verifica sau până la 90 de zile. </translation>
 <translation id="2775064702681588061">Contul dumneavoastră pe Brave Rewards este disponibil pentru depunere.</translation>
 <translation id="765834632354589737">Portofel de rezervă</translation>
 <translation id="1713542052890184975">Salvați datele din portofelul Brave.</translation>
-<translation id="3333887201479867589">Brave Rewards</translation>
+<translation id="3333887201479867589">Recompense Brave</translation>
 <translation id="2012723204723845092">Bine ați revenit!</translation>
 <translation id="7669994301500276741">Primiți recompense pentru navigări.</translation>
 <translation id="8203529727745387785">Câștigați din vizualizarea reclamelor, cu respectarea vieții private,
@@ -1390,4 +1390,30 @@ creatorii de conținut care vă plac.</translation>
 <translation id="7136694880210472378">Setați ca implicit</translation>
 <translation id="292729886516327029">Anunțuri și urmăritori
 Blocat</translation>
+<translation id="6332924730165919598">Dacă închideți toate filele, Brave se va închide</translation>
+<translation id="4292832015778676417">câștigat din reclame</translation>
+<translation id="8281886186245836920">Omiteți</translation>
+<translation id="316832010181763471">Înscriere în motorul de căutare</translation>
+<translation id="986879628471635371">Remedierea erorilor pentru înscriere</translation>
+<translation id="1078265935778232285">Bine ați venit în Browserul Brave</translation>
+<translation id="8867511707771147258">Selectați motorul de căutare prestabilit</translation>
+<translation id="5806601733251372221">Scuturi Brave</translation>
+<translation id="2880356288762235261">anunțurile și instrumentele de urmărire invazive, ca să puteți naviga pe internet fără să fiți urmărit(ă).</translation>
+<translation id="6980054221517850750">Câștigați tokenuri</translation>
+<translation id="1789842587755069541">pentru că vizionați anunțuri care respectă confidențialitatea. Folosiți-le pentru a vă susține site-urile și creatorii preferați.</translation>
+<translation id="821707262661492716">pentru vizionarea anunțurilor care respectă confidențialitatea.</translation>
+<translation id="7387657435304445967">Acceptați Termenii pentru a folosi Recompensele Brave</translation>
+<translation id="53852415493597253">Sunt de acord cu Recompensele Brave</translation>
+<translation id="4281844954008187215">Termeni și condiții</translation>
+<translation id="2254681226363050822">Sunt de acord</translation>
+<translation id="2487915095798731898">Înscrieți-vă</translation>
+<translation id="6871397658902960384">Începeți să navigați</translation>
+<translation id="454386012157232640">Nu am văzut un anunț</translation>
+<translation id="1448877943847791441">Brave vă va afișa primul anunț în</translation>
+<translation id="7414844564462429821">Pentru a viziona anunțuri de la Recompensele Brave, asigurați-vă că Brave are permisiunea de a afișa notificări.</translation>
+<translation id="6511854390690723657">Acesta este primul dvs. anunț Brave. Atingeți pentru a afla mai multe.</translation>
+<translation id="4930714375720679147">Activați</translation>
+<translation id="8329401903432352231">Nu sunt de acord</translation>
+<translation id="7808431604191267817">Repornirea Turului de bun venit nu va afecta setările existente.</translation>
+<translation id="2453860139492968684">Gata</translation>
 </translationbundle>

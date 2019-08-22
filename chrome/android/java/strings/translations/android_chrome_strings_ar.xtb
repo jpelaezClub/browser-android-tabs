@@ -960,7 +960,7 @@
 <translation id="7774809984919390718">{PAYMENT_METHOD,plural, =1{‏<ph name="PAYMENT_METHOD_PREVIEW" />\u2026 وطريقة دفع إضافية واحدة (<ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" />)}zero{‏<ph name="PAYMENT_METHOD_PREVIEW" />\u2026 و<ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" /> طريقة دفع إضافية}two{‏<ph name="PAYMENT_METHOD_PREVIEW" />\u2026 وطريقتا دفع إضافيتان (<ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" />)}few{‏<ph name="PAYMENT_METHOD_PREVIEW" />\u2026 و<ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" /> طرق دفع إضافية}many{‏<ph name="PAYMENT_METHOD_PREVIEW" />\u2026 و<ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" /> طريقة دفع إضافية}other{‏<ph name="PAYMENT_METHOD_PREVIEW" />\u2026 و<ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" /> طريقة دفع إضافية}}</translation>
 <translation id="7781829728241885113">أمس</translation>
 <translation id="7791543448312431591">إضافة</translation>
-<translation id="780301667611848630">لا، شكرًا</translation>
+<translation id="780301667611848630">لا شكراً</translation>
 <translation id="7810647596859435254">فتح باستخدام...</translation>
 <translation id="7821588508402923572">سيظهر توفير البيانات هنا</translation>
 <translation id="7837721118676387834">السماح لموقع ويب معيّن بالتشغيل التلقائي للفيديوهات المكتومة الصوت</translation>
@@ -1354,7 +1354,7 @@ HTTPS</translation>
 <translation id="2775064702681588061">ينتظر حساب جوائز Brave الخاص بك إيداعًا.</translation>
 <translation id="765834632354589737">المحفظة الاحتياطية</translation>
 <translation id="1713542052890184975">نرجو صنع نسخة احتياطية من محفظة Brave الخاصة بك.</translation>
-<translation id="3333887201479867589">جوائز Brave</translation>
+<translation id="3333887201479867589">منصة Brave Rewards</translation>
 <translation id="2012723204723845092">مرحبًا بعودتك!</translation>
 <translation id="7669994301500276741">اكسب جوائز على تصفحك.</translation>
 <translation id="8203529727745387785">اكسب عن طريق اسعراض الإعلانات التي
@@ -1404,4 +1404,30 @@ HTTPS</translation>
 <translation id="6707003343517029414">انتقل إلى Brave Sync في إعدادات الحاسوب المقصود وانقر على زر "لدي رمز مزامنة".\nأدخل كلمات رمز سلسلة المزامنة الموضحة أدناه.</translation>
 <translation id="6764016175302339802">اعتبر هذا الرمز بمثابة كلمة المرور. إذا حصل عليه شخصٌ ما فسيمكنه قراءة وتعديل بياناتك المتزامنة.</translation>
 <translation id="292729886516327029">تم حجب الإعلانات وبرامج التتبع</translation>
+<translation id="6332924730165919598">إنّ غلق جميع ألسنة التبويب سيغلق متصفح Brave</translation>
+<translation id="4292832015778676417">مكسوب عبر الإعلانات</translation>
+<translation id="8281886186245836920">تخطّي</translation>
+<translation id="316832010181763471">تأهيل محرك البحث</translation>
+<translation id="986879628471635371">جارِ استكشاف وإصلاح أخطاء عملية التأهيل</translation>
+<translation id="1078265935778232285">مرحباً بك في متصفح Brave</translation>
+<translation id="8867511707771147258">حدد محرك البحث الافتراضي الخاص بك</translation>
+<translation id="5806601733251372221">تقنية Brave Shields</translation>
+<translation id="2880356288762235261">إعلانات منتهكة للخصوصية وبرامج تتبع بحيث يمكنك التصفح دون أن يتم تعقبك عبر الويب.</translation>
+<translation id="6980054221517850750">اربح العملات الرمزية</translation>
+<translation id="1789842587755069541">لمشاهدة الإعلانات التي تحترم الخصوصية. استخدمها لدعم المواقع ومنشئي المحتوى المفضلين لديك.</translation>
+<translation id="821707262661492716">لمشاهدة الإعلانات التي تحترم الخصوصية.</translation>
+<translation id="7387657435304445967">وافق على شروط استخدام منصة Brave Rewards</translation>
+<translation id="53852415493597253">أوافق على شروط منصة Brave Rewards</translation>
+<translation id="4281844954008187215">شروط الخدمة</translation>
+<translation id="2254681226363050822">أوافق</translation>
+<translation id="2487915095798731898">انضمام</translation>
+<translation id="6871397658902960384">ابدأ التصفح</translation>
+<translation id="454386012157232640">لا أرى أية إعلانات</translation>
+<translation id="1448877943847791441">سوف يعرض لك Brave إعلانك الأول في غضون</translation>
+<translation id="7414844564462429821">لمشاهدة الإعلانات من Brave Rewards، تأكد من السماح لـ Brave بعرض الإشعارات لك.</translation>
+<translation id="6511854390690723657">هذا هو أول إعلان Brave خاص بك. انقر لمعرفة المزيد.</translation>
+<translation id="4930714375720679147">تشغيل</translation>
+<translation id="8329401903432352231">لا أوافق</translation>
+<translation id="7808431604191267817">لن تؤثر إعادة تشغيل "جولة الترحيب" على أي إعدادات حالية.</translation>
+<translation id="2453860139492968684">إنهاء</translation>
 </translationbundle>
