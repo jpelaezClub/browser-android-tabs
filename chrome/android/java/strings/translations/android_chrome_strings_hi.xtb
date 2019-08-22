@@ -960,7 +960,7 @@
 <translation id="7774809984919390718">{PAYMENT_METHOD,plural, =1{<ph name="PAYMENT_METHOD_PREVIEW" />\u2026 और <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" /> अन्य}one{<ph name="PAYMENT_METHOD_PREVIEW" />\u2026 और <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" /> अन्य}other{<ph name="PAYMENT_METHOD_PREVIEW" />\u2026 और <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" /> अन्य}}</translation>
 <translation id="7781829728241885113">बीता कल</translation>
 <translation id="7791543448312431591">जोड़ें</translation>
-<translation id="780301667611848630">नहीं, रहने दें</translation>
+<translation id="780301667611848630">जी नहीं, धन्यवाद</translation>
 <translation id="7810647596859435254">इसमें खोलें…</translation>
 <translation id="7821588508402923572">बचाया गया डेटा यहां दिखाई देगा</translation>
 <translation id="7837721118676387834">किसी खास साइट पर म्यूट किए गए वीडियो को अपने आप चलाने की अनुमति दें.</translation>
@@ -1349,7 +1349,7 @@
 <translation id="2775064702681588061">आपका Brave रिवार्ड्स खाता जमा की प्रतीक्षा में है.</translation>
 <translation id="765834632354589737">वॉलेट का बैकअप लें</translation>
 <translation id="1713542052890184975">कृपया अपने Brave वॉलेट का बैकअप लें.</translation>
-<translation id="3333887201479867589">Brave रिवार्ड्स</translation>
+<translation id="3333887201479867589">Brave पुरस्कार</translation>
 <translation id="2012723204723845092">आपका पुनः स्वागत है!</translation>
 <translation id="7669994301500276741">ब्राउज़िंग के लिए पुरस्कार पाएं.</translation>
 <translation id="8203529727745387785">गोपनीयता का सम्मान संबंधी
@@ -1400,4 +1400,30 @@
 <translation id="6764016175302339802">इस कोड को पासवर्ड की तरह सुरक्षित रखें। यदि कोई इसे प्राप्त कर लेता है तो वे आपके सिंक किए गए डेटा को पढ़ और संशोधित कर सकते हैं।</translation>
 <translation id="292729886516327029">विज्ञापन और ट्रैकर
 ब्लॉक कर दिया गया</translation>
+<translation id="6332924730165919598">सभी टैब को बंद करने से Brave बंद हो जाता है</translation>
+<translation id="4292832015778676417">विज्ञापनों से कमाया गया</translation>
+<translation id="8281886186245836920">स्किप करें</translation>
+<translation id="316832010181763471">खोज इंजन शुरू हो रहा है</translation>
+<translation id="986879628471635371">समस्या निवारण शुरू हो रहा है</translation>
+<translation id="1078265935778232285">Brave ब्राउज़र में स्वागत है</translation>
+<translation id="8867511707771147258">अपने डिफ़ॉल्ट खोज इंजन का चयन करें</translation>
+<translation id="5806601733251372221">Brave शील्ड</translation>
+<translation id="2880356288762235261">गोपनीयता में दखल देने वाले विज्ञापन और ट्रैकर्स ताकि आप वेब पर किसी के द्वारा फ़ॉलो किए बिना ब्राउज़ कर सकें।</translation>
+<translation id="6980054221517850750">टोकन अर्जित करें</translation>
+<translation id="1789842587755069541">गोपनीयता-सम्बंधित विज्ञापनों को देखने के लिए। अपने पसंदीदा साइट और निर्माताओं का समर्थन करने के लिए उनका उपयोग करें।</translation>
+<translation id="821707262661492716">गोपनीयता-सम्बंधित विज्ञापनों को देखने के लिए।</translation>
+<translation id="7387657435304445967">Brave पुरस्कारों का उपयोग करने के लिए शर्तों से सहमत हों</translation>
+<translation id="53852415493597253">मै Brave पुरस्कारों से सहमत हूँ</translation>
+<translation id="4281844954008187215">सेवा की शर्तें</translation>
+<translation id="2254681226363050822">सहमत हैं</translation>
+<translation id="2487915095798731898">शामिल हों</translation>
+<translation id="6871397658902960384">ब्राउज़ करना शुरू करें</translation>
+<translation id="454386012157232640">मैंने पोस्टn&amp;aकिया; एक विज्ञापन देखें</translation>
+<translation id="1448877943847791441">Brave आपका पहला विज्ञापन में दिखाएगा</translation>
+<translation id="7414844564462429821">Brave पुरस्कारों के विज्ञापनों को देखने के लिए, सुनिश्चित करें कि Brave को आपको सूचनाएँ दिखाने की अनुमति है।</translation>
+<translation id="6511854390690723657">यह आपका पहला Brave विज्ञापन है। अधिक जानकारी के लिए टैप करें।</translation>
+<translation id="4930714375720679147">शुरू करें</translation>
+<translation id="8329401903432352231">सहमत नहीं हैं</translation>
+<translation id="7808431604191267817">स्वागत टूर को फ़िर से शुरू करने से मौजूदा सेटिंग प्रभावित नही होगी।</translation>
+<translation id="2453860139492968684">समाप्त</translation>
 </translationbundle>

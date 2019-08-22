@@ -851,7 +851,7 @@
 <translation id="7029809446516969842">Пароли</translation>
 <translation id="7031882061095297553">Выберите аккаунт</translation>
 <translation id="7034608350006174882">Банковские карты и адреса из Google Pay</translation>
-<translation id="7053983685419859001">Блокировать</translation>
+<translation id="7053983685419859001">Блокируйте</translation>
 <translation id="7055152154916055070">Заблокирована попытка переадресации:</translation>
 <translation id="7062545763355031412">Принять и переключиться</translation>
 <translation id="7063006564040364415">Не удалось связаться с сервером синхронизации</translation>
@@ -960,7 +960,7 @@
 <translation id="7774809984919390718">{PAYMENT_METHOD,plural, =1{<ph name="PAYMENT_METHOD_PREVIEW" /> и ещё <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" /> способ оплаты}one{<ph name="PAYMENT_METHOD_PREVIEW" /> и ещё <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" /> способ оплаты}few{<ph name="PAYMENT_METHOD_PREVIEW" /> и ещё <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" /> способа оплаты}many{<ph name="PAYMENT_METHOD_PREVIEW" /> и ещё <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" /> способов оплаты}other{<ph name="PAYMENT_METHOD_PREVIEW" /> и ещё <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" /> способа оплаты}}</translation>
 <translation id="7781829728241885113">Вчера</translation>
 <translation id="7791543448312431591">Добавить</translation>
-<translation id="780301667611848630">Спасибо, не надо</translation>
+<translation id="780301667611848630">Нет, спасибо</translation>
 <translation id="7810647596859435254">Открыть с помощью...</translation>
 <translation id="7821588508402923572">Здесь появятся данные об экономии трафика</translation>
 <translation id="7837721118676387834">Разрешить определенному сайту автоматически воспроизводить видео без звука.</translation>
@@ -1357,7 +1357,7 @@
 <translation id="2775064702681588061">Необходимо пополнить баланс аккаунта Brave Rewards.</translation>
 <translation id="765834632354589737">Резервное копирование кошелька</translation>
 <translation id="1713542052890184975">Создайте резервную копию своего кошелька Brave.</translation>
-<translation id="3333887201479867589">Brave Rewards</translation>
+<translation id="3333887201479867589">Brave Reward</translation>
 <translation id="2012723204723845092">С возвращением!</translation>
 <translation id="7669994301500276741">Получайте токены, пока пользуетесь браузером.</translation>
 <translation id="8203529727745387785">Получайте токены за просмотр рекламы,
@@ -1394,4 +1394,30 @@
 <translation id="292729886516327029">Реклама и трекеры
 Блокировано</translation>
 <translation id="8508856434435157945">На вашем мобильном устройстве перейдите к Brave Sync в настройках и нажмите кнопку 'Сканировать код синхронизации'. С помощью камеры отсканируйте QR-код.</translation>
+<translation id="6332924730165919598">Закрытие всех вкладок закрывает Brave </translation>
+<translation id="4292832015778676417">заработано от рекламы</translation>
+<translation id="8281886186245836920">Пропустить</translation>
+<translation id="316832010181763471">Введение в поисковую систему</translation>
+<translation id="986879628471635371">Устранение неполадок во введении</translation>
+<translation id="1078265935778232285">Добро пожаловать в браузер Brave</translation>
+<translation id="8867511707771147258">Выберите поисковую систему по умолчанию </translation>
+<translation id="5806601733251372221">Щиты Brave</translation>
+<translation id="2880356288762235261">нарушающие конфиденциальность рекламные объявления и трекеры, чтобы просматривать сайты по всему интернету без слежки.</translation>
+<translation id="6980054221517850750">Заработать токены</translation>
+<translation id="1789842587755069541">для просмотра рекламы, уважающей конфиденциальность. Используйте его для поддержки ваших любимых сайтов и создателей.</translation>
+<translation id="821707262661492716">для просмотра рекламы, уважающей конфиденциальность.</translation>
+<translation id="7387657435304445967">Согласиться с условиями использования Brave Rewards</translation>
+<translation id="53852415493597253">Я согласен(-на) с Brave Rewards</translation>
+<translation id="4281844954008187215">Условия обслуживания</translation>
+<translation id="2254681226363050822">Согласиться</translation>
+<translation id="2487915095798731898">Присоединиться</translation>
+<translation id="6871397658902960384">Начать просмотр</translation>
+<translation id="454386012157232640">Я не вижу рекламу</translation>
+<translation id="1448877943847791441">Brave покажет вашу первую рекламу через</translation>
+<translation id="7414844564462429821">Чтобы увидеть рекламу от Brave Reward, убедитесь, что Brave разрешено показывать уведомления.</translation>
+<translation id="6511854390690723657">Это ваша первая реклама Brave. Нажмите, чтобы узнать больше.</translation>
+<translation id="4930714375720679147">Включить</translation>
+<translation id="8329401903432352231">Не могу согласиться</translation>
+<translation id="7808431604191267817">Перезапуск Введения не повлияет на существующие настройки.</translation>
+<translation id="2453860139492968684">Завершить</translation>
 </translationbundle>

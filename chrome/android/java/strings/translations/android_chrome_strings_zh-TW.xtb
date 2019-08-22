@@ -960,7 +960,7 @@
 <translation id="7774809984919390718">{PAYMENT_METHOD,plural, =1{<ph name="PAYMENT_METHOD_PREVIEW" />\u2026 和另外 <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" /> 種付款方式}other{<ph name="PAYMENT_METHOD_PREVIEW" />\u2026 和另外 <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" /> 種付款方式}}</translation>
 <translation id="7781829728241885113">昨天</translation>
 <translation id="7791543448312431591">新增</translation>
-<translation id="780301667611848630">不用了，謝謝</translation>
+<translation id="780301667611848630">謝謝不必</translation>
 <translation id="7810647596859435254">選擇開啟工具…</translation>
 <translation id="7821588508402923572">你省下的數據流量會顯示在這裡</translation>
 <translation id="7837721118676387834">允許特定網站自動播放靜音的影片。</translation>
@@ -1355,7 +1355,7 @@
 <translation id="2775064702681588061">您的 Brave 獎勵帳戶正在等待一筆存款。</translation>
 <translation id="765834632354589737">備份錢包</translation>
 <translation id="1713542052890184975">請備份您的 Brave 錢包。</translation>
-<translation id="3333887201479867589">Brave 獎勵</translation>
+<translation id="3333887201479867589">Brave Rewards</translation>
 <translation id="2012723204723845092">歡迎回來！</translation>
 <translation id="7669994301500276741">瀏覽即可獲得獎勵。</translation>
 <translation id="8203529727745387785">觀看不會侵犯隱私的廣告即可
@@ -1391,4 +1391,30 @@
 <translation id="7136694880210472378">變成預設</translation>
 <translation id="292729886516327029">廣告與追蹤器
 已封鎖</translation>
+<translation id="6332924730165919598">關閉所有標籤會一併關閉 Brave</translation>
+<translation id="4292832015778676417">從廣告賺得</translation>
+<translation id="8281886186245836920">略過</translation>
+<translation id="316832010181763471">搜尋引擎入門</translation>
+<translation id="986879628471635371">入門疑難解答</translation>
+<translation id="1078265935778232285">歡迎使用 Brave 瀏覽器</translation>
+<translation id="8867511707771147258">選擇您的預設搜尋引擎</translation>
+<translation id="5806601733251372221">Brave 防護</translation>
+<translation id="2880356288762235261">侵犯隱私的廣告與追蹤器，讓您在網路瀏覽時不會被跟蹤。</translation>
+<translation id="6980054221517850750">贏取令牌</translation>
+<translation id="1789842587755069541">只看尊重隱私的廣告。使用它們來支持您喜愛的網站與創作者。</translation>
+<translation id="821707262661492716">只看尊重隱私的廣告。</translation>
+<translation id="7387657435304445967">同意條款以開始使用 Brave Rewards</translation>
+<translation id="53852415493597253">我同意 Brave Rewards</translation>
+<translation id="4281844954008187215">服務條款</translation>
+<translation id="2254681226363050822">同意</translation>
+<translation id="2487915095798731898">加入</translation>
+<translation id="6871397658902960384">開始瀏覽</translation>
+<translation id="454386012157232640">我沒有看到廣告</translation>
+<translation id="1448877943847791441">Brave 會顯示您的第一個廣告於</translation>
+<translation id="7414844564462429821">欲觀看來自 Brave Rewards 的廣告，請確定允許 Brave 向您顯示通知。</translation>
+<translation id="6511854390690723657">這是您的第一個 Brave 廣告。點擊以瞭解更多。</translation>
+<translation id="4930714375720679147">開啟</translation>
+<translation id="8329401903432352231">不同意</translation>
+<translation id="7808431604191267817">重新啟動「歡迎導覽」並不會影響到任何既有設定。</translation>
+<translation id="2453860139492968684">結束</translation>
 </translationbundle>

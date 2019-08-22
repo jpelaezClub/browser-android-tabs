@@ -851,7 +851,7 @@
 <translation id="7029809446516969842">Κωδ. πρόσβασης</translation>
 <translation id="7031882061095297553">Συγχρονισμός με</translation>
 <translation id="7034608350006174882">Κάρτες και διευθύνσεις που χρησιμοποιούν το Google Pay.</translation>
-<translation id="7053983685419859001">Αποκλεισμός</translation>
+<translation id="7053983685419859001">Μπλοκάρισμα</translation>
 <translation id="7055152154916055070">Αποκλεισμένη ανακατεύθυνση:</translation>
 <translation id="7062545763355031412">Αποδοχή και εναλλαγή λογαριασμών</translation>
 <translation id="7063006564040364415">Δεν ήταν δυνατή η σύνδεση στον διακομιστή συγχρονισμού.</translation>
@@ -960,7 +960,7 @@
 <translation id="7774809984919390718">{PAYMENT_METHOD,plural, =1{<ph name="PAYMENT_METHOD_PREVIEW" />\u2026 και <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" /> ακόμη}other{<ph name="PAYMENT_METHOD_PREVIEW" />\u2026 και <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" /> ακόμη}}</translation>
 <translation id="7781829728241885113">Χθες</translation>
 <translation id="7791543448312431591">Προσθήκη</translation>
-<translation id="780301667611848630">Όχι, ευχαριστώ</translation>
+<translation id="780301667611848630">Όχι ευχαριστώ</translation>
 <translation id="7810647596859435254">Άνοιγμα με…</translation>
 <translation id="7821588508402923572">Η εξοικονόμηση δεδομένων σας θα εμφανίζεται εδώ</translation>
 <translation id="7837721118676387834">Να επιτρέπεται η αυτόματη αναπαραγωγή βίντεο που έχουν τεθεί σε σίγαση για έναν συγκεκριμένο ιστότοπο.</translation>
@@ -1352,7 +1352,7 @@ HTTPS</translation>
 <translation id="2775064702681588061">Το πορτοφόλι Επιβραβεύσεων Brave σας περιμένει κατάθεση.</translation>
 <translation id="765834632354589737">Δημιουργία αντιγράφου ασφαλείας πορτοφολιού</translation>
 <translation id="1713542052890184975">Δημιουργήστε ένα αντίγραφο ασφαλείας του πορτοφολιού Brave σας.</translation>
-<translation id="3333887201479867589">Επιβραβεύσεις Brave</translation>
+<translation id="3333887201479867589">Ανταμοιβές Brave </translation>
 <translation id="2012723204723845092">Καλώς ορίσατε και πάλι!</translation>
 <translation id="7669994301500276741">Λάβετε επιβραβεύσεις για την περιήγηση.</translation>
 <translation id="8203529727745387785">Κερδίστε μέσω της προβολής διαφημίσεων
@@ -1388,4 +1388,30 @@ HTTPS</translation>
 <translation id="7136694880210472378">Κάντε προεπιλογή</translation>
 <translation id="292729886516327029">Οι Διαφημίσεις και οι Ανιχνευτές 
 Αποκλείστηκαν</translation>
+<translation id="6332924730165919598">Κλείνοντας όλες τις καρτέλες κλείνει το Brave</translation>
+<translation id="4292832015778676417">κέρδη από αγγελίες</translation>
+<translation id="8281886186245836920">Παράλειψη</translation>
+<translation id="316832010181763471">Ενσωματωμένη μηχανή αναζήτησης</translation>
+<translation id="986879628471635371">Ενσωματωμένη αντιμετώπιση προβλημάτων </translation>
+<translation id="1078265935778232285">Καλώς ήρθατε στο προγράμματα περιήγησης Brave </translation>
+<translation id="8867511707771147258">Επιλέξτε την προεπιλεγμένη σας μηχανή αναζήτησης </translation>
+<translation id="5806601733251372221">Aσπίδες Brave </translation>
+<translation id="2880356288762235261">διαφημίσεις οι οποίες εισβάλλουν στην ιδιωτικότητα και ιχνηλάτες, ώστε να μπορείτε να περιηγείστε χωρίς να ακολουθείστε τον ιστό.</translation>
+<translation id="6980054221517850750">Κερδίστε Μάρκες</translation>
+<translation id="1789842587755069541">για να βλέπετε διαφημίσεις οι οποίες σέβονται την ιδιωτικότητα. Χρησιμοποιήστε τες για να υποστηρίξετε τους αγαπημένους σας ιστότοπους και δημιουργούς.</translation>
+<translation id="821707262661492716">για να βλέπετε διαφημίσεις οι οποίες σέβονται την ιδιωτικότητα.</translation>
+<translation id="7387657435304445967">Συμφωνείτε με τους Όρους Χρήσης των Ανταμοιβών Brave </translation>
+<translation id="53852415493597253">Συμφωνώ με τις Ανταμοιβές Brave</translation>
+<translation id="4281844954008187215">Όροι Χρήσης</translation>
+<translation id="2254681226363050822">Συμφωνώ</translation>
+<translation id="2487915095798731898">Συμμετάσχετε</translation>
+<translation id="6871397658902960384">Ξεκινήστε την περιήγηση</translation>
+<translation id="454386012157232640">Δεν είδα μια διαφήμιση</translation>
+<translation id="1448877943847791441">Το Brave θα εμφανίσει την πρώτη σας διαφήμιση στο</translation>
+<translation id="7414844564462429821">Για να δείτε διαφημίσεις από τις Ανταμοιβές Brave, βεβαιωθείτε ότι το Brave μπορεί να σας εμφανίσει ειδοποιήσεις.</translation>
+<translation id="6511854390690723657">Αυτή είναι η πρώτη σας διαφήμιση Brave. Πατήστε για να μάθετε περισσότερα.</translation>
+<translation id="4930714375720679147">Ενεργοποίηση</translation>
+<translation id="8329401903432352231">Δεν συμφωνώ</translation>
+<translation id="7808431604191267817">Η επαναφορά της Περιήγησης Καλωσορίσματος δεν επηρεάζει τις υπάρχουσες ρυθμίσεις.</translation>
+<translation id="2453860139492968684">Τέλος</translation>
 </translationbundle>

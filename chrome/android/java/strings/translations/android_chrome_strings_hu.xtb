@@ -851,7 +851,7 @@ Egyes webhelyek például válaszolhatnak rá úgy, hogy olyan hirdetéseket jel
 <translation id="7029809446516969842">Jelszavak</translation>
 <translation id="7031882061095297553">Szinkronizálás a következőknél</translation>
 <translation id="7034608350006174882">A Google Pay szolgáltatásban használt kártyák és címek</translation>
-<translation id="7053983685419859001">Letiltás</translation>
+<translation id="7053983685419859001">Tiltás</translation>
 <translation id="7055152154916055070">Átirányítás letiltva:</translation>
 <translation id="7062545763355031412">Elfogadás és fiókváltás</translation>
 <translation id="7063006564040364415">Nem sikerült csatlakozni a szinkronizálószerverhez.</translation>
@@ -1354,7 +1354,7 @@ amíg nem hitelesíttetik magukat vagy el nem telik 90 nap.</translation>
 <translation id="2775064702681588061">Az Ön Brave Rewards-fiókja pénzhozzáadásra vár.</translation>
 <translation id="765834632354589737">Pénztárca mentése</translation>
 <translation id="1713542052890184975">Kérjük, mentse a Brave pénztárcáját.</translation>
-<translation id="3333887201479867589">Brave Rewards</translation>
+<translation id="3333887201479867589">Brave Jutalmak</translation>
 <translation id="2012723204723845092">Örülünk, hogy újra látjuk!</translation>
 <translation id="7669994301500276741">Nálunk jutalmat kaphat a böngészésért.</translation>
 <translation id="8203529727745387785">Keressen pénzt úgy, hogy a magánszférát tiszteletben tartó
@@ -1390,4 +1390,30 @@ tartalomkészítők támogatására.</translation>
 <translation id="7136694880210472378">Tedd alapértelmezetté</translation>
 <translation id="292729886516327029">Reklámok és nyomkövetők 
 Blokkolva</translation>
+<translation id="6332924730165919598">Az összes fül bezárásával bezárod a Brave-et</translation>
+<translation id="4292832015778676417">reklámokból származó bevétel</translation>
+<translation id="8281886186245836920">Kihagyás</translation>
+<translation id="316832010181763471">Keresőmotor-előkészítés</translation>
+<translation id="986879628471635371">Hibaelhárítás-előkészítés</translation>
+<translation id="1078265935778232285">Üdvözöl a Brave böngésző</translation>
+<translation id="8867511707771147258">Válaszd ki alapértelmezett keresőmotorodat</translation>
+<translation id="5806601733251372221">Brave Pajzsok</translation>
+<translation id="2880356288762235261">magánéletet sértő hirdetések és nyomkövetők, hogy ne lehessen követni webes böngészésedet.</translation>
+<translation id="6980054221517850750">Szerezz tokeneket</translation>
+<translation id="1789842587755069541">magánéletet tiszteletben tartó hirdetések megtekintésével. Ezeket használhatod kedvenc oldalaid és alkotóid támogatására.</translation>
+<translation id="821707262661492716">magánéletet tiszteletben tartó hirdetések megtekintésével.</translation>
+<translation id="7387657435304445967">Fogadd el a Brave Jutalmak használati feltételeit</translation>
+<translation id="53852415493597253">Elfogadom a Brave Jutalmak feltételeit</translation>
+<translation id="4281844954008187215">Szolgáltatási feltételek</translation>
+<translation id="2254681226363050822">Elfogadom</translation>
+<translation id="2487915095798731898">Csatlakozás</translation>
+<translation id="6871397658902960384">Kezdj el böngészni</translation>
+<translation id="454386012157232640">Nem láttam hirdetést</translation>
+<translation id="1448877943847791441">A Brave mutatja első hirdetésedet: </translation>
+<translation id="7414844564462429821">Engedélyezd, hogy a Brave értesítéseket mutasson, ha Brave Jutalmak hirdetéseket szeretnél látni.</translation>
+<translation id="6511854390690723657">Ez az első Brave hirdetésed. Koppints, ha szeretnél többet megtudni.</translation>
+<translation id="4930714375720679147">Bekapcsolás</translation>
+<translation id="8329401903432352231">Nem értek egyet</translation>
+<translation id="7808431604191267817">A bemutatkozás újraindítása nem lesz hatással semmilyen beállításra</translation>
+<translation id="2453860139492968684">Befejezés</translation>
 </translationbundle>

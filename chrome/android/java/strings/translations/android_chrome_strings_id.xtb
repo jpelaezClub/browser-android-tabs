@@ -960,7 +960,7 @@ Situs TIDAK mendapatkan akses ke kamera. Gambar kamera hanya dapat dilihat oleh 
 <translation id="7774809984919390718">{PAYMENT_METHOD,plural, =1{<ph name="PAYMENT_METHOD_PREVIEW" />\u2026 dan <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" /> lainnya}other{<ph name="PAYMENT_METHOD_PREVIEW" />\u2026 dan <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" /> lainnya}}</translation>
 <translation id="7781829728241885113">Kemarin</translation>
 <translation id="7791543448312431591">Tambahkan</translation>
-<translation id="780301667611848630">Lain kali</translation>
+<translation id="780301667611848630">Tidak, terima kasih</translation>
 <translation id="7810647596859435254">Buka dengan...</translation>
 <translation id="7821588508402923572">Penghematan data Anda akan terlihat di sini</translation>
 <translation id="7837721118676387834">Izinkan pemutaran otomatis video yang dibisukan untuk situs tertentu.</translation>
@@ -1396,4 +1396,30 @@ pembuat konten yang Anda sukai.</translation>
 <translation id="7136694880210472378">Jadikan default</translation>
 <translation id="292729886516327029">Iklan dan Pelacak
 Diblokir</translation>
+<translation id="6332924730165919598">Menutup semua tab akan menutup Brave</translation>
+<translation id="4292832015778676417">didapat dari iklan</translation>
+<translation id="8281886186245836920">Lewati</translation>
+<translation id="316832010181763471">Pemuatan mesin pencarian</translation>
+<translation id="986879628471635371">Pemuatan troubleshooting</translation>
+<translation id="1078265935778232285">Selamat datang di Brave Browser</translation>
+<translation id="8867511707771147258">Pilih mesin pencarian default</translation>
+<translation id="5806601733251372221">Perisai Brave </translation>
+<translation id="2880356288762235261">iklan dan pelacak yang melanggar privasi agar Anda dapat meramban tanpa diikuti saat menyusuri web.</translation>
+<translation id="6980054221517850750">Dapatkan token</translation>
+<translation id="1789842587755069541">untuk melihat iklan yang menghargai privasi. Gunakan mereka untuk mendukung situs dan kreator favorit Anda.</translation>
+<translation id="821707262661492716">untuk melihat iklan yang menghargai privasi.</translation>
+<translation id="7387657435304445967">Setujui Persyaratan untuk menggunakan Brave Rewards</translation>
+<translation id="53852415493597253">Saya menyetujui Brave Rewards</translation>
+<translation id="4281844954008187215">Syarat Layanan</translation>
+<translation id="2254681226363050822">Setuju</translation>
+<translation id="2487915095798731898">Gabung</translation>
+<translation id="6871397658902960384">Mulai meramban</translation>
+<translation id="454386012157232640">Saya tidak melihat iklan</translation>
+<translation id="1448877943847791441">Brave akan menampilkan iklan pertama Anda dalam</translation>
+<translation id="7414844564462429821">Untuk melihat iklan dari Brave Rewards, pastikan Brave diizinkan memberi Anda pemberitahuan.</translation>
+<translation id="6511854390690723657">Ini adalah iklan Brave pertama Anda. Ketuk untuk pelajari lebih lanjut.</translation>
+<translation id="4930714375720679147">Nyalakan</translation>
+<translation id="8329401903432352231">Tidak setuju</translation>
+<translation id="7808431604191267817">Meluncurkan ulang Tur Sambutan tidak akan memengaruhi pengaturan yang ada.</translation>
+<translation id="2453860139492968684">Selesai</translation>
 </translationbundle>

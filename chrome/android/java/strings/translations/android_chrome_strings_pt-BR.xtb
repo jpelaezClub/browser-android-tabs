@@ -961,7 +961,7 @@ O site NÃO terá acesso à câmera. As imagens da câmera são visíveis apenas
 <translation id="7774809984919390718">{PAYMENT_METHOD,plural, =1{<ph name="PAYMENT_METHOD_PREVIEW" />\u2026 e mais <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" />}one{<ph name="PAYMENT_METHOD_PREVIEW" />\u2026 e mais <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" />}other{<ph name="PAYMENT_METHOD_PREVIEW" />\u2026 e mais <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" />}}</translation>
 <translation id="7781829728241885113">Ontem</translation>
 <translation id="7791543448312431591">Adicionar</translation>
-<translation id="780301667611848630">Não</translation>
+<translation id="780301667611848630">Não, obrigado</translation>
 <translation id="7810647596859435254">Abrir com…</translation>
 <translation id="7821588508402923572">Sua economia de dados será exibida aqui</translation>
 <translation id="7837721118676387834">Permite que um determinado site mostre vídeos sem som automaticamente.</translation>
@@ -1394,4 +1394,30 @@ contribuindo para seus criadores de conteúdo favoritos.</translation>
 <translation id="7136694880210472378">Tornar padrão</translation>
 <translation id="292729886516327029">Anúncios e Rastreadores
 Bloqueado</translation>
+<translation id="6332924730165919598">Fechar todas as abas fecha o Brave</translation>
+<translation id="4292832015778676417">recebido de anúncios</translation>
+<translation id="8281886186245836920">Pular</translation>
+<translation id="316832010181763471">Integração de motor de busca</translation>
+<translation id="986879628471635371">Integração de resolução de problemas</translation>
+<translation id="1078265935778232285">Bem-vindo ao Navegador Brave</translation>
+<translation id="8867511707771147258">Selecione seu motor de busca padrão</translation>
+<translation id="5806601733251372221">Brave Shields</translation>
+<translation id="2880356288762235261">anúncios que invadem sua privacidade e rastreadores, para que você possa navegar pela web nem ser seguido.</translation>
+<translation id="6980054221517850750">Ganhe tokens</translation>
+<translation id="1789842587755069541">para ver anúncios que respeitam a privacidade. Use-os para dar suporte aos seus sites e criadores favoritos.</translation>
+<translation id="821707262661492716">para ver anúncios que respeitam a privacidade.</translation>
+<translation id="7387657435304445967">Concorde com os termos para usar o Brave Rewards</translation>
+<translation id="53852415493597253">Concordo com o Brave Rewards</translation>
+<translation id="4281844954008187215">Termos de Serviço</translation>
+<translation id="2254681226363050822">Concordar</translation>
+<translation id="2487915095798731898">Juntar-se</translation>
+<translation id="6871397658902960384">Iniciar navegação</translation>
+<translation id="454386012157232640">Não vi nenhum anúncio</translation>
+<translation id="1448877943847791441">Brave vai exibir seu primeiro anúncio em</translation>
+<translation id="7414844564462429821">Para ver os anúncios do Brave Rewards, certifique-se de que o Brave tenha permissão para exibir notificações.</translation>
+<translation id="6511854390690723657">Este é o seu primeiro anúncio do Brave. Toque para saber mais.</translation>
+<translation id="4930714375720679147">Ativar</translation>
+<translation id="8329401903432352231">Não concordar</translation>
+<translation id="7808431604191267817">Reabrir o Tour de Boas-vindas não vai afetar nenhuma configuração existente.</translation>
+<translation id="2453860139492968684">Concluir</translation>
 </translationbundle>

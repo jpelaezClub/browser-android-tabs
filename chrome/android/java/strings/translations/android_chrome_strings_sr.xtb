@@ -851,7 +851,7 @@ Google налог можда има друге облике историје п�
 <translation id="7029809446516969842">Лозинке</translation>
 <translation id="7031882061095297553">Синхронизујте са</translation>
 <translation id="7034608350006174882">Картице и адресе које из Google Pay-а</translation>
-<translation id="7053983685419859001">Блокирај</translation>
+<translation id="7053983685419859001">Blokirajte</translation>
 <translation id="7055152154916055070">Блокирано је преусмеравање:</translation>
 <translation id="7062545763355031412">Прихватам, промени налог</translation>
 <translation id="7063006564040364415">Није могуће повезивање са сервером за синхронизацију.</translation>
@@ -960,7 +960,7 @@ Google налог можда има друге облике историје п�
 <translation id="7774809984919390718">{PAYMENT_METHOD,plural, =1{<ph name="PAYMENT_METHOD_PREVIEW" />\u2026 и још <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" />}one{<ph name="PAYMENT_METHOD_PREVIEW" />\u2026 и још <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" />}few{<ph name="PAYMENT_METHOD_PREVIEW" />\u2026 и још <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" />}other{<ph name="PAYMENT_METHOD_PREVIEW" />\u2026 и још <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" />}}</translation>
 <translation id="7781829728241885113">Јуче</translation>
 <translation id="7791543448312431591">Додај</translation>
-<translation id="780301667611848630">Не, хвала</translation>
+<translation id="780301667611848630">Ne, hvala</translation>
 <translation id="7810647596859435254">Отвори помоћу…</translation>
 <translation id="7821588508402923572">Уштеда података се приказује овде</translation>
 <translation id="7837721118676387834">Дозволите аутоплеј за видео снимке са искљученим звуком за одређени сајт.</translation>
@@ -1354,7 +1354,7 @@ dok ne budu verifikovani ili dok ne prođe 90 dana.</translation>
 <translation id="2775064702681588061">Vaš nalog za Brave nagrade očekuje uplatu.</translation>
 <translation id="765834632354589737">Rezervni novčanik</translation>
 <translation id="1713542052890184975">Napravite rezervnu kopiju novčanika.</translation>
-<translation id="3333887201479867589">Brave nagrade</translation>
+<translation id="3333887201479867589">Brave Rewards</translation>
 <translation id="2012723204723845092">Dobro došli nazad!</translation>
 <translation id="7669994301500276741">Dobijte nagrade za pregledanje.</translation>
 <translation id="8203529727745387785">Zaradite gledanjem reklama koje
@@ -1389,4 +1389,30 @@ kreatore sadržaja koji vam se sviđaju.</translation>
 <translation id="2171928016777725844">Podesi da Brave bude tvoj podrazumevani pregledač!</translation>
 <translation id="7136694880210472378">Postavi za podrazumevano</translation>
 <translation id="292729886516327029">Oglasi i praćenja su blokirani</translation>
+<translation id="6332924730165919598">Zatvaranjem svih kartica zatvara se Brave</translation>
+<translation id="4292832015778676417">zarada od oglasa</translation>
+<translation id="8281886186245836920">Preskočite</translation>
+<translation id="316832010181763471">Ulazna migracija na pretraživač</translation>
+<translation id="986879628471635371">Rešavanje problema sa ulaznom migracijom</translation>
+<translation id="1078265935778232285">Dobro došli u Brave pregledač</translation>
+<translation id="8867511707771147258">Izaberite podrazumevani pretraživač</translation>
+<translation id="5806601733251372221">Brave Shields</translation>
+<translation id="2880356288762235261">oglasi koji narušavaju privatnost i praćenja, pa možete da pretražujete bez praćenja na vebu.</translation>
+<translation id="6980054221517850750">Zaradite tokene</translation>
+<translation id="1789842587755069541">za prikazivanje oglasa koji poštuju privatnost. Koristite ih da biste podržali svoje omiljene sajtove i autore.</translation>
+<translation id="821707262661492716">za prikazivanje oglasa koji poštuju privatnost.</translation>
+<translation id="7387657435304445967">Prihvatite Uslove da biste koristili Brave Rewards</translation>
+<translation id="53852415493597253">Pristajem na Brave Rewards</translation>
+<translation id="4281844954008187215">Uslovi korišćenja usluge</translation>
+<translation id="2254681226363050822">Slažem se</translation>
+<translation id="2487915095798731898">Pridružite se</translation>
+<translation id="6871397658902960384">Počnite pretragu</translation>
+<translation id="454386012157232640">Nisam't video/la oglas</translation>
+<translation id="1448877943847791441">Brave će prikazati vaš prvi oglas na</translation>
+<translation id="7414844564462429821">Da biste videli oglase Brave Rewards-a, proverite da li Brave ima dozvolu da prikazuje obaveštenja.</translation>
+<translation id="6511854390690723657">Ovo je vaš prvi Brave oglas. Tapnite da saznate više.</translation>
+<translation id="4930714375720679147">Uključite</translation>
+<translation id="8329401903432352231">Ne slažem se</translation>
+<translation id="7808431604191267817">Ponovno pokretanje „Obilaska za upoznavanje” neće uticati na postojeće postavke.</translation>
+<translation id="2453860139492968684">Završi</translation>
 </translationbundle>
