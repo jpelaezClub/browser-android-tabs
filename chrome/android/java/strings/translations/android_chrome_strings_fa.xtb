@@ -212,7 +212,7 @@
 <translation id="2414886740292270097">تاریک</translation>
 <translation id="8285489906452138776">‏Brave به مجوز دسترسی به دوربین برای این سایت نیاز دارد.</translation>
 <translation id="2426805022920575512">انتخاب حسابی دیگر</translation>
-<translation id="2433507940547922241">شکل ظاهری</translation>
+<translation id="2433507940547922241">ظاهر</translation>
 <translation id="2434158240863470628">بارگیری کامل شد <ph name="SEPARATOR" /> <ph name="BYTES_DOWNLOADED" /></translation>
 <translation id="2440823041667407902">دسترسی به موقعیت مکانی</translation>
 <translation id="2450083983707403292">می‌خواهید بارگیری <ph name="FILE_NAME" /> را دوباره شروع کنید؟</translation>
@@ -960,7 +960,7 @@
 <translation id="7774809984919390718">{PAYMENT_METHOD,plural, =1{‏<ph name="PAYMENT_METHOD_PREVIEW" />\u2026 و <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" /> روش پرداخت دیگر}one{‏<ph name="PAYMENT_METHOD_PREVIEW" />\u2026 و <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" /> روش پرداخت دیگر}other{‏<ph name="PAYMENT_METHOD_PREVIEW" />\u2026 و <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" /> روش پرداخت دیگر}}</translation>
 <translation id="7781829728241885113">دیروز</translation>
 <translation id="7791543448312431591">افزودن</translation>
-<translation id="780301667611848630">نه متشکرم</translation>
+<translation id="780301667611848630">خیر، متشکرم</translation>
 <translation id="7810647596859435254">باز کردن با…</translation>
 <translation id="7821588508402923572">میزان داده صرفه‌جویی‌شده اینجا نشان داده می‌شود</translation>
 <translation id="7837721118676387834">به پخش‌خودکار ویدیو‌های صامت‌شده برای سایتی خاص امکان دهید.</translation>
@@ -1352,4 +1352,62 @@ HTTPS</translation>
 پاداش دریافت کنید، و با انتقال پاداشتان به پدیدآورندگان محتوایی
 که دوست دارید، آنها را حمایت کنید.</translation>
 <translation id="5148719990624240755">فعال کردن «پاداش‌های Brave»</translation>
+<translation id="230829157901335313">ساعت رایانه شما ممکن است روی زمان یا منطقه زمانی اشتباهی تنظیم شده باشد. تنظیمات ساعت را بررسی کنید.</translation>
+<translation id="8038539967102225446">تبلیغات Brave اینجا نمایش داده می‌شوند!</translation>
+<translation id="8050847734948770789">فعال کردن پاداش‌های Brave</translation>
+<translation id="2980493584149453310">در ازای مشاهده تبلیغات حافظ حریم خصوصی در «پاداش‌های Brave»، «توکن توجه اساسی» کسب کنید.</translation>
+<translation id="9187185473011056079">من شرکت می‌کنم!</translation>
+<translation id="1628742278973105368">اولین مبلغ اهدایی ماهیانه شما فرستاده می‌شود در:</translation>
+<translation id="6665366815203065060">اندکی قبل، مبلغ اهدایی را فرستاده‌اید برای:</translation>
+<translation id="5441565662498481293">به‌طور خودکار در حال ارسال مبلغ اهدایی هستید به:</translation>
+<translation id="1166682575529520472">ماهیانه</translation>
+<translation id="8495235435594442882">فعال کردن نوار ابزار پایین</translation>
+<translation id="7239121106815507493">غیرفعال کردن نوار ابزار پایین</translation>
+<translation id="145068164597056296">جستجو یا نشانی اینترنتی</translation>
+<translation id="6810078320346589989">ایجاد نشانک</translation>
+<translation id="5463954686005964104">به این سایت ماهانه مبلغی اهدا کنید</translation>
+<translation id="4162066325465825185">متأسفیم، به نظر می‌رسد «پاداش‌های Braves» در دستگاه شما موجود نیست.</translation>
+<translation id="6332924730165919598">بستن همه زبانه‌ها، Brave را می‌بندد</translation>
+<translation id="4150201353443180367">نمایشگر</translation>
+<translation id="2645380101799517405">کنترل‌ها</translation>
+<translation id="2804710924397009224">پنهان کردن آیکون «پاداش‌های Brave»</translation>
+<translation id="7358991116457217836">هنگام فعال نبودن «پاداش‌های Brave»، آیکون «پاداش‌های Brave» را پنهان می‌کند</translation>
+<translation id="3349204812119681938">بازنشانی «پاداش‌های Brave»</translation>
+<translation id="8782039523249932839">این گزینه کیف پول Brave شما را حذف و همه داده‌های «پاداش‌های Brave» را بازنشانی می‌کند</translation>
+<translation id="5321518976657560663">بازنشانی خطا</translation>
+<translation id="7071576788062714665">خطایی در بازنشانی «پاداش‌های Brave» وجود داشت. لطفاً Brave را دوباره راه‌اندازی کنید و مجدداً امتحان کنید.</translation>
+<translation id="6707003343517029414">در رایانه مد نظرتان، در تنظیمات به قسمت «همگام‌سازی Brave» پیمایش کنید و روی دکمه «کد همگام‌سازی را دارم» کلیک کنید.\nکد زنجیره همگام‌سازی نشان داده شده در زیر را وارد کنید.</translation>
+<translation id="3149880132460839085">همگام‌سازی Brave</translation>
+<translation id="6764016175302339802">این کد را مثل رمز عبور در نظر بگیرید. اگر شخصی آن را به دست بیاورد، می‌تواند داده‌های همگام‌سازی‌شده شما را بخواند و تغییر دهد.</translation>
+<translation id="6417420737057016607">تبلیغات Brave</translation>
+<translation id="8689997599821157251">شما کسب کرده‌اید</translation>
+<translation id="7091885296442320770">سرعت Brave برق‌آساست</translation>
+<translation id="2171928016777725844">Brave را مرورگر پیش‌فرض خود قرار دهید!</translation>
+<translation id="7136694880210472378">قرار دادن به‌عنوان پیش‌فرض</translation>
+<translation id="4292832015778676417">کسب‌شده از تبلیغات</translation>
+<translation id="8281886186245836920">رد کردن</translation>
+<translation id="316832010181763471">راه‌اندازی مقدماتی موتور جستجو</translation>
+<translation id="986879628471635371">عیب‌یابی راه‌اندازی مقدماتی</translation>
+<translation id="1078265935778232285">به مرورگر Brave خوش آمدید</translation>
+<translation id="8867511707771147258">موتور جستجوی پیش‌فرض خود را انتخاب کنید</translation>
+<translation id="5806601733251372221">سپرهای Brave</translation>
+<translation id="2880356288762235261">آگهی‌های و ردیاب‌های ناقض حریم خصوصی تا بتوانید بدون تعقیب شدن در سراسر وب، آن را مرور کنید.</translation>
+<translation id="6980054221517850750">کسب توکن‌ها</translation>
+<translation id="1789842587755069541">برای مشاهده تبلیغاتی که به حریم خصوصی احترام می‌گذارند. از آنها برای پشتیبانی از سایت‌ها و سازندگان محبوب خود استفاده کنید.</translation>
+<translation id="821707262661492716">برای مشاهده تبلیغاتی که به حریم خصوصی احترام می‌گذارند.</translation>
+<translation id="7387657435304445967">با شرایط استفاده از «پاداش‌های Brave» موافقت کنید</translation>
+<translation id="53852415493597253">با «پاداش‌های Brave» موافق هستم</translation>
+<translation id="4281844954008187215">شرایط سرویس</translation>
+<translation id="2254681226363050822">موافق هستم</translation>
+<translation id="2487915095798731898">پیوستن</translation>
+<translation id="6871397658902960384">شروع مرور</translation>
+<translation id="454386012157232640">هیچ تبلیغی را مشاهده ن'کردم</translation>
+<translation id="1448877943847791441">Brave اولین تبلیغ شما را نشان می‌دهد در</translation>
+<translation id="7414844564462429821">برای مشاهده تبلیغات «پاداش‌های Brave»، مطمئن شوید که Brave اجازه نمایش اعلان‌ها برای شما را دارد.</translation>
+<translation id="6511854390690723657">این اولین تبلیغ Brave شما است. برای کسب اطلاعات بیشتر، ضربه بزنید.</translation>
+<translation id="4930714375720679147">روشن کردن</translation>
+<translation id="8329401903432352231">موافق نیستم</translation>
+<translation id="8906569594072556752">تور خوشامدگویی</translation>
+<translation id="7808431604191267817">راه‌اندای مجدد «تور خوشامدگویی» روی هیچ‌کدام از تنظیمات موجود تأثیری نمی‌گذارد.</translation>
+<translation id="2453860139492968684">پایان</translation>
 </translationbundle>

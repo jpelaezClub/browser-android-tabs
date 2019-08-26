@@ -851,7 +851,7 @@
 <translation id="7029809446516969842">密码</translation>
 <translation id="7031882061095297553">同步到</translation>
 <translation id="7034608350006174882">Google Pay 中存储的银行卡和地址信息</translation>
-<translation id="7053983685419859001">禁止</translation>
+<translation id="7053983685419859001">屏蔽</translation>
 <translation id="7055152154916055070">已禁止重定向：</translation>
 <translation id="7062545763355031412">接受并切换帐号</translation>
 <translation id="7063006564040364415">无法连接到同步服务器。</translation>
@@ -960,7 +960,7 @@
 <translation id="7774809984919390718">{PAYMENT_METHOD,plural, =1{<ph name="PAYMENT_METHOD_PREVIEW" />\u2026以及另外 <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" /> 种付款方式}other{<ph name="PAYMENT_METHOD_PREVIEW" />\u2026以及另外 <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" /> 种付款方式}}</translation>
 <translation id="7781829728241885113">昨天</translation>
 <translation id="7791543448312431591">添加</translation>
-<translation id="780301667611848630">不用了，谢谢</translation>
+<translation id="780301667611848630">不，谢谢</translation>
 <translation id="7810647596859435254">打开方式…</translation>
 <translation id="7821588508402923572">您的数据流量节省情况将显示在这里</translation>
 <translation id="7837721118676387834">允许特定网站自动播放静音的视频。</translation>
@@ -1379,4 +1379,44 @@
 <translation id="8782039523249932839">这将会删除你的 Brave 钱包并重设你的全部 Brave 奖励数据</translation>
 <translation id="5321518976657560663">重设错误</translation>
 <translation id="7071576788062714665">重设 Brave 奖励时出现了一个错误。 请重新启动 Brave 并重试</translation>
+<translation id="292729886516327029">广告和跟踪器
+已屏蔽</translation>
+<translation id="2980493584149453310">获得基本注意令牌，以便在 Brave Rewards 中查看隐私保护广告。</translation>
+<translation id="9187185473011056079">我要加入！</translation>
+<translation id="6332924730165919598">关闭所有选项卡，关闭 Brave</translation>
+<translation id="2645380101799517405">控件</translation>
+<translation id="6707003343517029414">在目标计算机中，浏览至设置中的 Brave 同步，单击按钮“我已有同步代码”。\n输入下方显示的同步链代码。</translation>
+<translation id="3149880132460839085">Brave 同步</translation>
+<translation id="6764016175302339802">将此代码视作密码。如果有人拿到该代码，则他们可以读取和修改您已同步的数据。</translation>
+<translation id="6417420737057016607">Brave 广告</translation>
+<translation id="8689997599821157251">您已赚取</translation>
+<translation id="7091885296442320770">Brave 迅如雷电</translation>
+<translation id="2171928016777725844">将 Brave 设置为默认浏览器！</translation>
+<translation id="7136694880210472378">设置为默认</translation>
+<translation id="4292832015778676417">从广告赚取收益</translation>
+<translation id="8281886186245836920">跳过</translation>
+<translation id="316832010181763471">入门款搜索引擎</translation>
+<translation id="986879628471635371">入门款故障诊断</translation>
+<translation id="1078265935778232285">欢迎使用 Brave 浏览器</translation>
+<translation id="8867511707771147258">选择默认搜索引擎</translation>
+<translation id="5806601733251372221">Brave 屏蔽器</translation>
+<translation id="2880356288762235261">侵犯隐私的广告和跟踪器，让您可以浏览在网上浏览内容，而不必担心被跟踪。</translation>
+<translation id="6980054221517850750">赚取代币</translation>
+<translation id="1789842587755069541">查看尊重隐私的广告。利用他们支持您喜爱的网站和创作者。</translation>
+<translation id="821707262661492716">查看尊重隐私的广告。</translation>
+<translation id="7387657435304445967">同意使用 Brave 奖励的条款</translation>
+<translation id="53852415493597253">我同意 Brave 奖励</translation>
+<translation id="4281844954008187215">服务条款</translation>
+<translation id="2254681226363050822">同意</translation>
+<translation id="2487915095798731898">加入</translation>
+<translation id="6871397658902960384">开始浏览</translation>
+<translation id="454386012157232640">我没有看到广告</translation>
+<translation id="1448877943847791441">Brave 将为您显示第一条广告</translation>
+<translation id="7414844564462429821">如需从 Brave 奖励查看广告，请确保允许 Brave 为您显示通知。</translation>
+<translation id="6511854390690723657">这是您的第一条 Brave 广告。点击了解更多。</translation>
+<translation id="4930714375720679147">开启</translation>
+<translation id="8329401903432352231">不同意</translation>
+<translation id="8906569594072556752">欢迎之旅</translation>
+<translation id="7808431604191267817">重启欢迎之旅不会影响任何现有设置。</translation>
+<translation id="2453860139492968684">完成</translation>
 </translationbundle>

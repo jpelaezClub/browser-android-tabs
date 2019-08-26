@@ -754,7 +754,7 @@
 <translation id="7988136689212463100">Brave се нуждае от разрешение за достъп до камерата и микрофона ви за този сайт.</translation>
 <translation id="6395288395575013217">ВРЪЗКА</translation>
 <translation id="6404511346730675251">Редактиране на отметката</translation>
-<translation id="6406506848690869874">Синхронизиранe</translation>
+<translation id="6406506848690869874">Синхронизиране</translation>
 <translation id="641643625718530986">Печат…</translation>
 <translation id="6416782512398055893">Изтеглено: <ph name="MBS" /> МБ</translation>
 <translation id="6427112570124116297">Превод на всичко в мрежата</translation>
@@ -851,7 +851,7 @@
 <translation id="7029809446516969842">Пароли</translation>
 <translation id="7031882061095297553">Синхронизиране със</translation>
 <translation id="7034608350006174882">Карти и адреси посредством Google Pay</translation>
-<translation id="7053983685419859001">Блокиране</translation>
+<translation id="7053983685419859001">Блокирай</translation>
 <translation id="7055152154916055070">Блокирано бе пренасочване:</translation>
 <translation id="7062545763355031412">Приемане и превключване на профилите</translation>
 <translation id="7063006564040364415">Не можа да се установи връзка със синхронизиращия сървър.</translation>
@@ -1375,4 +1375,47 @@
 <translation id="8782039523249932839">Това ще изтрие вашия Brave портфейл и ще нулира всичките Ви данни за Brave Rewards</translation>
 <translation id="5321518976657560663">Възстановяване на грешка</translation>
 <translation id="7071576788062714665">При възстановяването на Brave Rewards възникна грешка. Моля, рестартирайте Brave и опитайте отново</translation>
+<translation id="292729886516327029">Реклами и тракери
+Блокирано</translation>
+<translation id="8038539967102225446">Brave Ads са тук!</translation>
+<translation id="8050847734948770789">Активиране на Brave Rewards</translation>
+<translation id="2980493584149453310">Спечелете Basic Attention Token за гледане на рекламите за запазване на поверителността в Brave Rewards.</translation>
+<translation id="9187185473011056079">Участвам!</translation>
+<translation id="8508856434435157945">На вашето мобилно устройство отворете Brave Sync в панела с настройки и щракнете върху бутона „Сканирай кода за синхр.“. Използвайте камерата, за да сканирате QR кода по-долу.</translation>
+<translation id="6332924730165919598">Затварянето на всички раздели затваря Brave</translation>
+<translation id="2645380101799517405">Контроли</translation>
+<translation id="6707003343517029414">На вашия целеви компютър отворете Brave Sync в настройките и щракнете върху бутона „Имам код за синхронизиране“.\nВъведете кодовите думи за веригата за синхронизация, показани по-долу.</translation>
+<translation id="3149880132460839085">Brave Sync</translation>
+<translation id="6764016175302339802">Отнасяйте се с този код като с парола. Ако някой го разбере, той може да чете и променя вашите синхронизирани данни.</translation>
+<translation id="6417420737057016607">Brave Ads</translation>
+<translation id="8689997599821157251">Спечелихте</translation>
+<translation id="7091885296442320770">Brave е светкавично бърз</translation>
+<translation id="2171928016777725844">Направете Brave вашия браузър по подразбиране!</translation>
+<translation id="7136694880210472378">Направи по подразбиране</translation>
+<translation id="4292832015778676417">спечелени от реклами</translation>
+<translation id="8281886186245836920">Пропусни</translation>
+<translation id="316832010181763471">Внедряване на търсачката</translation>
+<translation id="986879628471635371">Включване на отстраняване на неизправности</translation>
+<translation id="1078265935778232285">Добре дошли в Brave Browser</translation>
+<translation id="8867511707771147258">Изберете вашата търсачка по подразбиране</translation>
+<translation id="5806601733251372221">Brave Shields</translation>
+<translation id="2880356288762235261">реклами и тракери, нарушаващи поверителността, за да можете да разглеждате, без да бъдете следени в мрежата.</translation>
+<translation id="6980054221517850750">Печелете токени</translation>
+<translation id="1789842587755069541">за гледане на реклами, зачитащи поверителността. Използвайте ги, за да подкрепите любимите си сайтове и създатели.</translation>
+<translation id="821707262661492716">за гледане на реклами, зачитащи поверителността.</translation>
+<translation id="7387657435304445967">Приемете условията, за да използвате Brave Rewards</translation>
+<translation id="53852415493597253">Приемам Brave Rewards</translation>
+<translation id="4281844954008187215">Условия за ползване</translation>
+<translation id="2254681226363050822">Приемам</translation>
+<translation id="2487915095798731898">Присъедини се</translation>
+<translation id="6871397658902960384">Започнете да разглеждате</translation>
+<translation id="454386012157232640">Не видях реклама</translation>
+<translation id="1448877943847791441">Brave ще покаже първата ви реклама в</translation>
+<translation id="7414844564462429821">За да виждате реклами от Brave Rewards, уверете се, че на Brave е позволено да ви показва известия.</translation>
+<translation id="6511854390690723657">Това е първата ви реклама на Brave. Докоснете, за да научите повече.</translation>
+<translation id="4930714375720679147">Включи</translation>
+<translation id="8329401903432352231">Не съм съгласен/а</translation>
+<translation id="8906569594072556752">Обиколка за добре дошли</translation>
+<translation id="7808431604191267817">Повторното стартиране на обиколката за добре дошли няма да повлияе на съществуващите настройки.</translation>
+<translation id="2453860139492968684">Край</translation>
 </translationbundle>
