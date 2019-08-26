@@ -754,7 +754,7 @@ Halimbawa, puwedeng tumugon ang ilang website sa kahilingang ito sa pamamagitan 
 <translation id="7988136689212463100">Kailangan ng Brave ng pahintulot na i-access ang iyong camera at mikropono para sa site na ito.</translation>
 <translation id="6395288395575013217">LINK</translation>
 <translation id="6404511346730675251">I-edit ang bookmark</translation>
-<translation id="6406506848690869874">Pag-sync</translation>
+<translation id="6406506848690869874">I-sync</translation>
 <translation id="641643625718530986">I-print…</translation>
 <translation id="6416782512398055893"><ph name="MBS" /> MB ang na-download</translation>
 <translation id="6427112570124116297">I-translate ang Web</translation>
@@ -960,7 +960,7 @@ HINDI magkakaroon ng access sa camera ang site. Ikaw lang ang makakakita ng mga 
 <translation id="7774809984919390718">{PAYMENT_METHOD,plural, =1{<ph name="PAYMENT_METHOD_PREVIEW" />\u2026 at <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" /> iba pa}one{<ph name="PAYMENT_METHOD_PREVIEW" />\u2026 at <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" /> iba pa}other{<ph name="PAYMENT_METHOD_PREVIEW" />\u2026 at <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" /> na iba pa}}</translation>
 <translation id="7781829728241885113">Kahapon</translation>
 <translation id="7791543448312431591">Idagdag</translation>
-<translation id="780301667611848630">Hindi salamat</translation>
+<translation id="780301667611848630">Hindi, salamat na lang</translation>
 <translation id="7810647596859435254">Buksan gamit ang…</translation>
 <translation id="7821588508402923572">Lalabas dito ang mga natipid sa iyong data</translation>
 <translation id="7837721118676387834">Payagan ang pag-autoplay ng mga naka-mute na video para sa isang partikular na site.</translation>
@@ -1352,4 +1352,62 @@ hanggang sa mag-verify sila, o hanggang lumipas ang 90 araw.</translation>
 mga ad na gumagalang sa privacy, ay mag-pay it forward
 para suportahan ang mga content creator na gusto mo.</translation>
 <translation id="5148719990624240755">I-ENABLE ANG BRAVE REWARDS</translation>
+<translation id="230829157901335313">Maaaring nakatakda sa maling oras, o sa maling time-zone ang orasan ng iyong computer. Tingnan ang mga setting ng iyong orasan</translation>
+<translation id="8038539967102225446">Narito na ang Brave Ads!</translation>
+<translation id="8050847734948770789">I-enable ang Brave Rewards</translation>
+<translation id="2980493584149453310">Makakuha ng Basic Attention Token para sa pagtingin o panonood ng mga ad tungkol sa pagpapanatili ng privacy sa Brave Rewards.</translation>
+<translation id="9187185473011056079">Okay!</translation>
+<translation id="1628742278973105368">Ang iyong unang buwanang tip ay ipapadala sa:</translation>
+<translation id="6665366815203065060">Nagpadala ka ng tip sa:</translation>
+<translation id="5441565662498481293">Awtomatiko kang magpapadala ng tip sa:</translation>
+<translation id="1166682575529520472">Buwanan</translation>
+<translation id="8495235435594442882">I-enable ang toolbar sa ibaba</translation>
+<translation id="7239121106815507493">I-disable ang toolbar sa ibaba</translation>
+<translation id="145068164597056296">Paghahanap o URL</translation>
+<translation id="6810078320346589989">Gumawa ng bookmark</translation>
+<translation id="5463954686005964104">Bigyan ng tip ang site na ito buwan-buwan</translation>
+<translation id="4162066325465825185">Paumanhin, mukhang hindi available ang Brave Rewards sa iyong device</translation>
+<translation id="6332924730165919598">Kapag isinara ang lahat ng tab, sasara ang Brave</translation>
+<translation id="4150201353443180367">Display</translation>
+<translation id="2645380101799517405">Mga Kontrol</translation>
+<translation id="2804710924397009224">Itago ang Icon ng Brave Rewards</translation>
+<translation id="7358991116457217836">Itinatago ang Icon ng Brave Rewards kapag hindi naka-enable ang Brave Rewards</translation>
+<translation id="3349204812119681938">I-reset ang Brave Rewards</translation>
+<translation id="8782039523249932839">Ide-delete nito ang iyong Brave wallet at ire-reset ang lahat ng data ng iyong Brave Rewards</translation>
+<translation id="5321518976657560663">Error sa Pag-reset</translation>
+<translation id="7071576788062714665">Nagkaroon ng error sa pag-reset ng Brave Rewards. Pakibuksang muli ang Brave at subukang muli</translation>
+<translation id="6707003343517029414">Sa iyong target na computer, mag-navigate sa Brave Sync sa mga setting at i-click ang button na "Mayroon akong Sync Code".\nIlagay ang mga sync chain code word na ipinapakita sa ibaba.</translation>
+<translation id="3149880132460839085">Brave Sync</translation>
+<translation id="6764016175302339802">Ituring ang code na ito na isang password. Kung may makaalam nito, mababasa at mababago nila ang iyong naka-sync na data.</translation>
+<translation id="6417420737057016607">Brave Ads</translation>
+<translation id="8689997599821157251">Nakakuha ka ng</translation>
+<translation id="7091885296442320770">Napakapabilis ng Brave</translation>
+<translation id="2171928016777725844">Gawin mong default na browser ang Brave!</translation>
+<translation id="7136694880210472378">Gawing default</translation>
+<translation id="4292832015778676417">nakuha mula sa mga ad</translation>
+<translation id="8281886186245836920">Laktawan</translation>
+<translation id="316832010181763471">Onboarding ng search engine</translation>
+<translation id="986879628471635371">Onboarding ng pag-troubleshoot</translation>
+<translation id="1078265935778232285">Welcome sa Brave Browser</translation>
+<translation id="8867511707771147258">Pumili ng iyong default na search engine</translation>
+<translation id="5806601733251372221">Brave Shields</translation>
+<translation id="2880356288762235261">mga ad at tracker na nanghihimasok sa privacy nang sa gayon ay makapag-browse ka nang hindi tina-track sa web.</translation>
+<translation id="6980054221517850750">Makakuha ng mga token</translation>
+<translation id="1789842587755069541">para tingnan ang mga ad na nanghihimasok sa privacy. Gamitin ang mga iyon para suportahan ang mga paborito mong site at creator.</translation>
+<translation id="821707262661492716">para tingnan ang mga ad na nanghihimasok sa privacy.</translation>
+<translation id="7387657435304445967">Sumang-ayon sa Mga Tuntunin ng paggamit sa Brave Rewards</translation>
+<translation id="53852415493597253">Sumasang-ayon ako sa Brave Rewards</translation>
+<translation id="4281844954008187215">Mga Tuntunin ng Serbisyo</translation>
+<translation id="2254681226363050822">Sumasang-ayon</translation>
+<translation id="2487915095798731898">Sumali</translation>
+<translation id="6871397658902960384">Simulang mag-browse</translation>
+<translation id="454386012157232640">Wala akong nakitang ad</translation>
+<translation id="1448877943847791441">Ipapakita ng Brave ang una mong ad sa</translation>
+<translation id="7414844564462429821">Para makakita ng mga ad mula sa Brave Rewards, tiyaking pinapayagan ang Brave na magpakita sa iyo ng mga notification.</translation>
+<translation id="6511854390690723657">Ito ang una mong ad sa Brave. Mag-tap para matuto pa.</translation>
+<translation id="4930714375720679147">I-on</translation>
+<translation id="8329401903432352231">Hindi sumasang-ayon</translation>
+<translation id="8906569594072556752">Pang-welcome na Tour</translation>
+<translation id="7808431604191267817">Kapag sinimulang muli ang Pang-welcome na Tour, hindi nito maaapektuhan ang anumang kasalukuyang setting.</translation>
+<translation id="2453860139492968684">Tapos na</translation>
 </translationbundle>

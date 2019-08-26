@@ -754,7 +754,7 @@ Na primjer, neke web-lokacije na taj zahtjev mogu odgovoriti tako da vam prikaž
 <translation id="7988136689212463100">Brave treba dopuštenje za pristup fotoaparatu i mikrofonu za ovu web-lokaciju.</translation>
 <translation id="6395288395575013217">VEZA</translation>
 <translation id="6404511346730675251">Uredi oznaku</translation>
-<translation id="6406506848690869874">Sinkronizacija</translation>
+<translation id="6406506848690869874">Sinkroniziraj</translation>
 <translation id="641643625718530986">Ispis…</translation>
 <translation id="6416782512398055893">Preuzeto <ph name="MBS" /> MB</translation>
 <translation id="6427112570124116297">Prijevod weba</translation>
@@ -1345,7 +1345,7 @@ dok ih stvaratelj ne potvrdi ili dok ne prođe 90 dana.</translation>
 <translation id="2775064702681588061">Vaš račun nagrada za Brave čeka depozit.</translation>
 <translation id="765834632354589737">Sigurnosna kopija lisnice</translation>
 <translation id="1713542052890184975">Izradite sigurnosnu kopiju lisnice za Brave.</translation>
-<translation id="3333887201479867589">Nagrade za Brave</translation>
+<translation id="3333887201479867589">Nagrade Brave</translation>
 <translation id="2012723204723845092">Dobro došli natrag!</translation>
 <translation id="7669994301500276741">Primite nagrade za pretraživanje.</translation>
 <translation id="8203529727745387785">Zarađujte gledajući oglase
@@ -1369,4 +1369,46 @@ omiljene stvaratelje sadržaja.</translation>
 <translation id="8782039523249932839">Ovim će se pobrisati vaša Brave novčarka i resetirati svi vaši Brave Rewards podaci</translation>
 <translation id="5321518976657560663">Resetirajte pogrešku</translation>
 <translation id="7071576788062714665">Došlo je do pogreške u resetiranju Brave Rewards. Ponovno pokrenite Brave i pokušajte opet</translation>
+<translation id="292729886516327029">Blokirani
+oglasi i elementi za praćenje</translation>
+<translation id="8038539967102225446">Oglasi su Brave ovdje!</translation>
+<translation id="8050847734948770789">Omogući nagrade Brave</translation>
+<translation id="2980493584149453310">Osvojite osnovni žeton za pažnju zbog pregledavanja oglasa kojima se poštiva privatnost u nagradama Brave.</translation>
+<translation id="9187185473011056079">Sudjelujem!</translation>
+<translation id="6332924730165919598">Zatvaranjem se svih kartica zatvara Brave</translation>
+<translation id="2645380101799517405">Kontrole</translation>
+<translation id="6707003343517029414">Na ciljnom računalu idite u stavku Postavke unutar aplikacije Brave za sinkroniziranje i kliknite na gumb „Imam kôd za sinkroniziranje”.\nUpišite kôd niza za sinkroniziranje koji se prikazuje u nastavku.</translation>
+<translation id="3149880132460839085">Sinkronizacija Brave</translation>
+<translation id="6764016175302339802">Ovaj je kôd poput lozinke. Ako ga neka osoba dobije, može pročitati i promijeniti vaše sinkronizirane podatke.</translation>
+<translation id="6417420737057016607">Oglasi Brave</translation>
+<translation id="8689997599821157251">Zaradili ste</translation>
+<translation id="7091885296442320770">Brave raste iznimno brzo</translation>
+<translation id="2171928016777725844">Postavite Brave kao svoj zadani preglednik!</translation>
+<translation id="7136694880210472378">Postavi kao zadano</translation>
+<translation id="4292832015778676417">zarada od oglasa</translation>
+<translation id="8281886186245836920">Preskoči</translation>
+<translation id="316832010181763471">Početni koraci za tražilicu</translation>
+<translation id="986879628471635371">Početni koraci za rješavanje problema</translation>
+<translation id="1078265935778232285">Dobro došli u preglednik Brave</translation>
+<translation id="8867511707771147258">Odaberite svoju zadanu tražilicu</translation>
+<translation id="5806601733251372221">Štitnici Brave</translation>
+<translation id="2880356288762235261">oglasi kojima se ugrožava privatnost i elementi za praćenje kako biste mogli pregledavati internet, a da vas se pritom ne prati.</translation>
+<translation id="6980054221517850750">Osvojite žetone</translation>
+<translation id="1789842587755069541">za pregledavanje oglasa kojima se poštuje privatnost. Upotrijebite ih za podržavanje omiljenih mrežnih mjesta i stvaratelja.</translation>
+<translation id="821707262661492716">za pregledavanje oglasa kojima se poštuje privatnost.</translation>
+<translation id="7387657435304445967">Slažem se s odredbama korištenja nagradama Brave</translation>
+<translation id="53852415493597253">Slažem se s nagradama Brave</translation>
+<translation id="4281844954008187215">Odredbe pružanja usluge</translation>
+<translation id="2254681226363050822">Slažem se</translation>
+<translation id="2487915095798731898">Sudjelovanje</translation>
+<translation id="6871397658902960384">Započni pregledavanje</translation>
+<translation id="454386012157232640">Nisam vidio/la oglas</translation>
+<translation id="1448877943847791441">U pregledniku se Brave prvi oglas prikazuje za</translation>
+<translation id="7414844564462429821">Kako biste pregledali oglase iz stavke Nagrade Brave, provjerite je li pregledniku Brave dopušteno prikazivanje obavijesti.</translation>
+<translation id="6511854390690723657">Ovo je vaš prvi oglas Brave. Dodirnite kako biste saznali više.</translation>
+<translation id="4930714375720679147">Uključi</translation>
+<translation id="8329401903432352231">Ne slažem se</translation>
+<translation id="8906569594072556752">Demonstracijski prikaz</translation>
+<translation id="7808431604191267817">Pokretanjem demonstracijskog prikaza ne utječe se na postojeće postavke.</translation>
+<translation id="2453860139492968684">Završi</translation>
 </translationbundle>
