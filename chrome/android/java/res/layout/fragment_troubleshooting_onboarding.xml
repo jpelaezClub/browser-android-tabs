@@ -19,7 +19,7 @@
         android:layout_height="@dimen/onboarding_bottom_sheet_height"
         android:layout_gravity="bottom"
         android:gravity="center"
-        android:background="@android:color/white"
+        android:background="@color/onboarding_bg_color"
         android:orientation="vertical">
 
         <TextView
@@ -32,7 +32,7 @@
             android:layout_marginBottom="16dp"
             android:text="@string/brave_ads_onboarding_text"
             android:gravity="center"
-            android:textColor="@color/onboarding_black"
+            android:textColor="@color/onboarding_text_color"
             android:textSize="@dimen/onboarding_text_size" />
 
         <Button

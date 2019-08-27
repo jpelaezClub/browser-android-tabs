@@ -9,4 +9,5 @@
     <drawable name="ic_play_circle_filled_24dp">
         @drawable/ic_play_circle_filled_24dp_on_dark_bg
     </drawable>
+    <drawable name="brave_shield_menu_separator">@drawable/toolbar_shadow_normal</drawable>
 </resources>

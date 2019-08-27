@@ -35,4 +35,14 @@
     <!-- History Navigation UI colors -->
     <color name="navigation_bubble_ripple_color">@android:color/white</color>
 
+    <color name="onboarding_text_color">@android:color/white</color>
+    <color name="onboarding_bg_color">#343A40</color>
+
+    <color name="onboarding_radio_button_active">@color/modern_grey_700</color>
+
+    <color name="onboarding_progressbar_secondary_bg">#212529</color>
+
+    <color name="brave_shield_bg_color">@color/modern_grey_700</color>
+    <color name="brave_state_time_count_color">@android:color/white</color>
+
 </resources>
