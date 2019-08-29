@@ -218,6 +218,10 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+import com.google.android.gms.security.ProviderInstaller;
+import com.google.android.gms.common.GooglePlayServicesNotAvailableException;
+import com.google.android.gms.common.GooglePlayServicesRepairableException;
+
 /**
  * A {@link AsyncInitializationActivity} that builds and manages a {@link CompositorViewHolder}
  * and associated classes.
@@ -229,6 +233,8 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
                    ContextualSearchTabPromotionDelegate, SnackbarManageable, SceneChangeObserver,
                    StatusBarColorController.StatusBarColorProvider, AppMenuDelegate, AppMenuBlocker,
                    MenuOrKeyboardActionController {
+
+    private static final String TAG = "ChromeActivity";
 
     /**
      * No control container to inflate during initialization.
@@ -415,6 +421,8 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
         }
 
         getWindow().setBackgroundDrawable(getBackgroundDrawable());
+
+        updateAndroidSecurityProvider(this);
     }
 
     protected RootUiCoordinator createRootUiCoordinator() {
@@ -2930,5 +2938,20 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
     @VisibleForTesting
     public RootUiCoordinator getRootUiCoordinatorForTesting() {
         return mRootUiCoordinator;
+    }
+
+    private void updateAndroidSecurityProvider(Context context) {
+        // We need it on Lollipop and lower
+        if (android.os.Build.VERSION.SDK_INT < android.os.Build.VERSION_CODES.LOLLIPOP) {
+            try {
+                ProviderInstaller.installIfNeeded(context);
+            } catch (GooglePlayServicesRepairableException e) {
+                Log.e(TAG, "GooglePlayServicesRepairableException: " + e);
+                assert(false);
+            } catch (GooglePlayServicesNotAvailableException e) {
+                Log.e(TAG, "GooglePlayServicesNotAvailableException: " + e);
+                assert(false);
+            }
+        }
     }
 }
