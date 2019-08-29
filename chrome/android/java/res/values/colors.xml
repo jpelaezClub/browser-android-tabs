@@ -209,7 +209,7 @@
     <color name="onboarding_radio_button_active">#f0f1ff</color>
     <color name="onboarding_disable_text_color">#ffb8a6</color>
 
-    <color name="onboarding_blue">#4f30ab</color>
+    <color name="onboarding_timer_color">#4f30ab</color>
 
     <color name="onboarding_text_color">@color/onboarding_black</color>
     <color name="onboarding_bg_color">@android:color/white</color>

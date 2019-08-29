@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/onboarding_black">
+    android:background="@color/onboarding_bg_color">
 
     <LinearLayout
         android:id="@+id/search_engine_layout"
