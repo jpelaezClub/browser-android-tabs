@@ -28,6 +28,7 @@
 
     <string name="menu_exit">Izlaženje</string>
 
+    <string name="brave_sync">Brave Sync (beta) </string>
     <string name="sync_settings_add_device_name_title">Dodaj naziv uređaja</string>
     <string name="sync_settings_add_device_name_label">Unesi neobavezni naziv za ovaj uređaj</string>
     <string name="sync_example_device_name">Uređaj Android</string>
@@ -105,6 +106,7 @@ Spaseno</string>
     <string name="brave_sync_btn_laptop">Dodaj računalo</string>
     <string name="brave_sync_scan_sync_code">Skeniraj ovaj kôd za sinkroniziranje</string>
     <string name="brave_sync_add_mobile_device_text_part_1">Uporabom drugog telefona ili tableta idite u postavke aplikacije Brave > Sinkroniziranje > Skeniraj.</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">Na svom mobilnom uređaju otiđite do Brave Sync na panelu za postavke i kliknite na gume \"Skeniranje šifru za sinkronizaciju\".  Uz pomoć svoje kamere skeniranje donji kod QR. </string>
     <string name="brave_sync_btn_done">Završeno</string>
     <string name="brave_sync_tabs_text">Kartice</string>
     <string name="brave_sync_history_text">Povijest</string>

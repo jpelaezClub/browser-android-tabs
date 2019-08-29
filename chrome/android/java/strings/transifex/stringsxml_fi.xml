@@ -28,6 +28,7 @@
 
     <string name="menu_exit">Poistua</string>
 
+    <string name="brave_sync">Braven synkronointi (beta)</string>
     <string name="sync_settings_add_device_name_title">Lisää laitteen nimi</string>
     <string name="sync_settings_add_device_name_label">Anna laitteelle vaihtoehtoinen nimi</string>
     <string name="sync_example_device_name">Android-laite</string>
@@ -107,6 +108,7 @@ Tallennettu</string>
     <string name="brave_sync_btn_laptop">Lisää tietokone</string>
     <string name="brave_sync_scan_sync_code">Skannaa tämä synkronointikoodi</string>
     <string name="brave_sync_add_mobile_device_text_part_1">Käyttämällä toista puhelinta tai tablettia, siirry kohtaan Braven asetukset > Synkronoi > Skannaa.</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">Siirry mobiililaitteellasi asetuspaneelista löytyvään Braven synkronointi -osioon ja napauta \"Skannaa synkronointikoodi\" -painiketta. Skannaa alla oleva ruutukoodi kamerallasi.</string>
     <string name="brave_sync_btn_done">Valmis</string>
     <string name="brave_sync_tabs_text">Välilehdet</string>
     <string name="brave_sync_history_text">Historia</string>

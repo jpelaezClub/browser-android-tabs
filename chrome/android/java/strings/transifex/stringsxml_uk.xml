@@ -28,6 +28,7 @@
 
     <string name="menu_exit">Вихід</string>
 
+    <string name="brave_sync">Синхронізація Brave (бета)</string>
     <string name="sync_settings_add_device_name_title">Додавання імені пристрою</string>
     <string name="sync_settings_add_device_name_label">Введіть ім'я для даного пристрою</string>
     <string name="sync_example_device_name">Android пристрій</string>
@@ -107,6 +108,7 @@
     <string name="brave_sync_btn_laptop">Додати комп’ютер</string>
     <string name="brave_sync_scan_sync_code">Відскануйте цей код синхронізації</string>
     <string name="brave_sync_add_mobile_device_text_part_1">Використовуючи другий телефон або планшет, перейдіть у меню «Налаштування Brave» > «Синхронізація» > «Сканування».</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">На вашому мобільному пристрої перейдіть до Синхронізації Brave на панелі Налаштувань і клацніть на кнопку \"Сканувати код синхронізації\". Використайте свою камеру, щоб відсканувати QR код нижче.  </string>
     <string name="brave_sync_btn_done">Готово</string>
     <string name="brave_sync_tabs_text">Вкладки</string>
     <string name="brave_sync_history_text">Історія</string>

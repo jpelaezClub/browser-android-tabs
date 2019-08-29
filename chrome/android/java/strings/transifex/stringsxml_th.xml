@@ -28,6 +28,7 @@
 
     <string name="menu_exit">ทางออก</string>
 
+    <string name="brave_sync">การซิงก์ Brave (เบต้า)</string>
     <string name="sync_settings_add_device_name_title">เพิ่มชื่ออุปกรณ์</string>
     <string name="sync_settings_add_device_name_label">ป้อนชื่อเพิ่มเติมสำหรับอุปกรณ์นี้</string>
     <string name="sync_example_device_name">อุปกรณ์ Android</string>
@@ -107,6 +108,7 @@ EST แล้ว</string>
     <string name="brave_sync_btn_laptop">เพิ่มคอมพิวเตอร์</string>
     <string name="brave_sync_scan_sync_code">สแกนรหัสการซิงค์นี้</string>
     <string name="brave_sync_add_mobile_device_text_part_1">หากต้องการใช้โทรศัพท์หรือแท็บเล็ตเครื่องที่สอง ให้นำทางไปยัง การตั้งค่า Brave > ซิงค์ > สแกน</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">เข้าไปที่การซิงก์ Brave ในแผงการตั้งค่าบนอุปกรณ์เคลื่อนที่ของคุณ คลิกปุ่ม \"สแกนรหัสซิงก์\" แล้วใช้กล้องสแกนคิวอาร์โค้ดด้านล่าง</string>
     <string name="brave_sync_btn_done">เสร็จสิ้น</string>
     <string name="brave_sync_tabs_text">แท็บ</string>
     <string name="brave_sync_history_text">ประวัติ</string>

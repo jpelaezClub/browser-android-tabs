@@ -28,6 +28,7 @@
 
     <string name="menu_exit">Sortie</string>
 
+    <string name="brave_sync">Brave Sync (beta)</string>
     <string name="sync_settings_add_device_name_title">Ajouter un nom d'appareil</string>
     <string name="sync_settings_add_device_name_label">Saisir un nom optionnel pour cet appareil</string>
     <string name="sync_example_device_name">Appareil Android</string>
@@ -107,6 +108,7 @@ Economisé</string>
     <string name="brave_sync_btn_laptop">Ajouter un ordinateur</string>
     <string name="brave_sync_scan_sync_code">Scannez ce code de synchronisation</string>
     <string name="brave_sync_add_mobile_device_text_part_1">Sur un autre téléphone ou une autre tablette, accédez à Paramètres Brave > Synchronisation > Scanner.</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">Sur votre appareil mobile, accédez à Brave Sync dans le panneau Paramètres et cliquez sur le bouton « Scan Sync Code ». Utilisez votre appareil photo pour scanner le code QR ci-dessous.</string>
     <string name="brave_sync_btn_done">Terminé</string>
     <string name="brave_sync_tabs_text">Onglets</string>
     <string name="brave_sync_history_text">Historique</string>

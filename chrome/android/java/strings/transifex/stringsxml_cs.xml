@@ -28,6 +28,7 @@
 
     <string name="menu_exit">Odejít</string>
 
+    <string name="brave_sync">Brave Sync (beta)</string>
     <string name="sync_settings_add_device_name_title">Přidat jméno zařízení</string>
     <string name="sync_settings_add_device_name_label">Vložte volitelné jméno pro toto zařízení</string>
     <string name="sync_example_device_name">Zařízení Android</string>
@@ -107,6 +108,7 @@ Uložen</string>
     <string name="brave_sync_btn_laptop">Přidat počítač</string>
     <string name="brave_sync_scan_sync_code">Naskenujte tento synchronizační kód</string>
     <string name="brave_sync_add_mobile_device_text_part_1">Na druhém telefonu nebo tabletu přejděte na Nastavení Brave > Synchronizace > Skenovat.</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">V mobilním zařízení na panelu Nastavení přejděte na Brave Sync a klepněte na tlačítko  „Naskenovat kód synchronizace“. Níže uvedený kód QR naskenujte fotoaparátem.</string>
     <string name="brave_sync_btn_done">Hotovo</string>
     <string name="brave_sync_tabs_text">Karty</string>
     <string name="brave_sync_history_text">Historie</string>

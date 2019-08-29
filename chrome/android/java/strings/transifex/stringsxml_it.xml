@@ -109,6 +109,7 @@ Risparmiato</string>
     <string name="brave_sync_btn_laptop">Aggiungi un computer</string>
     <string name="brave_sync_scan_sync_code">Esegui scansione del codice di sincronizzazione</string>
     <string name="brave_sync_add_mobile_device_text_part_1">Utilizzando un secondo telefono o tablet, vai alle impostazioni di Brave, quindi alla sincronizzazione e all’opzione di scansione.</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">Sul tuo dispositivo mobile, vai su Brave Sync nel pannello delle impostazioni e clicca su \"Scan Sync Code\". Usa la tua fotocamera per eseguire la scansione del Codice QR che trovi qui sotto.</string>
     <string name="brave_sync_btn_done">Operazione completata</string>
     <string name="brave_sync_tabs_text">Schede</string>
     <string name="brave_sync_history_text">Cronologia</string>

@@ -109,6 +109,7 @@
     <string name="brave_sync_btn_laptop">添加计算机</string>
     <string name="brave_sync_scan_sync_code">扫描此同步代码</string>
     <string name="brave_sync_add_mobile_device_text_part_1">使用第二部手机或平板电脑，导航到Brave设置>同步>扫描。</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">在移动设备上，导航到“设置”面板中的“Brave Sync”，然后点击“扫描同步代码”按钮。 使用摄像头扫描下面的二维码。</string>
     <string name="brave_sync_btn_done">完成</string>
     <string name="brave_sync_tabs_text">选项卡</string>
     <string name="brave_sync_history_text">历史</string>

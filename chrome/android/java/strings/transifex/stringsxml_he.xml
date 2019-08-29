@@ -28,6 +28,7 @@
 
     <string name="menu_exit">יציאה</string>
 
+    <string name="brave_sync">סנכרון Brave (בטא)</string>
     <string name="sync_settings_add_device_name_title">נא להוסיף שם מכשיר</string>
     <string name="sync_settings_add_device_name_label">נא להזין שם אופציונלי עבור מכשיר זה</string>
     <string name="sync_example_device_name">מכשיר אנדרואיד</string>
@@ -107,6 +108,7 @@ HTTPS</string>
     <string name="brave_sync_btn_laptop">הוסף מחשב</string>
     <string name="brave_sync_scan_sync_code">סרוק את קוד הסנכרון</string>
     <string name="brave_sync_add_mobile_device_text_part_1">באמצעות מכשיר טלפון שני או טאבלט, נווט אל הגדרות Brave> סנכרון > סריקה.</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">במכשיר הנייד שלך, נווט/י אל סנכרון Brave בחלונית ההגדרות ולחצ/י על הכפתור \"סרוק קוד סנכרון\". השתמש/י במצלמה שלך כדי לסרוק את קוד ה-QR למטה.</string>
     <string name="brave_sync_btn_done">סיום</string>
     <string name="brave_sync_tabs_text">כרטיסיות</string>
     <string name="brave_sync_history_text">היסטוריה</string>

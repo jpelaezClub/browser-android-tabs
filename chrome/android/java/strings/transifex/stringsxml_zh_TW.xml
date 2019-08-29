@@ -108,6 +108,7 @@
     <string name="brave_sync_btn_laptop">新增電腦</string>
     <string name="brave_sync_scan_sync_code">掃描此同步代碼</string>
     <string name="brave_sync_add_mobile_device_text_part_1">使用第二部手機或平板電腦，依序瀏覽至「Brave 設定 > 同步 > 掃描」。</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">在您的行動裝置上，前往「設定」面板中的「Brave 同步」，按一下按鈕「掃描同步代碼」。用您的相機掃描下方的 QR 碼。</string>
     <string name="brave_sync_btn_done">完成</string>
     <string name="brave_sync_tabs_text">分頁</string>
     <string name="brave_sync_history_text">記錄</string>

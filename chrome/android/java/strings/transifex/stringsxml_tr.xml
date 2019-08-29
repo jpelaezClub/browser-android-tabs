@@ -108,6 +108,7 @@ Kaydedildi</string>
     <string name="brave_sync_btn_laptop">Bilgisayar Ekle</string>
     <string name="brave_sync_scan_sync_code">Bu senkronizasyon kodunu tarayın</string>
     <string name="brave_sync_add_mobile_device_text_part_1">İkinci bir telefon veya tablet kullanarak Brave Ayarları > Senkronizasyon > Tara öğesine gidin.</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">Mobil cihazınızda, Ayarlar panosunda Brave Sync\'e gidin ve \"Senkronizasyon Kodunu Tara\" butonuna tıklayın. Aşağıdaki QR Kodunu taramak için kameranızı kullanın.</string>
     <string name="brave_sync_btn_done">Bitti</string>
     <string name="brave_sync_tabs_text">Sekmeler</string>
     <string name="brave_sync_history_text">Geçmiş</string>

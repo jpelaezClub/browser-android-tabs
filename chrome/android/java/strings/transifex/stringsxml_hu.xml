@@ -28,6 +28,7 @@
 
     <string name="menu_exit">Kilépés</string>
 
+    <string name="brave_sync">Brave szinkronizálás (béta)</string>
     <string name="sync_settings_add_device_name_title">Eszköznév hozzáadása</string>
     <string name="sync_settings_add_device_name_label">Adjon egy elfogadható nevet ennek az eszköznek</string>
     <string name="sync_example_device_name">Android eszköz</string>
@@ -107,6 +108,7 @@ idő</string>
     <string name="brave_sync_btn_laptop">Számítógép hozzáadása</string>
     <string name="brave_sync_scan_sync_code">Szinkronizációs kód beolvasása</string>
     <string name="brave_sync_add_mobile_device_text_part_1">Második telefon vagy tablet használatakor kövesse a Beállítások > Szinkronizálás > Beolvasás útvonalat.</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">Mobilkészülékeden navigálj a Brave szinkronizálásra a menüpanelben, majd kattints \"Szinkronizálási kód beolvasása\" pontra. Kameráddal olvasd be az alábbi QR-kódot.</string>
     <string name="brave_sync_btn_done">Kész</string>
     <string name="brave_sync_tabs_text">Fülek</string>
     <string name="brave_sync_history_text">Előzmények</string>

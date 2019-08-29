@@ -28,6 +28,7 @@
 
     <string name="menu_exit">종료</string>
 
+    <string name="brave_sync">Brave Sync (베타)</string>
     <string name="sync_settings_add_device_name_title">장치 이름을 추가합니다</string>
     <string name="sync_settings_add_device_name_label">이 장치에 대한 별명을 입력합니다</string>
     <string name="sync_example_device_name">Android 장치</string>
@@ -107,6 +108,7 @@
     <string name="brave_sync_btn_laptop">컴퓨터 추가</string>
     <string name="brave_sync_scan_sync_code">이 싱크 코드 스캔</string>
     <string name="brave_sync_add_mobile_device_text_part_1">두 번째 전화기 또는 태블릿을 사용하여 Brave 설정 > 싱크 > 스캔으로 이동합니다.</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">모바일 기기의 설정 패널에서 Brave Sync로 이동하여 \"동기화 코드 스캔\" 버튼을 클릭하세요. 카메라를 사용하여 아래의 QR 코드를 스캔하세요.</string>
     <string name="brave_sync_btn_done">완료</string>
     <string name="brave_sync_tabs_text">탭</string>
     <string name="brave_sync_history_text">내역</string>

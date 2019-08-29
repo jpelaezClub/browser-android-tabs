@@ -108,6 +108,7 @@
     <string name="brave_sync_btn_laptop">कोई कंप्यूटर जोड़ें</string>
     <string name="brave_sync_scan_sync_code">यह सिंक कोड स्कैन करें</string>
     <string name="brave_sync_add_mobile_device_text_part_1">किसी दूसरे फोन या टैबलेट का उपयोग करके, \'Brave सेटिंग्स > सिंक करें > स्कैन करें\' पर जाएं।</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">अपने मोबाइल डिवाइस के, सेटिंग पैनल में Brave  सिंक पर जाएं और \"स्कैन सिंक कोड\" बटन पर क्लिक करें। नीचे दिए गए QR कोड को स्कैन करने के लिए अपने कैमरे का उपयोग करें।</string>
     <string name="brave_sync_btn_done">हो गया</string>
     <string name="brave_sync_tabs_text">टैब</string>
     <string name="brave_sync_history_text">इतिहास</string>

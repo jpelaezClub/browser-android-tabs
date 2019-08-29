@@ -112,6 +112,7 @@ Dihemat</string>
     <string name="brave_sync_btn_laptop">Tambah Komputer</string>
     <string name="brave_sync_scan_sync_code">Pindai kode sinkronisasi ini</string>
     <string name="brave_sync_add_mobile_device_text_part_1">Menggunakan ponsel atau tablet kedua, buka Pengaturan Brave > Sinkronisasi > Pindai.</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">Di perangkat mobile Anda, masuklah ke bagian Brave Sync dalam panel Pengaturan dan klik tombol \"Pindai Kode Sinkronisasi\". Gunakan kamera Anda untuk memindai Kode QR di bawah ini.</string>
     <string name="brave_sync_btn_done">Selesai</string>
     <string name="brave_sync_tabs_text">Tab</string>
     <string name="brave_sync_history_text">Riwayat</string>

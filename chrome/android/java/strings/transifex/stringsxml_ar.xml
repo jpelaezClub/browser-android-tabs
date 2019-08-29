@@ -110,6 +110,7 @@ HTTPS</string>
     <string name="brave_sync_btn_laptop">إضافة كمبيوتر</string>
     <string name="brave_sync_scan_sync_code">مسح رمز المزامنة هذا ضوئيًا</string>
     <string name="brave_sync_add_mobile_device_text_part_1">باستخدام هاتف أو حاسب لوحي ثانٍ، انتقل إلى إعدادات Brave > مزامنة > مسح ضوئي.</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">على جهاز الهاتف الخاص بك، انتقل إلى \"مزامنة Brave\" في لوحة الإعدادات وانقر على زر \"مسح كود المزامنة\". استخدم كاميرا هاتفك لمسح رمز الاستجابة السريعة أدناه.</string>
     <string name="brave_sync_btn_done">تم</string>
     <string name="brave_sync_tabs_text">علامات التبويب</string>
     <string name="brave_sync_history_text">السجل</string>

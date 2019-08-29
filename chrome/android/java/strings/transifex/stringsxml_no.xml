@@ -28,6 +28,7 @@
 
     <string name="menu_exit">Utgang</string>
 
+    <string name="brave_sync">Brave Sync (beta)</string>
     <string name="sync_settings_add_device_name_title">Legg til enhetsnavn</string>
     <string name="sync_settings_add_device_name_label">Skriv inn et valgfritt navn for denne enheten</string>
     <string name="sync_example_device_name">Android enhet</string>
@@ -107,6 +108,7 @@ Lagret</string>
     <string name="brave_sync_btn_laptop">Legg til en datamaskin</string>
     <string name="brave_sync_scan_sync_code">Skann synkkoden</string>
     <string name="brave_sync_add_mobile_device_text_part_1">Bruk en annen telefon eller nettbrett, og gå til Innstillinger i Brave > Synkroniser > Skann.</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">Naviger til Brave Sync i innstillingene på din mobile enhet, og klikk på knappen \"Skann sync-kode\". Bruk kameraet ditt til å skanne QR-koden nedenfor.</string>
     <string name="brave_sync_btn_done">Ferdig</string>
     <string name="brave_sync_tabs_text">Faner</string>
     <string name="brave_sync_history_text">Historikk</string>
