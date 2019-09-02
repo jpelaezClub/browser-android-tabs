@@ -4830,6 +4830,7 @@ content creators you love.
       <message name="IDS_HIDE_BRAVE_REWARDS_ICON_DESCRIPTION" desc="Description for preference that hides or shows Brave Rewards icon.">
         Hides the Brave Rewards Icon when Brave Rewards is not enabled
       </message>
+      <message name="IDS_SHOW_ADS_WHEN_BRAVE_IS_NOT_IN_USE" desc="Title for Show Ads when Brave is not in use option in Brave rewards settings.">Show Ads when Brave is not in use</message>
       <message name="IDS_RESET_BRAVE_REWARDS_OPTION" desc="Title for preference to reset Brave Rewards.">
         Reset Brave Rewards
       </message>

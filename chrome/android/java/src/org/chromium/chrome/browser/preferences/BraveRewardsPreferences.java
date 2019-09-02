@@ -37,6 +37,9 @@ public class BraveRewardsPreferences extends PreferenceFragment
         implements OnPreferenceChangeListener, BraveRewardsObserver {
 
     static final String PREF_RESET_REWARDS = "reset_rewards";
+    private static final String PREF_ADS_SWITCH = "ads_switch";
+
+    private ChromeSwitchPreference mAdsSwitch;
 
     private BraveRewardsNativeWorker mBraveRewardsNativeWorker;
 
@@ -51,6 +54,17 @@ public class BraveRewardsPreferences extends PreferenceFragment
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
+
+        mAdsSwitch = (ChromeSwitchPreference) findPreference(PREF_ADS_SWITCH);
+        // boolean isHomepageEnabled = mHomepageManager.getPrefHomepageEnabled();
+        // mAdsSwitch.setChecked(isHomepageEnabled);
+        mAdsSwitch.setOnPreferenceChangeListener(new OnPreferenceChangeListener() {
+            @Override
+            public boolean onPreferenceChange(Preference preference, Object newValue) {
+                // mHomepageManager.setPrefHomepageEnabled((boolean) newValue);
+                return true;
+            }
+        });
     }
 
     @Override
