@@ -142,7 +142,7 @@ public class StatsUpdater {
                 }
 
                 String country = GetCurrentCountry();
-                if (country.equals("FR") || country.equals("DE")) {
+                if (country.equals("FR")) {
                     boolean setQwant = ContextUtils.getAppSharedPreferences().getBoolean(TemplateUrlService.PREF_SET_QWANT_SE, true) && firstRun;
                     if (setQwant) {
                         ContextUtils.getAppSharedPreferences().edit().putBoolean(TemplateUrlService.PREF_SET_QWANT_SE, false).apply();
@@ -150,6 +150,16 @@ public class StatsUpdater {
                         ThreadUtils.runOnUiThread(() -> {
                             TemplateUrlService.getInstance().setSearchEngine(TemplateUrlService.QWANT_SE_NAME, TemplateUrlService.QWANT_SE_KEYWORD, true);
                             TemplateUrlService.getInstance().setSearchEngine(TemplateUrlService.QWANT_SE_NAME, TemplateUrlService.QWANT_SE_KEYWORD, false);
+                        });
+                    }
+                } else if (country.equals("DE") || country.equals("AU") || country.equals("NZ") || country.equals("IE")) {
+                    boolean setDuckDuckgo = ContextUtils.getAppSharedPreferences().getBoolean(TemplateUrlService.PREF_SET_DDG_SE, true) && firstRun;
+                    if (setDuckDuckgo) {
+                        ContextUtils.getAppSharedPreferences().edit().putBoolean(TemplateUrlService.PREF_SET_DDG_SE, false).apply();
+                        ContextUtils.getAppSharedPreferences().edit().putBoolean(TemplateUrlService.PREF_SHOW_DDG_OFFER, false).apply();
+                        ThreadUtils.runOnUiThread(() -> {
+                            TemplateUrlService.getInstance().setSearchEngine(TemplateUrlService.DDG_SE_NAME, TemplateUrlService.DDG_SE_KEYWORD, true);
+                            TemplateUrlService.getInstance().setSearchEngine(TemplateUrlService.DDG_SE_NAME, TemplateUrlService.DDG_SE_KEYWORD, false);
                         });
                     }
                 }
