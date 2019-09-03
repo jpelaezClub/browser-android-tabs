@@ -697,7 +697,7 @@ NavigationRequest::NavigationRequest(
   // Sanitize the referrer.
   common_params_.referrer =
       Referrer::SanitizeForRequest(common_params_.url, common_params_.referrer);
-  ShouldBlockReferrer();
+
   if (from_begin_navigation_) {
     // This is needed to have data URLs commit in the same SiteInstance as the
     // initiating renderer.
