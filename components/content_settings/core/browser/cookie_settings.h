@@ -101,7 +101,9 @@ class CookieSettings : public CookieSettingsBase,
   // Returns true if third party cookies should be blocked.
   //
   // This method may be called on any thread.
-  bool ShouldBlockThirdPartyCookies(const GURL& first_party_url,
+  bool ShouldBlockThirdPartyCookies() const;
+
+  bool BraveShouldBlockThirdPartyCookies(const GURL& first_party_url,
       const GURL& subresource_url) const;
 
   // Detaches the |CookieSettings| from |PrefService|. This methods needs to be

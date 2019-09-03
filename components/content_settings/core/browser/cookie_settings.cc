@@ -160,7 +160,7 @@ void CookieSettings::GetCookieSetting(const GURL& url,
   // by default, apply CONTENT_SETTING_BLOCKED.
   bool block_third = info.primary_pattern.MatchesAllHosts() &&
                      info.secondary_pattern.MatchesAllHosts() &&
-                     ShouldBlockThirdPartyCookies(first_party_url, url) &&
+                     BraveShouldBlockThirdPartyCookies(first_party_url, url) &&
                      !first_party_url.SchemeIs(extension_scheme_);
   net::StaticCookiePolicy policy(
       net::StaticCookiePolicy::BLOCK_ALL_THIRD_PARTY_COOKIES);
@@ -196,7 +196,12 @@ void CookieSettings::OnCookiePreferencesChanged() {
   }
 }
 
-bool CookieSettings::ShouldBlockThirdPartyCookies(const GURL& first_party_url,
+bool CookieSettings::ShouldBlockThirdPartyCookies() const {
+  base::AutoLock auto_lock(lock_);
+  return block_third_party_cookies_;
+}
+
+bool CookieSettings::BraveShouldBlockThirdPartyCookies(const GURL& first_party_url,
     const GURL& subresource_url) const {
   if (net::blockers::IsWhitelistedCookieExeption(first_party_url,
       subresource_url)) {
