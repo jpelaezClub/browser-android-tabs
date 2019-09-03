@@ -13,6 +13,7 @@ import org.chromium.chrome.browser.ChromeVersionInfo;
 import org.chromium.chrome.browser.preferences.PreferenceUtils;
 import org.chromium.components.version_info.Channel;
 import org.chromium.components.version_info.VersionConstants;
+import android.support.v7.preference.PreferenceFragmentCompat;
 
 /**
  * Settings fragment containing preferences aimed at Chrome and web developers.

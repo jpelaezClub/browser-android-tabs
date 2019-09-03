@@ -67,7 +67,7 @@ ChromeRenderMessageFilter::ChromeRenderMessageFilter(int render_process_id,
     std::lock_guard<std::mutex> guard(enable_fingerprinting_protection_init_mutex_);
     ChromeRenderMessageFilter::enable_fingerprinting_protection_ = new BooleanPrefMember();
     ChromeRenderMessageFilter::enable_fingerprinting_protection_->Init(prefs::kFingerprintingProtectionEnabled,  profile->GetPrefs());
-    ChromeRenderMessageFilter::enable_fingerprinting_protection_->MoveToThread(
+    ChromeRenderMessageFilter::enable_fingerprinting_protection_->MoveToSequence(
       base::CreateSingleThreadTaskRunnerWithTraits({BrowserThread::IO}));
   }
   auto* loading_predictor =

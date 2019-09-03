@@ -41,6 +41,9 @@ import javax.inject.Named;
 
 import dagger.Lazy;
 
+import android.view.View.OnClickListener;
+import java.net.URL;
+
 /**
  * Works with the toolbar in a Custom Tab. Encapsulates interactions with Chrome's toolbar-related
  * classes such as {@link ToolbarManager} and {@link FullscreenManager}.
@@ -225,10 +228,35 @@ public class CustomTabToolbarCoordinator implements InflationObserver, NativeIni
                 mActivity.findViewById(R.id.url_bar),
                 mActivity.findViewById(android.R.id.content),
                 mActivity.findViewById(R.id.control_container));
+        OnClickListener braveShieldsClickHandler = new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (mFullscreenManager.get() != null
+                        && mFullscreenManager.get().getPersistentFullscreenMode()) {
+                    return;
+                }
+                Tab currentTab = mTabProvider.getTab();
+                if (currentTab != null) {
+                    try {
+                        URL url = new URL(currentTab.getUrl());
 
+                        mActivity.setBraveShieldsColor(currentTab.isIncognito(), url.getHost());
+                        mActivity.getBraveShieldsMenuHandler().show((View)mActivity.findViewById(R.id.brave_shields_button)
+                            , currentTab.isIncognito()
+                            , url.getHost()
+                            , currentTab.getAdsAndTrackers()
+                            , currentTab.getHttpsUpgrades()
+                            , currentTab.getScriptsBlocked()
+                            , currentTab.getFingerprintsBlocked());
+                    } catch (Exception e) {
+                        mActivity.setBraveShieldsBlackAndWhite();
+                    }
+                }
+            }
+        };
         mToolbarManager.get().initializeWithNative(mTabController.getTabModelSelector(),
                 mFullscreenManager.get().getBrowserVisibilityDelegate(), null, layoutDriver, null,
-                null, null, v -> onCloseButtonClick());
+                null, null, braveShieldsClickHandler, v -> onCloseButtonClick());
         mInitializedToolbarWithNative = true;
     }
 

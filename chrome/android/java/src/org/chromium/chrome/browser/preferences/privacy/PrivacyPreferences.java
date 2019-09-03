@@ -70,33 +70,33 @@ public class PrivacyPreferences
         networkPredictionPref.setOnPreferenceChangeListener(this);
         networkPredictionPref.setManagedPreferenceDelegate(mManagedPreferenceDelegate);
 
-        Preference syncAndServicesLink = findPreference(PREF_SYNC_AND_SERVICES_LINK);
-        NoUnderlineClickableSpan linkSpan = new NoUnderlineClickableSpan(getResources(), view -> {
-            PreferencesLauncher.launchSettingsPageCompat(getActivity(),
-                    SyncAndServicesPreferences.class,
-                    SyncAndServicesPreferences.createArguments(false));
-        });
-        syncAndServicesLink.setSummary(
-                SpanApplier.applySpans(getString(R.string.privacy_sync_and_services_link),
-                        new SpanApplier.SpanInfo("<link>", "</link>", linkSpan)));
+        // Preference syncAndServicesLink = findPreference(PREF_SYNC_AND_SERVICES_LINK);
+        // NoUnderlineClickableSpan linkSpan = new NoUnderlineClickableSpan(getResources(), view -> {
+        //     PreferencesLauncher.launchSettingsPageCompat(getActivity(),
+        //             SyncAndServicesPreferences.class,
+        //             SyncAndServicesPreferences.createArguments(false));
+        // });
+        // syncAndServicesLink.setSummary(
+        //         SpanApplier.applySpans(getString(R.string.privacy_sync_and_services_link),
+        //                 new SpanApplier.SpanInfo("<link>", "</link>", linkSpan)));
 
-        ChromeBaseCheckBoxPreference fingerprintingProtectionPref =
-                (ChromeBaseCheckBoxPreference) findPreference(PREF_FINGERPRINTING_PROTECTION);
+        ChromeBaseCheckBoxPreferenceCompat fingerprintingProtectionPref =
+                (ChromeBaseCheckBoxPreferenceCompat) findPreference(PREF_FINGERPRINTING_PROTECTION);
         fingerprintingProtectionPref.setOnPreferenceChangeListener(this);
         fingerprintingProtectionPref.setManagedPreferenceDelegate(mManagedPreferenceDelegate);
 
-        ChromeBaseCheckBoxPreference httpsePref =
-                (ChromeBaseCheckBoxPreference) findPreference(PREF_HTTPSE);
+        ChromeBaseCheckBoxPreferenceCompat httpsePref =
+                (ChromeBaseCheckBoxPreferenceCompat) findPreference(PREF_HTTPSE);
         httpsePref.setOnPreferenceChangeListener(this);
         httpsePref.setManagedPreferenceDelegate(mManagedPreferenceDelegate);
 
-        ChromeBaseCheckBoxPreference adBlockPref =
-                (ChromeBaseCheckBoxPreference) findPreference(PREF_AD_BLOCK);
+        ChromeBaseCheckBoxPreferenceCompat adBlockPref =
+                (ChromeBaseCheckBoxPreferenceCompat) findPreference(PREF_AD_BLOCK);
         adBlockPref.setOnPreferenceChangeListener(this);
         adBlockPref.setManagedPreferenceDelegate(mManagedPreferenceDelegate);
 
-        ChromeBaseCheckBoxPreference adBlockRegionalPref =
-                (ChromeBaseCheckBoxPreference) findPreference(PREF_AD_BLOCK_REGIONAL);
+        ChromeBaseCheckBoxPreferenceCompat adBlockRegionalPref =
+                (ChromeBaseCheckBoxPreferenceCompat) findPreference(PREF_AD_BLOCK_REGIONAL);
         adBlockRegionalPref.setOnPreferenceChangeListener(this);
         adBlockRegionalPref.setManagedPreferenceDelegate(mManagedPreferenceDelegate);
 
@@ -105,8 +105,8 @@ public class PrivacyPreferences
         sendMetricsPref.setOnPreferenceChangeListener(this);
         sendMetricsPref.setManagedPreferenceDelegate(mManagedPreferenceDelegate);*/
 
-        ChromeBaseCheckBoxPreference closeTabsOnExitPref =
-                (ChromeBaseCheckBoxPreference) findPreference(PREF_CLOSE_TABS_ON_EXIT);
+        ChromeBaseCheckBoxPreferenceCompat closeTabsOnExitPref =
+                (ChromeBaseCheckBoxPreferenceCompat) findPreference(PREF_CLOSE_TABS_ON_EXIT);
         closeTabsOnExitPref.setOnPreferenceChangeListener(this);
         closeTabsOnExitPref.setManagedPreferenceDelegate(mManagedPreferenceDelegate);
 
