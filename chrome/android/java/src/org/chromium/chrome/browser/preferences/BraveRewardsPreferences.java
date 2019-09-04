@@ -56,12 +56,12 @@ public class BraveRewardsPreferences extends PreferenceFragment
         super.onActivityCreated(savedInstanceState);
 
         mAdsSwitch = (ChromeSwitchPreference) findPreference(PREF_ADS_SWITCH);
-        // boolean isHomepageEnabled = mHomepageManager.getPrefHomepageEnabled();
-        // mAdsSwitch.setChecked(isHomepageEnabled);
+        boolean isAdsInBackgroundEnabled = getPrefAdsInBackgroundEnabled();
+        mAdsSwitch.setChecked(isAdsInBackgroundEnabled);
         mAdsSwitch.setOnPreferenceChangeListener(new OnPreferenceChangeListener() {
             @Override
             public boolean onPreferenceChange(Preference preference, Object newValue) {
-                // mHomepageManager.setPrefHomepageEnabled((boolean) newValue);
+                setPrefAdsInBackgroundEnabled((boolean) newValue);
                 return true;
             }
         });
@@ -83,6 +83,25 @@ public class BraveRewardsPreferences extends PreferenceFragment
           mBraveRewardsNativeWorker.RemoveObserver(this);
         }
         super.onStop();
+    }
+
+    /**
+     * Returns the user preference for whether the brave ads in background is enabled.
+     *
+     */
+    public static boolean getPrefAdsInBackgroundEnabled() {
+        SharedPreferences sharedPreferences = ContextUtils.getAppSharedPreferences();
+        return sharedPreferences.getBoolean(PREF_ADS_SWITCH, true);
+    }
+
+    /**
+     * Sets the user preference for whether the brave ads in background is enabled.
+     */
+    public void setPrefAdsInBackgroundEnabled(boolean enabled) {
+        SharedPreferences sharedPreferences = ContextUtils.getAppSharedPreferences();
+        SharedPreferences.Editor sharedPreferencesEditor = sharedPreferences.edit();
+        sharedPreferencesEditor.putBoolean(PREF_ADS_SWITCH, enabled);
+        sharedPreferencesEditor.apply();
     }
 
     @Override
