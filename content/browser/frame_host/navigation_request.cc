@@ -287,7 +287,7 @@ void AddAdditionalRequestHeaders(net::HttpRequestHeaders* headers,
 
   headers->SetHeaderIfMissing(net::HttpRequestHeaders::kUserAgent,
                               user_agent_override.empty()
-                                  ? GetContentClient()->browser()->GetUserAgent(origin.Serialize())
+                                  ? GetContentClient()->browser()->GetUserAgent(initiator_origin.value_or(url::Origin()).Serialize())
                                   : user_agent_override);
 }
 
