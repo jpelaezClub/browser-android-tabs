@@ -76,14 +76,16 @@ public class BraveAdsOnboardingFragment extends Fragment {
         btnStartBrowsing.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                onViewPagerAction.onStartBrowsing();
+                if (onViewPagerAction != null)
+                    onViewPagerAction.onStartBrowsing();
             }
         });
 
         btnDidntSeeAd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                onViewPagerAction.onDidntSeeAd();
+                if (onViewPagerAction != null)
+                    onViewPagerAction.onDidntSeeAd();
             }
         });
     }

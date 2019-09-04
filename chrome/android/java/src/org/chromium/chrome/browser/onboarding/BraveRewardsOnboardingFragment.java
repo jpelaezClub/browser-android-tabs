@@ -191,7 +191,8 @@ public class BraveRewardsOnboardingFragment extends Fragment implements View.OnT
             public void onClick(View view) {
 
                 if(onboardingType==OnboardingPrefManager.EXISTING_USER_REWARDS_ON_ONBOARDING){
-                    onViewPagerAction.onSkip();
+                    if (onViewPagerAction != null)
+                        onViewPagerAction.onSkip();
                 }else{
                     if (isAgree) {
                     termAndAgreeLayout.setVisibility(View.GONE);
@@ -212,7 +213,8 @@ public class BraveRewardsOnboardingFragment extends Fragment implements View.OnT
                     isAgree = false;
 
                     } else {
-                        onViewPagerAction.onSkip();
+                        if (onViewPagerAction != null)
+                            onViewPagerAction.onSkip();
                     }
                 }
             }
@@ -225,10 +227,12 @@ public class BraveRewardsOnboardingFragment extends Fragment implements View.OnT
                     if(!isAdsAvailable){
                         getActivity().finish();
                     }
-                    onViewPagerAction.onNext();
+                    if (onViewPagerAction != null)
+                        onViewPagerAction.onNext();
                 }else if(onboardingType==OnboardingPrefManager.EXISTING_USER_REWARDS_ON_ONBOARDING){
                     BraveAdsNativeHelper.nativeSetAdsEnabled(Profile.getLastUsedProfile());
-                    onViewPagerAction.onNext();
+                    if (onViewPagerAction != null)
+                        onViewPagerAction.onNext();
                 }else{
                     if (!isAgree) {
                     tvText.setVisibility(View.GONE);
@@ -264,7 +268,8 @@ public class BraveRewardsOnboardingFragment extends Fragment implements View.OnT
                                 OnboardingPrefManager.getInstance().setPrefOnboardingEnabled(false);
                                 getActivity().finish();
                             } else {
-                                onViewPagerAction.onNext();
+                                if (onViewPagerAction != null)
+                                    onViewPagerAction.onNext();
                             }
                         }
                     }
