@@ -770,6 +770,9 @@ Your Google account may have other forms of browsing history like searches and a
       <message name="IDS_CLEAR_CACHE_TITLE" desc="Title for Clear Cache in Clear Browsing Data dialog">
         Cached images and files
       </message>
+      <message name="IDS_CLEAR_DOWNLOAD_TITLE" desc="Title for Clear download in Clear Browsing Data dialog">
+        Download history
+      </message>
       <message name="IDS_CLEAR_HISTORY_TITLE" desc="Title for Clear History in Clear Browsing Data dialog">
         Browsing history
       </message>

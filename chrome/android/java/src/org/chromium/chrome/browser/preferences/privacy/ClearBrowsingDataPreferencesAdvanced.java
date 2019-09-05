@@ -24,7 +24,7 @@ public class ClearBrowsingDataPreferencesAdvanced extends ClearBrowsingDataPrefe
     @Override
     protected List<Integer> getDialogOptions() {
         return Arrays.asList(DialogOption.CLEAR_HISTORY, DialogOption.CLEAR_COOKIES_AND_SITE_DATA,
-                DialogOption.CLEAR_CACHE, DialogOption.CLEAR_PASSWORDS,
+                DialogOption.CLEAR_CACHE,DialogOption.CLEAR_DOWNLOAD, DialogOption.CLEAR_PASSWORDS,
                 DialogOption.CLEAR_FORM_DATA, DialogOption.CLEAR_SITE_SETTINGS);
     }
 

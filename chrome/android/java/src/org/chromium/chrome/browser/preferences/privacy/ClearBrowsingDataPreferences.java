@@ -189,7 +189,7 @@ public abstract class ClearBrowsingDataPreferences extends BravePreferenceFragme
      * The various data types that can be cleared via this screen.
      */
     @IntDef({DialogOption.CLEAR_HISTORY, DialogOption.CLEAR_COOKIES_AND_SITE_DATA,
-            DialogOption.CLEAR_CACHE, DialogOption.CLEAR_PASSWORDS, DialogOption.CLEAR_FORM_DATA,
+            DialogOption.CLEAR_CACHE,DialogOption.CLEAR_DOWNLOAD, DialogOption.CLEAR_PASSWORDS, DialogOption.CLEAR_FORM_DATA,
             DialogOption.CLEAR_SITE_SETTINGS})
     @Retention(RetentionPolicy.SOURCE)
     public @interface DialogOption {
@@ -200,10 +200,11 @@ public abstract class ClearBrowsingDataPreferences extends BravePreferenceFragme
         int CLEAR_HISTORY = 0;
         int CLEAR_COOKIES_AND_SITE_DATA = 1;
         int CLEAR_CACHE = 2;
-        int CLEAR_PASSWORDS = 3;
-        int CLEAR_FORM_DATA = 4;
-        int CLEAR_SITE_SETTINGS = 5;
-        int NUM_ENTRIES = 6;
+        int CLEAR_DOWNLOAD =3;
+        int CLEAR_PASSWORDS = 4;
+        int CLEAR_FORM_DATA = 5;
+        int CLEAR_SITE_SETTINGS = 6;
+        int NUM_ENTRIES = 7;
     }
 
     public static final String CLEAR_BROWSING_DATA_FETCHER = "clearBrowsingDataFetcher";
@@ -238,6 +239,8 @@ public abstract class ClearBrowsingDataPreferences extends BravePreferenceFragme
         switch (type) {
             case DialogOption.CLEAR_CACHE:
                 return BrowsingDataType.CACHE;
+            case DialogOption.CLEAR_DOWNLOAD:
+                return BrowsingDataType.DOWNLOADS;
             case DialogOption.CLEAR_COOKIES_AND_SITE_DATA:
                 return BrowsingDataType.COOKIES;
             case DialogOption.CLEAR_FORM_DATA:
@@ -257,6 +260,8 @@ public abstract class ClearBrowsingDataPreferences extends BravePreferenceFragme
         switch (type) {
             case DialogOption.CLEAR_CACHE:
                 return "clear_cache_checkbox";
+            case DialogOption.CLEAR_DOWNLOAD:
+                return "clear_download_checkbox";
             case DialogOption.CLEAR_COOKIES_AND_SITE_DATA:
                 return "clear_cookies_checkbox";
             case DialogOption.CLEAR_FORM_DATA:
@@ -276,6 +281,8 @@ public abstract class ClearBrowsingDataPreferences extends BravePreferenceFragme
         switch (type) {
             case DialogOption.CLEAR_CACHE:
                 return R.drawable.ic_collections_grey;
+            case DialogOption.CLEAR_DOWNLOAD:
+                return R.drawable.ic_file_download_24dp;
             case DialogOption.CLEAR_COOKIES_AND_SITE_DATA:
                 return R.drawable.permission_cookie;
             case DialogOption.CLEAR_FORM_DATA:
