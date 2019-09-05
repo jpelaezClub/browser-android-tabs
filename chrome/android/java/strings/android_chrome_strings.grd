@@ -4365,18 +4365,18 @@ Saved
       <message name="IDS_BRAVE_SYNC_BTN_DONE" desc="Title for 'Done' button.">
         Done
       </message>
-      <message name="IDS_BRAVE_SYNC_TABS_TEXT" desc="Title for 'Tabs' switch.">
+      <!-- <message name="IDS_BRAVE_SYNC_TABS_TEXT" desc="Title for 'Tabs' switch.">
         Tabs
-      </message>
-      <message name="IDS_BRAVE_SYNC_HISTORY_TEXT" desc="Title for 'History' switch.">
+      </message> -->
+      <!-- <message name="IDS_BRAVE_SYNC_HISTORY_TEXT" desc="Title for 'History' switch.">
         History
-      </message>
-      <message name="IDS_BRAVE_SYNC_AUTOFILL_PASSWORDS_TEXT" desc="Title for 'Autofill/Passwords' switch.">
+      </message> -->
+      <!-- <message name="IDS_BRAVE_SYNC_AUTOFILL_PASSWORDS_TEXT" desc="Title for 'Autofill/Passwords' switch.">
         Autofill/Passwords
-      </message>
-      <message name="IDS_BRAVE_SYNC_PAYMENT_SETTINGS_TEXT" desc="Title for 'Brave Payment Settings' switch.">
+      </message> -->
+      <!-- <message name="IDS_BRAVE_SYNC_PAYMENT_SETTINGS_TEXT" desc="Title for 'Brave Payment Settings' switch.">
         Brave Payment Settings
-      </message>
+      </message> -->
       <message name="IDS_BRAVE_SYNC_SETTINGS_TITLE" desc="Title for 'Sync Settings'.">
         SYNC ON THIS DEVICE
       </message>
