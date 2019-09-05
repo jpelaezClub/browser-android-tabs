@@ -283,9 +283,9 @@ public class AppMenuPropertiesDelegateImpl implements AppMenuPropertiesDelegate 
         for (int i = 0; i < menu.size(); ++i) {
             MenuItem item = menu.getItem(i);
             if (item.getItemId() == R.id.new_incognito_tab_menu_id) {
-                item.setTitle(R.string.menu_new_incognito_tab);
+                item.setTitle(R.string.brave_new_private_tab);
             } else if (item.getItemId() == R.id.close_all_incognito_tabs_menu_id) {
-                item.setTitle(R.string.menu_close_all_incognito_tabs);
+                item.setTitle(R.string.brave_close_all_private_tabs);
             }
         }
 
