@@ -58,6 +58,7 @@ import org.chromium.chrome.browser.profiles.Profile;
 import org.chromium.chrome.browser.util.FeatureUtilities;
 import org.chromium.chrome.browser.util.UrlUtilities;
 import org.chromium.ui.widget.Toast;
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -75,7 +76,7 @@ import java.util.Set;
  * the websites with microphone permissions. When the user selects a site, SingleWebsitePreferences
  * is launched to allow the user to see or modify the settings for that particular website.
  */
-public class SingleCategoryPreferences extends PreferenceFragment
+public class SingleCategoryPreferences extends BravePreferenceFragment
         implements OnPreferenceChangeListener, OnPreferenceClickListener,
                    AddExceptionPreference.SiteAddedCallback,
                    View.OnClickListener {
@@ -389,7 +390,7 @@ public class SingleCategoryPreferences extends PreferenceFragment
             if (queryHasChanged) getInfoForOrigins();
             return true;
         }
-        return false;
+        return super.onOptionsItemSelected(item);
     }
 
     @Override

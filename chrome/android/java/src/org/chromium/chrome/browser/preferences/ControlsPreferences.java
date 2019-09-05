@@ -8,6 +8,7 @@ import android.preference.PreferenceFragment;
 import android.widget.ListView;
 
 import org.chromium.chrome.R;
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
 import org.chromium.chrome.browser.preferences.PrefServiceBridge;
 import org.chromium.chrome.browser.preferences.PreferenceUtils;
 import org.chromium.chrome.browser.preferences.website.SiteSettingsCategory;
@@ -23,7 +24,7 @@ import java.util.List;
  *
  * It enables play audio from video in the background.
  */
-public class ControlsPreferences extends PreferenceFragment
+public class ControlsPreferences extends BravePreferenceFragment
         implements OnPreferenceClickListener {
 
     @Override

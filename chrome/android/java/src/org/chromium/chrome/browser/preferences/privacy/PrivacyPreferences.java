@@ -19,6 +19,7 @@ import android.view.MenuItem;
 import org.chromium.base.BuildInfo;
 import org.chromium.base.metrics.RecordHistogram;
 import org.chromium.chrome.R;
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
 import org.chromium.base.ContextUtils;
 import org.chromium.chrome.browser.ChromeFeatureList;
 import org.chromium.chrome.browser.contextualsearch.ContextualSearchFieldTrial;
@@ -39,7 +40,7 @@ import org.chromium.ui.text.SpanApplier;
 /**
  * Fragment to keep track of the all the privacy related preferences.
  */
-public class PrivacyPreferences extends PreferenceFragment
+public class PrivacyPreferences extends BravePreferenceFragment
         implements OnPreferenceChangeListener {
     private static final String PREF_NAVIGATION_ERROR = "navigation_error";
     private static final String PREF_SEARCH_SUGGESTIONS = "search_suggestions";
@@ -355,15 +356,6 @@ public class PrivacyPreferences extends PreferenceFragment
     }
 
     @Override
-    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        menu.clear();
-        /*MenuItem help = menu.add(
-                Menu.NONE, R.id.menu_id_targeted_help, Menu.NONE, R.string.menu_help);
-        help.setIcon(VectorDrawableCompat.create(
-                getResources(), R.drawable.ic_help_and_feedback, getActivity().getTheme()));*/
-    }
-
-    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == R.id.menu_id_targeted_help) {
             HelpAndFeedback.getInstance(getActivity())
@@ -371,6 +363,6 @@ public class PrivacyPreferences extends PreferenceFragment
                             Profile.getLastUsedProfile(), null);
             return true;
         }
-        return false;
+        return super.onOptionsItemSelected(item);
     }
 }

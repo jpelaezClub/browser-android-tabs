@@ -10,11 +10,12 @@ import android.widget.ListView;
 
 import org.chromium.base.VisibleForTesting;
 import org.chromium.chrome.R;
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
 
 /**
 * A preference fragment for selecting a default search engine.
 */
-public class SearchEnginePreference extends PreferenceFragment {
+public class SearchEnginePreference extends BravePreferenceFragment {
     private ListView mListView;
 
     protected SearchEngineAdapter mSearchEngineAdapter;

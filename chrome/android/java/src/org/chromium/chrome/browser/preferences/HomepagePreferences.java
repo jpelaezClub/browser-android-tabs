@@ -10,13 +10,14 @@ import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.PreferenceFragment;
 
 import org.chromium.chrome.R;
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
 import org.chromium.chrome.browser.partnercustomizations.HomepageManager;
 import org.chromium.chrome.browser.util.FeatureUtilities;
 
 /**
  * Fragment that allows the user to configure homepage related preferences.
  */
-public class HomepagePreferences extends PreferenceFragment {
+public class HomepagePreferences extends BravePreferenceFragment {
     private static final String PREF_HOMEPAGE_SWITCH = "homepage_switch";
     private static final String PREF_HOMEPAGE_EDIT = "homepage_edit";
 
@@ -50,6 +51,7 @@ public class HomepagePreferences extends PreferenceFragment {
         mHomepageEdit = findPreference(PREF_HOMEPAGE_EDIT);
         updateCurrentHomepageUrl();
     }
+
     private void updateCurrentHomepageUrl() {
         mHomepageEdit.setSummary(mHomepageManager.getPrefHomepageUseDefaultUri()
                         ? HomepageManager.getDefaultHomepageUri()

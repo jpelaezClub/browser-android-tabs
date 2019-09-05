@@ -12,11 +12,11 @@ import android.preference.Preference;
 import android.preference.PreferenceFragment;
 import android.text.format.DateUtils;
 
-import org.chromium.base.Log;
 import org.chromium.chrome.R;
 import org.chromium.chrome.browser.ChromeVersionInfo;
 import org.chromium.chrome.browser.preferences.PrefServiceBridge.AboutVersionStrings;
 import org.chromium.chrome.browser.preferences.developer.DeveloperPreferences;
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
 import org.chromium.ui.widget.Toast;
 
 import java.util.Calendar;
@@ -25,7 +25,7 @@ import java.util.Calendar;
  * Settings fragment that displays information about Chrome.
  */
 public class AboutChromePreferences
-        extends PreferenceFragment implements Preference.OnPreferenceClickListener {
+        extends BravePreferenceFragment implements Preference.OnPreferenceClickListener {
     private static final int TAPS_FOR_DEVELOPER_PREFERENCES = 7;
 
     private static final String PREF_APPLICATION_VERSION = "application_version";

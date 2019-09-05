@@ -14,6 +14,7 @@ import android.support.annotation.Nullable;
 import android.widget.ListView;
 
 import org.chromium.chrome.R;
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
 import org.chromium.chrome.browser.preferences.ChromePreferenceManager;
 import org.chromium.chrome.browser.preferences.PreferenceUtils;
 import org.chromium.ui.UiUtils;
@@ -24,7 +25,7 @@ import java.lang.annotation.RetentionPolicy;
 /**
  * Fragment to manage the theme user settings.
  */
-public class ThemePreferences extends PreferenceFragment {
+public class ThemePreferences extends BravePreferenceFragment {
     /**
      * Theme preference variations. This is also used for histograms and should therefore be treated
      * as append-only. See DarkThemePreferences in tools/metrics/histograms/enums.xml.

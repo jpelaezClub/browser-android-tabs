@@ -29,6 +29,7 @@ import org.chromium.base.metrics.RecordHistogram;
 import org.chromium.chrome.R;
 import org.chromium.chrome.browser.preferences.ChromeBaseCheckBoxPreference;
 import org.chromium.chrome.browser.preferences.ChromeBasePreference;
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
 import org.chromium.chrome.browser.preferences.ChromeSwitchPreference;
 import org.chromium.chrome.browser.preferences.PrefServiceBridge;
 import org.chromium.chrome.browser.preferences.PreferencesLauncher;
@@ -43,7 +44,7 @@ import java.util.Locale;
  * saving, to view saved passwords (just the username and URL), and to delete saved passwords.
  */
 public class SavePasswordsPreferences
-        extends PreferenceFragment implements PasswordManagerHandler.PasswordListObserver,
+        extends BravePreferenceFragment implements PasswordManagerHandler.PasswordListObserver,
                                               Preference.OnPreferenceClickListener {
     // Keys for name/password dictionaries.
     public static final String PASSWORD_LIST_URL = "url";
@@ -177,6 +178,7 @@ public class SavePasswordsPreferences
             filterPasswords(null);
             return true;
         }
+
         return super.onOptionsItemSelected(item);
     }
 

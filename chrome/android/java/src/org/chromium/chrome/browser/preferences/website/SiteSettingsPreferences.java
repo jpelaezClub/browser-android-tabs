@@ -11,6 +11,7 @@ import android.preference.PreferenceFragment;
 import android.widget.ListView;
 
 import org.chromium.chrome.R;
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
 import org.chromium.chrome.browser.ChromeFeatureList;
 import org.chromium.chrome.browser.preferences.LocationSettings;
 import org.chromium.chrome.browser.preferences.PrefServiceBridge;
@@ -32,7 +33,7 @@ import java.util.List;
  * version/experiment so the organization of this menu should be simplified, probably by moving
  * Media to its own dedicated PreferenceFragment rather than sharing this one.
  */
-public class SiteSettingsPreferences extends PreferenceFragment
+public class SiteSettingsPreferences extends BravePreferenceFragment
         implements OnPreferenceClickListener {
     // The keys for each category shown on the Site Settings page
     // are defined in the SiteSettingsCategory, additional keys

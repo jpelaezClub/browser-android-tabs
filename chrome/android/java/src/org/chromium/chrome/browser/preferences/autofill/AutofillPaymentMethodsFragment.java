@@ -14,6 +14,7 @@ import android.support.v7.content.res.AppCompatResources;
 
 import org.chromium.base.ApiCompatibilityUtils;
 import org.chromium.chrome.R;
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
 import org.chromium.chrome.browser.ChromeFeatureList;
 import org.chromium.chrome.browser.autofill.PersonalDataManager;
 import org.chromium.chrome.browser.autofill.PersonalDataManager.CreditCard;
@@ -29,7 +30,7 @@ import org.chromium.chrome.browser.preferences.PreferenceUtils;
  * payment apps.
  */
 public class AutofillPaymentMethodsFragment
-        extends PreferenceFragment implements PersonalDataManager.PersonalDataManagerObserver {
+        extends BravePreferenceFragment implements PersonalDataManager.PersonalDataManagerObserver {
     private static final String PREF_PAYMENT_APPS = "payment_apps";
 
     @Override

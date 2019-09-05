@@ -13,6 +13,7 @@ import android.widget.ListView;
 
 import org.chromium.base.ContextUtils;
 import org.chromium.chrome.R;
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
 import org.chromium.chrome.browser.accessibility.FontSizePrefs;
 import org.chromium.chrome.browser.accessibility.FontSizePrefs.FontSizePrefsObserver;
 import org.chromium.chrome.browser.util.AccessibilityUtil;
@@ -22,7 +23,7 @@ import java.text.NumberFormat;
 /**
  * Fragment to keep track of all the accessibility related preferences.
  */
-public class AccessibilityPreferences extends PreferenceFragment
+public class AccessibilityPreferences extends BravePreferenceFragment
         implements OnPreferenceChangeListener {
 
     static final String PREF_TEXT_SCALE = "text_scale";

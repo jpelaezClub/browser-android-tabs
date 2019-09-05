@@ -10,6 +10,7 @@ import android.preference.PreferenceFragment;
 import android.support.annotation.Nullable;
 
 import org.chromium.chrome.R;
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
 import org.chromium.chrome.browser.download.DownloadPromptStatus;
 import org.chromium.chrome.browser.offlinepages.prefetch.PrefetchConfiguration;
 import org.chromium.chrome.browser.preferences.ChromeSwitchPreference;
@@ -20,7 +21,7 @@ import org.chromium.chrome.browser.preferences.PreferenceUtils;
  * Fragment to keep track of all downloads related preferences.
  */
 public class DownloadPreferences
-        extends PreferenceFragment implements Preference.OnPreferenceChangeListener {
+        extends BravePreferenceFragment implements Preference.OnPreferenceChangeListener {
     public static final String PREF_LOCATION_CHANGE = "location_change";
     private static final String PREF_LOCATION_PROMPT_ENABLED = "location_prompt_enabled";
     private static final String PREF_PREFETCHING_ENABLED = "prefetching_enabled";
