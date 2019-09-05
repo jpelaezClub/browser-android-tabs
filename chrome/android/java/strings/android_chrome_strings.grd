@@ -331,6 +331,9 @@ CHAR-LIMIT guidelines:
       <message name="IDS_NOTIFICATION_CATEGORY_SITES" desc="Label for notifications from websites, within a list of notification categories. [CHAR-LIMIT=32]">
         Sites
       </message>
+      <message name="IDS_SETTINGS_EXIT" desc="Menu text for exit from settings">
+        Settings exit
+      </message>
       <message name="IDS_NOTIFICATION_CATEGORY_VR" desc="Label for notifications in VR, within a list of notification categories. [CHAR-LIMIT=32]">
         Virtual Reality
       </message>

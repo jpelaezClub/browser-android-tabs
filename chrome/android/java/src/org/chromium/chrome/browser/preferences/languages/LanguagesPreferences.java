@@ -11,6 +11,7 @@ import android.support.v7.preference.PreferenceFragmentCompat;
 
 import org.chromium.chrome.R;
 import org.chromium.chrome.browser.preferences.ChromeSwitchPreferenceCompat;
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
 import org.chromium.chrome.browser.preferences.PrefServiceBridge;
 import org.chromium.chrome.browser.preferences.PreferenceUtils;
 import org.chromium.chrome.browser.preferences.PreferencesLauncher;
@@ -20,7 +21,7 @@ import org.chromium.chrome.browser.preferences.PreferencesLauncher;
  * seamlessly find and manage their languages preferences across platforms.
  */
 public class LanguagesPreferences
-        extends PreferenceFragmentCompat implements AddLanguageFragment.Launcher {
+        extends BravePreferenceFragment implements AddLanguageFragment.Launcher {
     private static final int REQUEST_CODE_ADD_LANGUAGES = 1;
 
     // The keys for each preference shown on the languages page.

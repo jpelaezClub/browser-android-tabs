@@ -16,6 +16,7 @@ import android.support.v7.preference.PreferenceScreen;
 import org.chromium.base.ApiCompatibilityUtils;
 import org.chromium.base.StrictModeContext;
 import org.chromium.chrome.R;
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
 import org.chromium.chrome.browser.autofill.PersonalDataManager;
 import org.chromium.chrome.browser.autofill.PersonalDataManager.AutofillProfile;
 import org.chromium.chrome.browser.preferences.ChromeSwitchPreferenceCompat;
@@ -26,7 +27,7 @@ import org.chromium.chrome.browser.widget.prefeditor.EditorObserverForTest;
 /**
  * Autofill profiles fragment, which allows the user to edit autofill profiles.
  */
-public class AutofillProfilesFragment extends PreferenceFragmentCompat
+public class AutofillProfilesFragment extends BravePreferenceFragment
         implements PersonalDataManager.PersonalDataManagerObserver {
     private static EditorObserverForTest sObserverForTest;
     static final String PREF_NEW_PROFILE = "new_profile";

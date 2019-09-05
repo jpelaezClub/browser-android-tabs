@@ -16,6 +16,7 @@ import android.view.MenuItem;
 
 import org.chromium.base.BuildInfo;
 import org.chromium.chrome.R;
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
 import org.chromium.base.ContextUtils;
 import org.chromium.chrome.browser.help.HelpAndFeedback;
 import org.chromium.chrome.browser.preferences.ChromeBaseCheckBoxPreferenceCompat;
@@ -35,7 +36,7 @@ import org.chromium.chrome.browser.preferences.ChromeSwitchPreferenceCompat;
  * Fragment to keep track of the all the privacy related preferences.
  */
 public class PrivacyPreferences
-        extends PreferenceFragmentCompat implements Preference.OnPreferenceChangeListener {
+        extends BravePreferenceFragment implements Preference.OnPreferenceChangeListener {
     private static final String PREF_CAN_MAKE_PAYMENT = "can_make_payment";
     private static final String PREF_NETWORK_PREDICTIONS = "preload_pages";
     private static final String PREF_USAGE_STATS = "usage_stats_reporting";
@@ -220,15 +221,6 @@ public class PrivacyPreferences
     }
 
     @Override
-    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        menu.clear();
-        /*MenuItem help = menu.add(
-                Menu.NONE, R.id.menu_id_targeted_help, Menu.NONE, R.string.menu_help);
-        help.setIcon(VectorDrawableCompat.create(
-                getResources(), R.drawable.ic_help_and_feedback, getActivity().getTheme()));*/
-    }
-
-    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == R.id.menu_id_targeted_help) {
             HelpAndFeedback.getInstance(getActivity())
@@ -236,6 +228,6 @@ public class PrivacyPreferences
                             Profile.getLastUsedProfile(), null);
             return true;
         }
-        return false;
+        return super.onOptionsItemSelected(item);
     }
 }

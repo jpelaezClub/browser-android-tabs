@@ -8,6 +8,7 @@ import android.os.Bundle;
 
 import org.chromium.base.ContextUtils;
 import org.chromium.chrome.R;
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
 import org.chromium.chrome.browser.BraveRewardsNativeWorker;
 import org.chromium.chrome.browser.ChromeVersionInfo;
 import org.chromium.chrome.browser.preferences.PreferenceUtils;
@@ -18,7 +19,7 @@ import android.support.v7.preference.PreferenceFragmentCompat;
 /**
  * Settings fragment containing preferences aimed at Chrome and web developers.
  */
-public class DeveloperPreferences extends PreferenceFragmentCompat {
+public class DeveloperPreferences extends BravePreferenceFragment {
     private static final String UI_PREF_BETA_STABLE_HINT = "beta_stable_hint";
     private static final String PREF_DEVELOPER_ENABLED = "developer";
 

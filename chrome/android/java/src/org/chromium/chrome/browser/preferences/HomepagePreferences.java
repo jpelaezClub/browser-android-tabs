@@ -10,13 +10,14 @@ import android.support.v7.preference.PreferenceFragmentCompat;
 
 import org.chromium.base.VisibleForTesting;
 import org.chromium.chrome.R;
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
 import org.chromium.chrome.browser.partnercustomizations.HomepageManager;
 import org.chromium.chrome.browser.util.FeatureUtilities;
 
 /**
  * Fragment that allows the user to configure homepage related preferences.
  */
-public class HomepagePreferences extends PreferenceFragmentCompat {
+public class HomepagePreferences extends BravePreferenceFragment {
     @VisibleForTesting
     public static final String PREF_HOMEPAGE_SWITCH = "homepage_switch";
     private static final String PREF_HOMEPAGE_EDIT = "homepage_edit";

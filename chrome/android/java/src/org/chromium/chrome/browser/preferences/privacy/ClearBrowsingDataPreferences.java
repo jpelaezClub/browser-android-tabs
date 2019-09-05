@@ -38,6 +38,7 @@ import org.chromium.chrome.browser.preferences.Pref;
 import org.chromium.chrome.browser.preferences.PrefServiceBridge;
 import org.chromium.chrome.browser.preferences.PreferenceUtils;
 import org.chromium.chrome.browser.preferences.SpinnerPreference;
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
 import org.chromium.chrome.browser.preferences.privacy.BrowsingDataCounterBridge.BrowsingDataCounterCallback;
 import org.chromium.ui.widget.ButtonCompat;
 
@@ -52,7 +53,7 @@ import java.util.Set;
  * The user can choose which types of data to clear (history, cookies, etc), and the time range
  * from which to clear data.
  */
-public abstract class ClearBrowsingDataPreferences extends PreferenceFragmentCompat
+public abstract class ClearBrowsingDataPreferences extends BravePreferenceFragment
         implements BrowsingDataBridge.OnClearBrowsingDataListener,
                    Preference.OnPreferenceClickListener, Preference.OnPreferenceChangeListener {
     /**

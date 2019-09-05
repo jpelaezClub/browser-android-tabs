@@ -15,6 +15,7 @@ import android.support.v7.preference.PreferenceScreen;
 
 import org.chromium.base.ApiCompatibilityUtils;
 import org.chromium.chrome.R;
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
 import org.chromium.chrome.browser.ChromeFeatureList;
 import org.chromium.chrome.browser.autofill.PersonalDataManager;
 import org.chromium.chrome.browser.autofill.PersonalDataManager.CreditCard;
@@ -28,7 +29,7 @@ import org.chromium.chrome.browser.preferences.ManagedPreferenceDelegateCompat;
  * Autofill credit cards fragment, which allows the user to edit credit cards and control
  * payment apps.
  */
-public class AutofillPaymentMethodsFragment extends PreferenceFragmentCompat
+public class AutofillPaymentMethodsFragment extends BravePreferenceFragment
         implements PersonalDataManager.PersonalDataManagerObserver {
     private static final String PREF_PAYMENT_APPS = "payment_apps";
 
