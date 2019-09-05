@@ -29,7 +29,7 @@ import org.chromium.chrome.browser.profiles.Profile;
 import org.chromium.chrome.browser.usage_stats.UsageStatsConsentDialog;
 import org.chromium.ui.text.NoUnderlineClickableSpan;
 import org.chromium.ui.text.SpanApplier;
-//import org.chromium.chrome.browser.MixPanelWorker;
+import org.chromium.chrome.browser.preferences.ChromeSwitchPreferenceCompat;
 
 /**
  * Fragment to keep track of the all the privacy related preferences.
@@ -46,8 +46,10 @@ public class PrivacyPreferences
     private static final String PREF_AD_BLOCK_REGIONAL = "ad_block_regional";
     // private static final String PREF_SYNC_AND_SERVICES_LINK = "sync_and_services_link";
     private static final String PREF_CLOSE_TABS_ON_EXIT = "close_tabs_on_exit";
+    private static final String PREF_SEARCH_SUGGESTIONS = "search_suggestions";
 
     private ManagedPreferenceDelegateCompat mManagedPreferenceDelegate;
+    private ChromeSwitchPreferenceCompat mSearchSuggestions;
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
@@ -110,6 +112,10 @@ public class PrivacyPreferences
         closeTabsOnExitPref.setOnPreferenceChangeListener(this);
         closeTabsOnExitPref.setManagedPreferenceDelegate(mManagedPreferenceDelegate);
 
+        mSearchSuggestions = (ChromeSwitchPreferenceCompat) findPreference(PREF_SEARCH_SUGGESTIONS);
+        mSearchSuggestions.setOnPreferenceChangeListener(this);
+        mSearchSuggestions.setManagedPreferenceDelegate(mManagedPreferenceDelegate);
+
         updateSummaries();
     }
 
@@ -133,6 +139,8 @@ public class PrivacyPreferences
             SharedPreferences.Editor sharedPreferencesEditor = ContextUtils.getAppSharedPreferences().edit();
             sharedPreferencesEditor.putBoolean(PREF_CLOSE_TABS_ON_EXIT, (boolean)newValue);
             sharedPreferencesEditor.apply();
+        } else if (PREF_SEARCH_SUGGESTIONS.equals(key)) {
+            PrefServiceBridge.getInstance().setSearchSuggestEnabled((boolean) newValue);
         }
 
         return true;
@@ -203,6 +211,9 @@ public class PrivacyPreferences
             PrefServiceBridge prefs = PrefServiceBridge.getInstance();
             if (PREF_NETWORK_PREDICTIONS.equals(key)) {
                 return prefs.isNetworkPredictionManaged();
+            }
+            if (PREF_SEARCH_SUGGESTIONS.equals(key)) {
+                return PrefServiceBridge.getInstance().isSearchSuggestManaged();
             }
             return false;
         };
